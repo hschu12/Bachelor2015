@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1C44001B1DCFBC00BF1734 /* Hand Made logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C43FF1B1DCFBC00BF1734 /* Hand Made logo.png */; };
+		1E1C451A1B1DF2E200BF1734 /* dk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C45191B1DF2E200BF1734 /* dk.png */; };
+		1E1C451C1B1DF31D00BF1734 /* tysk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C451B1B1DF31D00BF1734 /* tysk.png */; };
+		1E1C451E1B1DF36A00BF1734 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C451D1B1DF36A00BF1734 /* uk.png */; };
+		1E2306E71ADED50D00D79524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2306E61ADED50D00D79524 /* main.m */; };
+		1E2306EA1ADED50D00D79524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2306E91ADED50D00D79524 /* AppDelegate.m */; };
+		1E2306F01ADED50D00D79524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2306EE1ADED50D00D79524 /* Main.storyboard */; };
+		1E2306F21ADED50D00D79524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2306F11ADED50D00D79524 /* Images.xcassets */; };
+		1E2306F51ADED50D00D79524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2306F31ADED50D00D79524 /* LaunchScreen.xib */; };
+		1E2307011ADED50D00D79524 /* ToenderFestivalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2307001ADED50D00D79524 /* ToenderFestivalTests.m */; };
+		1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */; };
+		1E23071A1ADEE00100D79524 /* festivalpladsmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2307151ADEE00100D79524 /* festivalpladsmap.jpg */; };
+		1E23071B1ADEE00100D79524 /* Pokey-LaFarge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2307161ADEE00100D79524 /* Pokey-LaFarge.jpg */; };
+		1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */; };
+		1E2BFC201ADFDB6B007F50A4 /* KunstnerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */; };
+		1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC221ADFE96A007F50A4 /* KortViewController.m */; };
+		1E2BFC271ADFF9CD007F50A4 /* HudsonTaylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2BFC261ADFF9CD007F50A4 /* HudsonTaylor.png */; };
+		1E420C101AE2896100E96552 /* Spejl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E420C0E1AE2896100E96552 /* Spejl.png */; };
+		1E573DE81B1C69AD00690BB7 /* tonder-festival-toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E573DE71B1C69AD00690BB7 /* tonder-festival-toplogo.png */; };
+		1E573DEC1B1C6C5A00690BB7 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E573DEB1B1C6C5A00690BB7 /* Background.png */; };
+		1E7EBD3A1AF00E5500604071 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD371AF00E5500604071 /* face.png */; };
+		1E7EBD3B1AF00E5500604071 /* insta.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD381AF00E5500604071 /* insta.png */; };
+		1E7EBD3C1AF00E5500604071 /* twit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD391AF00E5500604071 /* twit.png */; };
+		1E7EBD3F1AF010DD00604071 /* SpotifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */; };
+		1E7EBD5A1AF0227200604071 /* infotext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD521AF0227200604071 /* infotext.png */; };
+		1E7EBD5B1AF0227200604071 /* korttext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD531AF0227200604071 /* korttext.png */; };
+		1E7EBD5C1AF0227200604071 /* kunstneretext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD541AF0227200604071 /* kunstneretext.png */; };
+		1E7EBD5D1AF0227200604071 /* madtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD551AF0227200604071 /* madtext.png */; };
+		1E7EBD5E1AF0227200604071 /* newstext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD561AF0227200604071 /* newstext.png */; };
+		1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD571AF0227200604071 /* Programtext.png */; };
+		1E7EBD601AF0227200604071 /* smiletext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD581AF0227200604071 /* smiletext.png */; };
+		1E7EBD611AF0227200604071 /* Spotifytext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD591AF0227200604071 /* Spotifytext.png */; };
+		1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D21ADEF6D6006517BE /* MenuViewController.m */; };
+		1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */; };
+		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
+		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
+		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2306FB1ADED50D00D79524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2306D91ADED50D00D79524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2306E01ADED50D00D79524;
+			remoteInfo = ToenderFestival;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E1C43FF1B1DCFBC00BF1734 /* Hand Made logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hand Made logo.png"; sourceTree = "<group>"; };
+		1E1C45191B1DF2E200BF1734 /* dk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dk.png; path = ../../images/dk.png; sourceTree = "<group>"; };
+		1E1C451B1B1DF31D00BF1734 /* tysk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tysk.png; path = ../../images/tysk.png; sourceTree = "<group>"; };
+		1E1C451D1B1DF36A00BF1734 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uk.png; path = ../../images/uk.png; sourceTree = "<group>"; };
+		1E2306E11ADED50D00D79524 /* ToenderFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToenderFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2306E51ADED50D00D79524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2306E61ADED50D00D79524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E2306E81ADED50D00D79524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E2306E91ADED50D00D79524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E2306EF1ADED50D00D79524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E2306F11ADED50D00D79524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E2306F41ADED50D00D79524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E2306FA1ADED50D00D79524 /* ToenderFestivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToenderFestivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2306FF1ADED50D00D79524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2307001ADED50D00D79524 /* ToenderFestivalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToenderFestivalTests.m; sourceTree = "<group>"; };
+		1E23070A1ADED7CD00D79524 /* ChooseLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLanguageViewController.h; sourceTree = "<group>"; };
+		1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLanguageViewController.m; sourceTree = "<group>"; };
+		1E2307151ADEE00100D79524 /* festivalpladsmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festivalpladsmap.jpg; path = ../../images/festivalpladsmap.jpg; sourceTree = "<group>"; };
+		1E2307161ADEE00100D79524 /* Pokey-LaFarge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Pokey-LaFarge.jpg"; path = "../../images/Pokey-LaFarge.jpg"; sourceTree = "<group>"; };
+		1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotifyLogo.png; sourceTree = "<group>"; };
+		1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KunstnerTableViewController.h; sourceTree = "<group>"; };
+		1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KunstnerTableViewController.m; sourceTree = "<group>"; };
+		1E2BFC211ADFE96A007F50A4 /* KortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KortViewController.h; sourceTree = "<group>"; };
+		1E2BFC221ADFE96A007F50A4 /* KortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KortViewController.m; sourceTree = "<group>"; };
+		1E2BFC261ADFF9CD007F50A4 /* HudsonTaylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HudsonTaylor.png; path = ../../images/HudsonTaylor.png; sourceTree = "<group>"; };
+		1E420C0E1AE2896100E96552 /* Spejl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spejl.png; path = ../../images/Spejl.png; sourceTree = "<group>"; };
+		1E573DE71B1C69AD00690BB7 /* tonder-festival-toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tonder-festival-toplogo.png"; sourceTree = "<group>"; };
+		1E573DEB1B1C6C5A00690BB7 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		1E7EBD371AF00E5500604071 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = ../../images/face.png; sourceTree = "<group>"; };
+		1E7EBD381AF00E5500604071 /* insta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = insta.png; path = ../../images/insta.png; sourceTree = "<group>"; };
+		1E7EBD391AF00E5500604071 /* twit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twit.png; path = ../../images/twit.png; sourceTree = "<group>"; };
+		1E7EBD3D1AF010DD00604071 /* SpotifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyViewController.h; sourceTree = "<group>"; };
+		1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyViewController.m; sourceTree = "<group>"; };
+		1E7EBD521AF0227200604071 /* infotext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infotext.png; path = ../../images/infotext.png; sourceTree = "<group>"; };
+		1E7EBD531AF0227200604071 /* korttext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = korttext.png; path = ../../images/korttext.png; sourceTree = "<group>"; };
+		1E7EBD541AF0227200604071 /* kunstneretext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kunstneretext.png; path = ../../images/kunstneretext.png; sourceTree = "<group>"; };
+		1E7EBD551AF0227200604071 /* madtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madtext.png; path = ../../images/madtext.png; sourceTree = "<group>"; };
+		1E7EBD561AF0227200604071 /* newstext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newstext.png; path = ../../images/newstext.png; sourceTree = "<group>"; };
+		1E7EBD571AF0227200604071 /* Programtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Programtext.png; path = ../../images/Programtext.png; sourceTree = "<group>"; };
+		1E7EBD581AF0227200604071 /* smiletext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiletext.png; path = ../../images/smiletext.png; sourceTree = "<group>"; };
+		1E7EBD591AF0227200604071 /* Spotifytext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spotifytext.png; path = ../../images/Spotifytext.png; sourceTree = "<group>"; };
+		1EBF76D11ADEF6D6006517BE /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		1EBF76D21ADEF6D6006517BE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KunstnerViewController.h; sourceTree = "<group>"; };
+		1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KunstnerViewController.m; sourceTree = "<group>"; };
+		1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
+		1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
+		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
+		1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
+		1EDAB4FF1B1F2D810016C76B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../images/test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2306DE1ADED50D00D79524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2306F71ADED50D00D79524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1C43F91B1DCEB100BF1734 /* Prototyping */ = {
+			isa = PBXGroup;
+			children = (
+				1E7EBD381AF00E5500604071 /* insta.png */,
+				1E7EBD391AF00E5500604071 /* twit.png */,
+				1E7EBD371AF00E5500604071 /* face.png */,
+			);
+			name = Prototyping;
+			sourceTree = "<group>";
+		};
+		1E1C43FA1B1DCECC00BF1734 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1E7EBD521AF0227200604071 /* infotext.png */,
+				1E7EBD541AF0227200604071 /* kunstneretext.png */,
+				1E7EBD551AF0227200604071 /* madtext.png */,
+				1E7EBD571AF0227200604071 /* Programtext.png */,
+				1E7EBD561AF0227200604071 /* newstext.png */,
+				1E7EBD581AF0227200604071 /* smiletext.png */,
+				1E7EBD591AF0227200604071 /* Spotifytext.png */,
+				1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */,
+				1E7EBD531AF0227200604071 /* korttext.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		1E1C43FB1B1DCEEF00BF1734 /* TFLoger */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C43FF1B1DCFBC00BF1734 /* Hand Made logo.png */,
+				1E573DE71B1C69AD00690BB7 /* tonder-festival-toplogo.png */,
+			);
+			name = TFLoger;
+			sourceTree = "<group>";
+		};
+		1E1C43FC1B1DCF5B00BF1734 /* Madsteder */ = {
+			isa = PBXGroup;
+			children = (
+				1E420C0E1AE2896100E96552 /* Spejl.png */,
+			);
+			name = Madsteder;
+			sourceTree = "<group>";
+		};
+		1E1C43FD1B1DCF6900BF1734 /* Kunstnere */ = {
+			isa = PBXGroup;
+			children = (
+				1E2BFC261ADFF9CD007F50A4 /* HudsonTaylor.png */,
+				1E2307161ADEE00100D79524 /* Pokey-LaFarge.jpg */,
+			);
+			name = Kunstnere;
+			sourceTree = "<group>";
+		};
+		1E1C43FE1B1DCF7300BF1734 /* Flag */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C45191B1DF2E200BF1734 /* dk.png */,
+				1E1C451B1B1DF31D00BF1734 /* tysk.png */,
+				1E1C451D1B1DF36A00BF1734 /* uk.png */,
+			);
+			name = Flag;
+			sourceTree = "<group>";
+		};
+		1E2306D81ADED50D00D79524 = {
+			isa = PBXGroup;
+			children = (
+				1E2306E31ADED50D00D79524 /* ToenderFestival */,
+				1E2306FD1ADED50D00D79524 /* ToenderFestivalTests */,
+				1E2306E21ADED50D00D79524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E2306E21ADED50D00D79524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E2306E11ADED50D00D79524 /* ToenderFestival.app */,
+				1E2306FA1ADED50D00D79524 /* ToenderFestivalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2306E31ADED50D00D79524 /* ToenderFestival */ = {
+			isa = PBXGroup;
+			children = (
+				1E2306E81ADED50D00D79524 /* AppDelegate.h */,
+				1E2306E91ADED50D00D79524 /* AppDelegate.m */,
+				1E23070A1ADED7CD00D79524 /* ChooseLanguageViewController.h */,
+				1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */,
+				1E2BFC211ADFE96A007F50A4 /* KortViewController.h */,
+				1E2BFC221ADFE96A007F50A4 /* KortViewController.m */,
+				1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */,
+				1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */,
+				1EBF76D11ADEF6D6006517BE /* MenuViewController.h */,
+				1EBF76D21ADEF6D6006517BE /* MenuViewController.m */,
+				1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */,
+				1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */,
+				1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */,
+				1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */,
+				1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */,
+				1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */,
+				1E7EBD3D1AF010DD00604071 /* SpotifyViewController.h */,
+				1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */,
+				1E2306EE1ADED50D00D79524 /* Main.storyboard */,
+				1E2306F11ADED50D00D79524 /* Images.xcassets */,
+				1E2306F31ADED50D00D79524 /* LaunchScreen.xib */,
+				1E2307131ADEDFE900D79524 /* images */,
+				1E2306E41ADED50D00D79524 /* Supporting Files */,
+			);
+			path = ToenderFestival;
+			sourceTree = "<group>";
+		};
+		1E2306E41ADED50D00D79524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2306E51ADED50D00D79524 /* Info.plist */,
+				1E2306E61ADED50D00D79524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E2306FD1ADED50D00D79524 /* ToenderFestivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2307001ADED50D00D79524 /* ToenderFestivalTests.m */,
+				1E2306FE1ADED50D00D79524 /* Supporting Files */,
+			);
+			path = ToenderFestivalTests;
+			sourceTree = "<group>";
+		};
+		1E2306FE1ADED50D00D79524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2306FF1ADED50D00D79524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E2307131ADEDFE900D79524 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C43FB1B1DCEEF00BF1734 /* TFLoger */,
+				1E1C43FA1B1DCECC00BF1734 /* Icons */,
+				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
+				1E573DEB1B1C6C5A00690BB7 /* Background.png */,
+				1EDAB4FF1B1F2D810016C76B /* test.png */,
+				1E1C43FC1B1DCF5B00BF1734 /* Madsteder */,
+				1E1C43FD1B1DCF6900BF1734 /* Kunstnere */,
+				1E1C43FE1B1DCF7300BF1734 /* Flag */,
+				1E2307151ADEE00100D79524 /* festivalpladsmap.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2306E01ADED50D00D79524 /* ToenderFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2307041ADED50D00D79524 /* Build configuration list for PBXNativeTarget "ToenderFestival" */;
+			buildPhases = (
+				1E2306DD1ADED50D00D79524 /* Sources */,
+				1E2306DE1ADED50D00D79524 /* Frameworks */,
+				1E2306DF1ADED50D00D79524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToenderFestival;
+			productName = ToenderFestival;
+			productReference = 1E2306E11ADED50D00D79524 /* ToenderFestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E2306F91ADED50D00D79524 /* ToenderFestivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2307071ADED50D00D79524 /* Build configuration list for PBXNativeTarget "ToenderFestivalTests" */;
+			buildPhases = (
+				1E2306F61ADED50D00D79524 /* Sources */,
+				1E2306F71ADED50D00D79524 /* Frameworks */,
+				1E2306F81ADED50D00D79524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2306FC1ADED50D00D79524 /* PBXTargetDependency */,
+			);
+			name = ToenderFestivalTests;
+			productName = ToenderFestivalTests;
+			productReference = 1E2306FA1ADED50D00D79524 /* ToenderFestivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2306D91ADED50D00D79524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Henrik Schulz";
+				TargetAttributes = {
+					1E2306E01ADED50D00D79524 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2A6MVL3A92;
+					};
+					1E2306F91ADED50D00D79524 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1E2306E01ADED50D00D79524;
+					};
+				};
+			};
+			buildConfigurationList = 1E2306DC1ADED50D00D79524 /* Build configuration list for PBXProject "ToenderFestival" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2306D81ADED50D00D79524;
+			productRefGroup = 1E2306E21ADED50D00D79524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2306E01ADED50D00D79524 /* ToenderFestival */,
+				1E2306F91ADED50D00D79524 /* ToenderFestivalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2306DF1ADED50D00D79524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E573DE81B1C69AD00690BB7 /* tonder-festival-toplogo.png in Resources */,
+				1E23071B1ADEE00100D79524 /* Pokey-LaFarge.jpg in Resources */,
+				1E7EBD5D1AF0227200604071 /* madtext.png in Resources */,
+				1E2306F01ADED50D00D79524 /* Main.storyboard in Resources */,
+				1E1C451C1B1DF31D00BF1734 /* tysk.png in Resources */,
+				1EDAB5001B1F2D810016C76B /* test.png in Resources */,
+				1E2306F51ADED50D00D79524 /* LaunchScreen.xib in Resources */,
+				1E573DEC1B1C6C5A00690BB7 /* Background.png in Resources */,
+				1E23071A1ADEE00100D79524 /* festivalpladsmap.jpg in Resources */,
+				1E2306F21ADED50D00D79524 /* Images.xcassets in Resources */,
+				1E1C44001B1DCFBC00BF1734 /* Hand Made logo.png in Resources */,
+				1E7EBD3A1AF00E5500604071 /* face.png in Resources */,
+				1E420C101AE2896100E96552 /* Spejl.png in Resources */,
+				1E7EBD5C1AF0227200604071 /* kunstneretext.png in Resources */,
+				1E7EBD5A1AF0227200604071 /* infotext.png in Resources */,
+				1E1C451A1B1DF2E200BF1734 /* dk.png in Resources */,
+				1E7EBD5B1AF0227200604071 /* korttext.png in Resources */,
+				1E7EBD611AF0227200604071 /* Spotifytext.png in Resources */,
+				1E1C451E1B1DF36A00BF1734 /* uk.png in Resources */,
+				1E7EBD3C1AF00E5500604071 /* twit.png in Resources */,
+				1E7EBD3B1AF00E5500604071 /* insta.png in Resources */,
+				1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */,
+				1E2BFC271ADFF9CD007F50A4 /* HudsonTaylor.png in Resources */,
+				1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */,
+				1E7EBD5E1AF0227200604071 /* newstext.png in Resources */,
+				1E7EBD601AF0227200604071 /* smiletext.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2306F81ADED50D00D79524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2306DD1ADED50D00D79524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2306EA1ADED50D00D79524 /* AppDelegate.m in Sources */,
+				1E2BFC201ADFDB6B007F50A4 /* KunstnerTableViewController.m in Sources */,
+				1E2306E71ADED50D00D79524 /* main.m in Sources */,
+				1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */,
+				1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */,
+				1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */,
+				1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */,
+				1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */,
+				1E7EBD3F1AF010DD00604071 /* SpotifyViewController.m in Sources */,
+				1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2306F61ADED50D00D79524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2307011ADED50D00D79524 /* ToenderFestivalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E2306FC1ADED50D00D79524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2306E01ADED50D00D79524 /* ToenderFestival */;
+			targetProxy = 1E2306FB1ADED50D00D79524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E2306EE1ADED50D00D79524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2306EF1ADED50D00D79524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E2306F31ADED50D00D79524 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2306F41ADED50D00D79524 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E2307021ADED50D00D79524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E2307031ADED50D00D79524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2307051ADED50D00D79524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/henrikschulz/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ToenderFestival/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1E2307061ADED50D00D79524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/henrikschulz/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ToenderFestival/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1E2307081ADED50D00D79524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToenderFestivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToenderFestival.app/ToenderFestival";
+			};
+			name = Debug;
+		};
+		1E2307091ADED50D00D79524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToenderFestivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToenderFestival.app/ToenderFestival";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2306DC1ADED50D00D79524 /* Build configuration list for PBXProject "ToenderFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2307021ADED50D00D79524 /* Debug */,
+				1E2307031ADED50D00D79524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2307041ADED50D00D79524 /* Build configuration list for PBXNativeTarget "ToenderFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2307051ADED50D00D79524 /* Debug */,
+				1E2307061ADED50D00D79524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2307071ADED50D00D79524 /* Build configuration list for PBXNativeTarget "ToenderFestivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2307081ADED50D00D79524 /* Debug */,
+				1E2307091ADED50D00D79524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2306D91ADED50D00D79524 /* Project object */;
+}
