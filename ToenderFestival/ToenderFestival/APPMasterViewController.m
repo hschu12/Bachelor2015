@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     feeds = [[NSMutableArray alloc] init];
-    NSURL *url = [NSURL URLWithString:@"https://www.apple.com/main/rss/hotnews/hotnews.rss"];
+    NSURL *url = [NSURL URLWithString:@"https://twitrss.me/twitter_user_to_rss/?user=TonderFestival"];
     parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
     [parser setDelegate:self];
     [parser setShouldResolveExternalEntities:NO];
