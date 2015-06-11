@@ -100,6 +100,10 @@
 		1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D21ADEF6D6006517BE /* MenuViewController.m */; };
 		1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */; };
 		1EC66F7E1B298DFB0053E62A /* festivalspladsmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F7D1B298DFB0053E62A /* festivalspladsmap.png */; };
+		1EC66F801B2A13430053E62A /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F7F1B2A13430053E62A /* 27.png */; };
+		1EC66F821B2A18150053E62A /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F811B2A18150053E62A /* 28.png */; };
+		1EC66F841B2A187F0053E62A /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F831B2A187F0053E62A /* 29.png */; };
+		1EC66F861B2A1A280053E62A /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F851B2A1A280053E62A /* 30.png */; };
 		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
 		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
 		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
@@ -224,6 +228,10 @@
 		1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KunstnerViewController.h; sourceTree = "<group>"; };
 		1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KunstnerViewController.m; sourceTree = "<group>"; };
 		1EC66F7D1B298DFB0053E62A /* festivalspladsmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = festivalspladsmap.png; path = ../../images/festivalspladsmap.png; sourceTree = "<group>"; };
+		1EC66F7F1B2A13430053E62A /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 27.png; path = ../../../../../Downloads/27.png; sourceTree = "<group>"; };
+		1EC66F811B2A18150053E62A /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 28.png; path = ../../../../../Downloads/28.png; sourceTree = "<group>"; };
+		1EC66F831B2A187F0053E62A /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29.png; path = ../../../../../Downloads/29.png; sourceTree = "<group>"; };
+		1EC66F851B2A1A280053E62A /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 30.png; path = ../../../../../Downloads/30.png; sourceTree = "<group>"; };
 		1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
 		1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
 		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
@@ -451,6 +459,10 @@
 		1E2307131ADEDFE900D79524 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1EC66F851B2A1A280053E62A /* 30.png */,
+				1EC66F831B2A187F0053E62A /* 29.png */,
+				1EC66F811B2A18150053E62A /* 28.png */,
+				1EC66F7F1B2A13430053E62A /* 27.png */,
 				1E1C43FB1B1DCEEF00BF1734 /* TFLoger */,
 				1E1C43FA1B1DCECC00BF1734 /* Icons */,
 				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
@@ -553,6 +565,7 @@
 				1E184B5B1B25D0A4000F337C /* Three Tall Pines.png in Resources */,
 				1E184B451B25D0A4000F337C /* Niels Hausgaard med gæster.png in Resources */,
 				1E184B511B25D0A4000F337C /* The Barra MacNeils.png in Resources */,
+				1EC66F821B2A18150053E62A /* 28.png in Resources */,
 				1E184B591B25D0A4000F337C /* The Wailin' Jennys.png in Resources */,
 				1E184B2E1B25D0A4000F337C /* Fara.png in Resources */,
 				1E184B3A1B25D0A4000F337C /* Kathryn Tickell & The Side.png in Resources */,
@@ -580,6 +593,7 @@
 				1E184B331B25D0A4000F337C /* Hans Theessink.png in Resources */,
 				1E184B4A1B25D0A4000F337C /* Ron Kavana.png in Resources */,
 				1E184B4B1B25D0A4000F337C /* Rura.png in Resources */,
+				1EC66F841B2A187F0053E62A /* 29.png in Resources */,
 				1E184B561B25D0A4000F337C /* The Lone Bellow.png in Resources */,
 				1E184B361B25D0A4000F337C /* Hot Rize.png in Resources */,
 				1E184B341B25D0A4000F337C /* Hayseed Dixie.png in Resources */,
@@ -593,6 +607,7 @@
 				1E184B551B25D0A4000F337C /* The Hot Seats.png in Resources */,
 				1E7EBD5C1AF0227200604071 /* kunstneretext.png in Resources */,
 				1E184B351B25D0A4000F337C /* Helene Blum & Harald Haugaard Band.png in Resources */,
+				1EC66F861B2A1A280053E62A /* 30.png in Resources */,
 				1E184B441B25D0A4000F337C /* Mike Andersen.png in Resources */,
 				1E184B3F1B25D0A4000F337C /* Maja & David.png in Resources */,
 				1E184B4C1B25D0A4000F337C /* Sheesham, Lotus & ´Son.png in Resources */,
@@ -605,6 +620,7 @@
 				1E1C451E1B1DF36A00BF1734 /* uk.png in Resources */,
 				1E184B291B25D0A4000F337C /* Chris Smither.png in Resources */,
 				1E184B5A1B25D0A4000F337C /* The Wood Brothers.png in Resources */,
+				1EC66F801B2A13430053E62A /* 27.png in Resources */,
 				1E184B481B25D0A4000F337C /* Richard Thompson.png in Resources */,
 				1E184B2B1B25D0A4000F337C /* Dreamers' Circus & The Danish String Quartet.png in Resources */,
 				1E184B3B1B25D0A4000F337C /* Kepa Junkera.png in Resources */,

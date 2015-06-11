@@ -21,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:116.0f/255.0f green:141.0f/255.0f blue:160.0f/255.0f alpha:1.0f];
+    
     spilletider = @{@" 11:00" : @[@"11:00 - Maja & David", @"11:30 - Ron Kavana"],
                     @" 12:00" : @[@"12:30 - The Chaissons"],
                     @" 13:00" : @[@"13:00 - Wailin’Jennys", @"13:00 - Three Tall Pines"],
@@ -67,6 +70,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
+{
+    view.tintColor = [UIColor colorWithRed:170.0f/255.0f green:150.0f/255.0f blue:150.0f/255.0f alpha:1.0f];
+    // if you have index/header text in your tableview change your index text color
+    UITableViewHeaderFooterView *headerIndexText = (UITableViewHeaderFooterView *)view;
+    [headerIndexText.textLabel setTextColor:[UIColor blackColor]];
+    
 }
 
 #pragma mark - Table view data source

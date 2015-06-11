@@ -97,12 +97,14 @@
     NSArray *sectionTid = [spilletider objectForKey:sectionTitle];
     return [sectionTid count];
 }
-- (NSString *)getImageFilename:(NSString *)kunstner
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
 {
-    NSString *imageFilename = [[kunstner lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@"_"];
-    imageFilename = [imageFilename stringByAppendingString:@".png"];
+    view.tintColor = [UIColor colorWithRed:170.0f/255.0f green:150.0f/255.0f blue:150.0f/255.0f alpha:1.0f];
+    // if you have index/header text in your tableview change your index text color
+    UITableViewHeaderFooterView *headerIndexText = (UITableViewHeaderFooterView *)view;
+    [headerIndexText.textLabel setTextColor:[UIColor blackColor]];
     
-    return imageFilename;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -116,10 +118,13 @@
     NSString *scener = [sectionScene objectAtIndex:indexPath.row];
     cell.textLabel.text = tider;
     cell.detailTextLabel.text = scener;
-    //cell.imageView.image = [UIImage imageNamed:[self getImageFilename:tider]];
     return cell;
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return spilletiderSections;
+}
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSString *celltext = cell.textLabel.text;
@@ -168,7 +173,160 @@
     if ([celltext  isEqual: @"FolkSpot"]) {
         [self performSegueWithIdentifier:@"FolkSpot" sender:self];
     }
-    
+    //"G"
+    if ([celltext  isEqual: @"Greg Russell og Ciaran Algar (UK)"]) {
+        [self performSegueWithIdentifier:@"Greg" sender:self];
+    }
+    //"H"
+    if ([celltext  isEqual: @"Hans Theessink (NL)"]) {
+        [self performSegueWithIdentifier:@"Hans" sender:self];
+    }
+    if ([celltext  isEqual: @"Hayseed Dixie (USA)"]) {
+        [self performSegueWithIdentifier:@"Hayseed" sender:self];
+    }
+    if ([celltext  isEqual: @"Helene Blum & Harald Haugaard Band (DK)"]) {
+        [self performSegueWithIdentifier:@"Helene" sender:self];
+    }
+    if ([celltext  isEqual: @"Hot Rize (USA)"]) {
+        [self performSegueWithIdentifier:@"Hot" sender:self];
+    }
+    //"J"
+    if ([celltext  isEqual: @"Jacob Dinesen (DK)"]) {
+        [self performSegueWithIdentifier:@"Jacob" sender:self];
+    }
+    if ([celltext  isEqual: @"John Prine (USA)"]) {
+        [self performSegueWithIdentifier:@"John" sender:self];
+    }
+    if ([celltext  isEqual: @"Jonah Blacksmith (DK)"]) {
+        [self performSegueWithIdentifier:@"Jonah" sender:self];
+    }
+    //"J"
+    if ([celltext  isEqual: @"Jacob Dinesen (DK)"]) {
+        [self performSegueWithIdentifier:@"Jacob" sender:self];
+    }
+    if ([celltext  isEqual: @"John Prine (USA)"]) {
+        [self performSegueWithIdentifier:@"John" sender:self];
+    }
+    if ([celltext  isEqual: @"Jonah Blacksmith (DK)"]) {
+        [self performSegueWithIdentifier:@"Jonah" sender:self];
+    }
+    //"K"
+    if ([celltext  isEqual: @"Kathryn Tickell & The Side (UK)"]) {
+        [self performSegueWithIdentifier:@"Kathryn" sender:self];
+    }
+    if ([celltext  isEqual: @"Kepa Junkera (E)"]) {
+        [self performSegueWithIdentifier:@"Kepa" sender:self];
+    }
+    if ([celltext  isEqual: @"King James & The Special Men (USA)"]) {
+        [self performSegueWithIdentifier:@"King" sender:self];
+    }
+    //"L"
+    if ([celltext  isEqual: @"La Bottine Souriante (CAN)"]) {
+        [self performSegueWithIdentifier:@"La" sender:self];
+    }
+    if ([celltext  isEqual: @"Lynn Miles (CAN)"]) {
+        [self performSegueWithIdentifier:@"Lynn" sender:self];
+    }
+    //"M"
+    if ([celltext  isEqual: @"Maja & David (DK/CAN)"]) {
+        [self performSegueWithIdentifier:@"Maja" sender:self];
+    }
+    if ([celltext  isEqual: @"Mames Babegenush (DK)"]) {
+        [self performSegueWithIdentifier:@"Mames" sender:self];
+    }
+    if ([celltext  isEqual: @"Mànran (SCO)"]) {
+        [self performSegueWithIdentifier:@"Man" sender:self];
+    }
+    if ([celltext  isEqual: @"Mary Gauthier (USA)"]) {
+        [self performSegueWithIdentifier:@"Mary" sender:self];
+    }
+    if ([celltext  isEqual: @"Meschiya Lake & The Little Big Horns (USA)"]) {
+        [self performSegueWithIdentifier:@"Lake" sender:self];
+    }
+    if ([celltext  isEqual: @"Mike Andersen (DK)"]) {
+        [self performSegueWithIdentifier:@"Mike" sender:self];
+    }
+    //"N"
+    if ([celltext  isEqual: @"Niels Hausgaard med gæster (DK)"]) {
+        [self performSegueWithIdentifier:@"Niels" sender:self];
+    }
+    //"P"
+    if ([celltext  isEqual: @"Poul Krebs & venner (DK, N, S)"]) {
+        [self performSegueWithIdentifier:@"Poul" sender:self];
+    }
+    //"R"
+    if ([celltext  isEqual: @"Richard J. Dobson (USA)"]) {
+        [self performSegueWithIdentifier:@"RichardJ" sender:self];
+    }
+    if ([celltext  isEqual: @"Richard Thompson (UK)"]) {
+        [self performSegueWithIdentifier:@"RichardT" sender:self];
+    }
+    if ([celltext  isEqual: @"ROD (DK)"]) {
+        [self performSegueWithIdentifier:@"Rod" sender:self];
+    }
+    if ([celltext  isEqual: @"Ron Kavana (IRL)"]) {
+        [self performSegueWithIdentifier:@"Ron" sender:self];
+    }
+    if ([celltext  isEqual: @"Rura (SCO)"]) {
+        [self performSegueWithIdentifier:@"Rura" sender:self];
+    }
+    //"S"
+    if ([celltext  isEqual: @"Sheesham, Lotus & ‘Son (CAN)"]) {
+        [self performSegueWithIdentifier:@"Lotus" sender:self];
+    }
+    if ([celltext  isEqual: @"Skerryvore (SCO)"]) {
+        [self performSegueWithIdentifier:@"Skerry" sender:self];
+    }
+    if ([celltext  isEqual: @"Spiro (UK)"]) {
+        [self performSegueWithIdentifier:@"Spiro" sender:self];
+    }
+    if ([celltext  isEqual: @"Sturgill Simpson (USA)"]) {
+        [self performSegueWithIdentifier:@"Sturgill" sender:self];
+    }
+    //"T"
+    if ([celltext  isEqual: @"Ten Strings And A Goat Skin (CAN)"]) {
+        [self performSegueWithIdentifier:@"Ten" sender:self];
+    }
+    if ([celltext  isEqual: @"The Barra MacNeils (CAN)"]) {
+        [self performSegueWithIdentifier:@"Barra" sender:self];
+    }
+    if ([celltext  isEqual: @"The Bros Landreth (CAN)"]) {
+        [self performSegueWithIdentifier:@"Bros" sender:self];
+    }
+    if ([celltext  isEqual: @"The East Pointers (CAN)"]) {
+        [self performSegueWithIdentifier:@"East" sender:self];
+    }
+    if ([celltext  isEqual: @"The Great Malarkey (UK)"]) {
+        [self performSegueWithIdentifier:@"Malarkey" sender:self];
+    }
+    if ([celltext  isEqual: @"The Hot Seats (USA)"]) {
+        [self performSegueWithIdentifier:@"Seats" sender:self];
+    }
+    if ([celltext  isEqual: @"The Lone Bellow (USA)"]) {
+        [self performSegueWithIdentifier:@"Lone" sender:self];
+    }
+    if ([celltext  isEqual: @"The Sexican (DK)"]) {
+        [self performSegueWithIdentifier:@"Sexican" sender:self];
+    }
+    if ([celltext  isEqual: @"The Stray Birds (USA)"]) {
+        [self performSegueWithIdentifier:@"Stray" sender:self];
+    }
+    if ([celltext  isEqual: @"The Wailin’ Jennys (CAN)"]) {
+        [self performSegueWithIdentifier:@"Jennys" sender:self];
+    }
+    if ([celltext  isEqual: @"The Wood Brothers (USA)"]) {
+        [self performSegueWithIdentifier:@"Wood" sender:self];
+    }
+    if ([celltext  isEqual: @"Three Tall Pines (USA)"]) {
+        [self performSegueWithIdentifier:@"Three" sender:self];
+    }
+    if ([celltext  isEqual: @"Townes Van Zandt Tribute (NL, USA)"]) {
+        [self performSegueWithIdentifier:@"Townes" sender:self];
+    }
+    //"U"
+    if ([celltext  isEqual: @"Usher’s Island (IRL)"]) {
+        [self performSegueWithIdentifier:@"Usher" sender:self];
+    }
 }
 
 /*
