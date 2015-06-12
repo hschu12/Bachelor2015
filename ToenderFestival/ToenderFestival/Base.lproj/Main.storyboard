@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -416,12 +417,12 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <segue destination="uFP-rB-dFG" kind="show" identifier="Fur" id="CZu-z7-fVB"/>
+                        <segue destination="Jo5-bJ-iWn" kind="show" identifier="Fur" id="cI7-yR-Bbg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vm-jw-GLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4223" y="1703"/>
+            <point key="canvasLocation" x="4256" y="1703"/>
         </scene>
         <!--NavSprog-->
         <scene sceneID="P1t-ph-5mA">
@@ -741,59 +742,6 @@ Sidst i 60’erne drog Allan Taylor fra Brighton til Greenwich Village i New Yor
             </objects>
             <point key="canvasLocation" x="3351" y="1703"/>
         </scene>
-        <!--Madsted-->
-        <scene sceneID="E1q-VU-2Kx">
-            <objects>
-                <viewController title="Madsted" modalTransitionStyle="flipHorizontal" id="uFP-rB-dFG" customClass="KunstnerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OL7-5H-dVd"/>
-                        <viewControllerLayoutGuide type="bottom" id="IqP-Bf-uuL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dFJ-hF-oie">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Spejl.png" translatesAutoresizingMaskIntoConstraints="NO" id="ogc-VQ-teh">
-                                <rect key="frame" x="16" y="28" width="568" height="256"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdh-hp-HEN" userLabel="Beskrivelse">
-                                <rect key="frame" x="16" y="292" width="568" height="256"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">For instance, what about a solid cajun brunch? Or gumbo, jambalaya and the whole full-fat Louisiana cuisine deal? Then get yourself down to NOLA, Tønder Festival's own little New Orleans. The Mirror Tent that was such a hit at last year's Festival has got company. Now there are two Mirror Tents. Step into number two Mirror Tent, and you enter a real cajun restaurant and creole bar. Master chef Chili John juggles chicken, crawfish and spices.  
-</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fdh-hp-HEN" firstAttribute="trailing" secondItem="dFJ-hF-oie" secondAttribute="trailingMargin" id="7xN-AG-vFE"/>
-                            <constraint firstItem="fdh-hp-HEN" firstAttribute="height" secondItem="ogc-VQ-teh" secondAttribute="height" id="BGW-4a-h33"/>
-                            <constraint firstItem="fdh-hp-HEN" firstAttribute="top" secondItem="ogc-VQ-teh" secondAttribute="bottom" constant="8" id="CKt-Ow-fXt"/>
-                            <constraint firstItem="ogc-VQ-teh" firstAttribute="leading" secondItem="fdh-hp-HEN" secondAttribute="leading" id="EBU-VQ-7F1"/>
-                            <constraint firstItem="fdh-hp-HEN" firstAttribute="width" secondItem="ogc-VQ-teh" secondAttribute="width" id="dtA-3H-aiL"/>
-                            <constraint firstItem="fdh-hp-HEN" firstAttribute="leading" secondItem="dFJ-hF-oie" secondAttribute="leadingMargin" id="r6Q-vh-j1S"/>
-                            <constraint firstItem="ogc-VQ-teh" firstAttribute="top" secondItem="OL7-5H-dVd" secondAttribute="bottom" constant="8" id="ta8-J5-BjJ"/>
-                            <constraint firstItem="IqP-Bf-uuL" firstAttribute="top" secondItem="fdh-hp-HEN" secondAttribute="bottom" constant="8" id="xTU-cn-3Eg"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Furbar" id="za5-j3-kNv">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="iRn-if-jgA">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <segue destination="MEZ-Yj-6qw" kind="showDetail" id="N1g-Tg-NQM"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <connections>
-                        <outlet property="text" destination="fdh-hp-HEN" id="lt2-pX-mlt"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TdL-6T-IXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5255" y="1703"/>
-        </scene>
         <!--Camping-->
         <scene sceneID="Mrm-6f-zhq">
             <objects>
@@ -940,12 +888,15 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Klik på logoet for at høre vores playliste" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REZ-Fc-meD">
-                                <rect key="frame" x="171" y="476" width="259" height="17"/>
+                                <rect key="frame" x="171" y="530" width="259" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-GH-Iy5">
-                                <rect key="frame" x="91" y="132" width="419" height="336"/>
+                                <rect key="frame" x="24" y="78" width="553" height="444"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bo5-GH-Iy5" secondAttribute="height" multiplier="419:336" id="H9M-U8-Icy"/>
+                                </constraints>
                                 <state key="normal" image="SpotifyLogo.png">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -960,8 +911,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                             <constraint firstItem="REZ-Fc-meD" firstAttribute="top" secondItem="bo5-GH-Iy5" secondAttribute="bottom" constant="8" symbolic="YES" id="EqW-w7-cj9"/>
                             <constraint firstItem="bo5-GH-Iy5" firstAttribute="centerY" secondItem="JJ5-4K-YSS" secondAttribute="centerY" id="QTq-2R-Ld2"/>
                             <constraint firstItem="bo5-GH-Iy5" firstAttribute="centerX" secondItem="JJ5-4K-YSS" secondAttribute="centerX" id="UUG-VA-a2O"/>
-                            <constraint firstItem="bo5-GH-Iy5" firstAttribute="top" secondItem="eie-nX-QrB" secondAttribute="bottom" constant="68" id="osx-qr-XmY"/>
-                            <constraint firstItem="bo5-GH-Iy5" firstAttribute="leading" secondItem="JJ5-4K-YSS" secondAttribute="leadingMargin" constant="75" id="uuI-4I-XPb"/>
+                            <constraint firstItem="bo5-GH-Iy5" firstAttribute="leading" secondItem="JJ5-4K-YSS" secondAttribute="leadingMargin" constant="8" id="uuI-4I-XPb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Spotify" id="u2l-3W-Aep">
@@ -1750,7 +1700,7 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqv-OJ-i3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6605" y="1502"/>
+            <point key="canvasLocation" x="6605" y="1510"/>
         </scene>
         <!--Skerryvore (SCO)-->
         <scene sceneID="rLp-Up-8eB">
@@ -4182,6 +4132,57 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
             </objects>
             <point key="canvasLocation" x="5000" y="3873"/>
         </scene>
+        <!--Furbar-->
+        <scene sceneID="pyy-8a-Xuo">
+            <objects>
+                <viewController title="Sheesham, Lotus &amp; ‘Son (CAN)" modalTransitionStyle="flipHorizontal" id="Jo5-bJ-iWn" userLabel="Furbar" customClass="KunstnerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jt6-hL-4Ds"/>
+                        <viewControllerLayoutGuide type="bottom" id="kcZ-b0-U25"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yeC-9L-HjZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-dR-gRB">
+                                <rect key="frame" x="16" y="28" width="568" height="278"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="z43-rR-SvI" userLabel="Beskrivelse">
+                                <rect key="frame" x="16" y="314" width="568" height="278"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z43-rR-SvI" firstAttribute="width" secondItem="iSp-dR-gRB" secondAttribute="width" id="0aN-u5-PWs"/>
+                            <constraint firstItem="iSp-dR-gRB" firstAttribute="leading" secondItem="z43-rR-SvI" secondAttribute="leading" id="2Gs-Ia-3yn"/>
+                            <constraint firstItem="iSp-dR-gRB" firstAttribute="top" secondItem="jt6-hL-4Ds" secondAttribute="bottom" constant="8" id="cB9-Uu-ii5"/>
+                            <constraint firstItem="kcZ-b0-U25" firstAttribute="top" secondItem="z43-rR-SvI" secondAttribute="bottom" constant="8" id="eCQ-RR-rct"/>
+                            <constraint firstItem="z43-rR-SvI" firstAttribute="top" secondItem="iSp-dR-gRB" secondAttribute="bottom" constant="8" id="eCS-Je-FjC"/>
+                            <constraint firstItem="z43-rR-SvI" firstAttribute="leading" secondItem="yeC-9L-HjZ" secondAttribute="leadingMargin" id="gIx-dp-O5R"/>
+                            <constraint firstItem="z43-rR-SvI" firstAttribute="trailing" secondItem="yeC-9L-HjZ" secondAttribute="trailingMargin" id="mes-yF-J2Y"/>
+                            <constraint firstItem="z43-rR-SvI" firstAttribute="height" secondItem="iSp-dR-gRB" secondAttribute="height" id="xH4-EC-jNN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Furbar" id="oXI-Ul-UAW">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="olH-Ie-T3O">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="MEZ-Yj-6qw" kind="showDetail" id="bKP-gI-GF0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="text" destination="z43-rR-SvI" id="sPJ-Gm-6lo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWe-Ho-RYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5014" y="1703"/>
+        </scene>
     </scenes>
     <resources>
         <image name="27.png" width="60" height="60"/>
@@ -4230,7 +4231,6 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
         <image name="Rura.png" width="560" height="466"/>
         <image name="Sheesham, Lotus &amp; ´Son.png" width="561" height="465"/>
         <image name="Skerryvore.png" width="562" height="465"/>
-        <image name="Spejl.png" width="320" height="240"/>
         <image name="Spiro.png" width="561" height="465"/>
         <image name="SpotifyLogo.png" width="727" height="707"/>
         <image name="Spotifytext.png" width="200" height="200"/>
@@ -4262,8 +4262,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
         <image name="uk.png" width="606" height="305"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EPt-C8-0qY"/>
-        <segue reference="N1g-Tg-NQM"/>
-        <segue reference="ZUH-35-dFY"/>
+        <segue reference="V3r-vp-oh0"/>
+        <segue reference="5JF-B2-tkK"/>
+        <segue reference="bKP-gI-GF0"/>
     </inferredMetricsTieBreakers>
 </document>
