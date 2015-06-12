@@ -104,6 +104,8 @@
 		1EC66F821B2A18150053E62A /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F811B2A18150053E62A /* 28.png */; };
 		1EC66F841B2A187F0053E62A /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F831B2A187F0053E62A /* 29.png */; };
 		1EC66F861B2A1A280053E62A /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F851B2A1A280053E62A /* 30.png */; };
+		1EC66F891B2AD1700053E62A /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC66F881B2AD1700053E62A /* InfoTableViewController.m */; };
+		1EC66F8C1B2AD7590053E62A /* MadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */; };
 		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
 		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
 		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
@@ -232,6 +234,10 @@
 		1EC66F811B2A18150053E62A /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 28.png; path = ../../../../../Downloads/28.png; sourceTree = "<group>"; };
 		1EC66F831B2A187F0053E62A /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29.png; path = ../../../../../Downloads/29.png; sourceTree = "<group>"; };
 		1EC66F851B2A1A280053E62A /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 30.png; path = ../../../../../Downloads/30.png; sourceTree = "<group>"; };
+		1EC66F871B2AD1700053E62A /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		1EC66F881B2AD1700053E62A /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
+		1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadTableViewController.h; sourceTree = "<group>"; };
+		1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadTableViewController.m; sourceTree = "<group>"; };
 		1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
 		1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
 		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
@@ -260,6 +266,7 @@
 		1E1C43F91B1DCEB100BF1734 /* Prototyping */ = {
 			isa = PBXGroup;
 			children = (
+				1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */,
 				1E7EBD381AF00E5500604071 /* insta.png */,
 				1E7EBD391AF00E5500604071 /* twit.png */,
 				1E7EBD371AF00E5500604071 /* face.png */,
@@ -270,6 +277,10 @@
 		1E1C43FA1B1DCECC00BF1734 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				1EC66F851B2A1A280053E62A /* 30.png */,
+				1EC66F831B2A187F0053E62A /* 29.png */,
+				1EC66F811B2A18150053E62A /* 28.png */,
+				1EC66F7F1B2A13430053E62A /* 27.png */,
 				1E7EBD521AF0227200604071 /* infotext.png */,
 				1E7EBD541AF0227200604071 /* kunstneretext.png */,
 				1E7EBD551AF0227200604071 /* madtext.png */,
@@ -277,7 +288,6 @@
 				1E7EBD561AF0227200604071 /* newstext.png */,
 				1E7EBD581AF0227200604071 /* smiletext.png */,
 				1E7EBD591AF0227200604071 /* Spotifytext.png */,
-				1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */,
 				1E7EBD531AF0227200604071 /* korttext.png */,
 			);
 			name = Icons;
@@ -407,6 +417,10 @@
 				1EBF76D21ADEF6D6006517BE /* MenuViewController.m */,
 				1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */,
 				1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */,
+				1EC66F871B2AD1700053E62A /* InfoTableViewController.h */,
+				1EC66F881B2AD1700053E62A /* InfoTableViewController.m */,
+				1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */,
+				1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */,
 				1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */,
 				1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */,
 				1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */,
@@ -459,10 +473,6 @@
 		1E2307131ADEDFE900D79524 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				1EC66F851B2A1A280053E62A /* 30.png */,
-				1EC66F831B2A187F0053E62A /* 29.png */,
-				1EC66F811B2A18150053E62A /* 28.png */,
-				1EC66F7F1B2A13430053E62A /* 27.png */,
 				1E1C43FB1B1DCEEF00BF1734 /* TFLoger */,
 				1E1C43FA1B1DCECC00BF1734 /* Icons */,
 				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
@@ -664,12 +674,14 @@
 				1E184AEB1B258F90000F337C /* ThursdayProgramTableViewController.m in Sources */,
 				1E5157191B283EFC00763BDB /* FridayProgramTableViewController.m in Sources */,
 				1E2306E71ADED50D00D79524 /* main.m in Sources */,
+				1EC66F891B2AD1700053E62A /* InfoTableViewController.m in Sources */,
 				1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */,
 				1E51571F1B285D4000763BDB /* SundayProgramTableViewController.m in Sources */,
 				1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */,
 				1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */,
 				1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */,
 				1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */,
+				1EC66F8C1B2AD7590053E62A /* MadTableViewController.m in Sources */,
 				1E7EBD3F1AF010DD00604071 /* SpotifyViewController.m in Sources */,
 				1E51571C1B285D3200763BDB /* SaturdayProgramTableViewController.m in Sources */,
 				1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */,

@@ -29,6 +29,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:116.0f/255.0f green:141.0f/255.0f blue:160.0f/255.0f alpha:1.0f];
+    UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearance];
+    [barButtonAppearance setTintColor:[UIColor whiteColor]];
     feeds = [[NSMutableArray alloc] init];
     NSURL *url = [NSURL URLWithString:@"https://twitrss.me/twitter_user_to_rss/?user=TonderFestival"];
     parser = [[NSXMLParser alloc] initWithContentsOfURL:url];

@@ -125,6 +125,7 @@
 {
     return spilletiderSections;
 }
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSString *celltext = cell.textLabel.text;
@@ -189,16 +190,6 @@
     }
     if ([celltext  isEqual: @"Hot Rize (USA)"]) {
         [self performSegueWithIdentifier:@"Hot" sender:self];
-    }
-    //"J"
-    if ([celltext  isEqual: @"Jacob Dinesen (DK)"]) {
-        [self performSegueWithIdentifier:@"Jacob" sender:self];
-    }
-    if ([celltext  isEqual: @"John Prine (USA)"]) {
-        [self performSegueWithIdentifier:@"John" sender:self];
-    }
-    if ([celltext  isEqual: @"Jonah Blacksmith (DK)"]) {
-        [self performSegueWithIdentifier:@"Jonah" sender:self];
     }
     //"J"
     if ([celltext  isEqual: @"Jacob Dinesen (DK)"]) {
@@ -367,12 +358,7 @@
  #pragma mark - Navigation
  
  -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- if ([[segue identifier] isEqualToString:@"Pokey"]) {
- //preparation
- } else if ([[segue identifier] isEqualToString:@"Hudson"]) {
- //other preparation
- }
+{
  }
 
 @end
