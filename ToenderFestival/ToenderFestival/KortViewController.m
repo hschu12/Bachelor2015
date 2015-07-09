@@ -9,6 +9,8 @@
 #import "KortViewController.h"
 
 @interface KortViewController ()
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -18,8 +20,23 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:116.0f/255.0f green:141.0f/255.0f blue:160.0f/255.0f alpha:1.0f];
+    
+    self.scrollView.minimumZoomScale = 0.5;
+    self.scrollView.maximumZoomScale = 6.0;
+    self.scrollView.contentSize = self.imageView.frame.size;
+    self.scrollView.delegate = self;
+    
 
     // Do any additional setup after loading the view.
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
+}
+
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale
+{
 }
 
 - (void)didReceiveMemoryWarning {

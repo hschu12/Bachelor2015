@@ -76,6 +76,7 @@
 		1E2306F51ADED50D00D79524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2306F31ADED50D00D79524 /* LaunchScreen.xib */; };
 		1E2307011ADED50D00D79524 /* ToenderFestivalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2307001ADED50D00D79524 /* ToenderFestivalTests.m */; };
 		1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */; };
+		1E27DF001B4E9C4A0090F96C /* Vest.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E27DEFF1B4E9C4A0090F96C /* Vest.png */; };
 		1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */; };
 		1E2BFC201ADFDB6B007F50A4 /* KunstnerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */; };
 		1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC221ADFE96A007F50A4 /* KortViewController.m */; };
@@ -109,6 +110,7 @@
 		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
 		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
 		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
+		1EEE6D5E1B4D635C00DD9615 /* EventDKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +200,7 @@
 		1E2307001ADED50D00D79524 /* ToenderFestivalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToenderFestivalTests.m; sourceTree = "<group>"; };
 		1E23070A1ADED7CD00D79524 /* ChooseLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLanguageViewController.h; sourceTree = "<group>"; };
 		1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLanguageViewController.m; sourceTree = "<group>"; };
+		1E27DEFF1B4E9C4A0090F96C /* Vest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vest.png; path = ../../images/Vest.png; sourceTree = "<group>"; };
 		1E2B6E521B1C8C2A001BFEF4 /* SpotifyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotifyLogo.png; sourceTree = "<group>"; };
 		1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KunstnerTableViewController.h; sourceTree = "<group>"; };
 		1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KunstnerTableViewController.m; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
 		1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
 		1EDAB4FF1B1F2D810016C76B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../images/test.png; sourceTree = "<group>"; };
+		1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDKTableViewController.h; sourceTree = "<group>"; };
+		1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDKTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,6 +426,8 @@
 				1EC66F881B2AD1700053E62A /* InfoTableViewController.m */,
 				1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */,
 				1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */,
+				1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */,
+				1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */,
 				1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */,
 				1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */,
 				1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */,
@@ -477,6 +484,7 @@
 				1E1C43FA1B1DCECC00BF1734 /* Icons */,
 				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
 				1E573DEB1B1C6C5A00690BB7 /* Background.png */,
+				1E27DEFF1B4E9C4A0090F96C /* Vest.png */,
 				1EC66F7D1B298DFB0053E62A /* festivalspladsmap.png */,
 				1EDAB4FF1B1F2D810016C76B /* test.png */,
 				1E1C43FC1B1DCF5B00BF1734 /* Madsteder */,
@@ -584,6 +592,7 @@
 				1E2306F01ADED50D00D79524 /* Main.storyboard in Resources */,
 				1E184B541B25D0A4000F337C /* The Great Malarkey.png in Resources */,
 				1E184B381B25D0A4000F337C /* John Prine.png in Resources */,
+				1E27DF001B4E9C4A0090F96C /* Vest.png in Resources */,
 				1E184B391B25D0A4000F337C /* Jonah Blacksmith.png in Resources */,
 				1E184B461B25D0A4000F337C /* Poul Krebs & venner.png in Resources */,
 				1E184B271B25D0A4000F337C /* Band Battle New Orleans Style.png in Resources */,
@@ -677,6 +686,7 @@
 				1EC66F891B2AD1700053E62A /* InfoTableViewController.m in Sources */,
 				1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */,
 				1E51571F1B285D4000763BDB /* SundayProgramTableViewController.m in Sources */,
+				1EEE6D5E1B4D635C00DD9615 /* EventDKTableViewController.m in Sources */,
 				1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */,
 				1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */,
 				1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */,

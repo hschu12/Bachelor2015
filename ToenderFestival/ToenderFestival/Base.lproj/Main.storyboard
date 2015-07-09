@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wlZ-bs-69y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wlZ-bs-69y">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -83,13 +83,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI0-Lp-vig" userLabel="Kort">
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI0-Lp-vig" userLabel="Kort">
                                 <rect key="frame" x="304" y="72" width="280" height="127"/>
                                 <state key="normal" backgroundImage="korttext.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Fst-Mw-KlU" kind="showDetail" id="clb-ON-qcm"/>
+                                    <segue destination="Fst-Mw-KlU" kind="showDetail" id="oym-Ym-v2b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bia-Bl-wba" userLabel="Kunstnere">
@@ -128,7 +128,7 @@
                                     <segue destination="hvK-QM-UAO" kind="showDetail" id="iha-xI-AcI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dc-ku-Qcu" userLabel="Program">
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dc-ku-Qcu" userLabel="Program">
                                 <rect key="frame" x="16" y="82" width="280" height="127"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" backgroundImage="Programtext.png">
@@ -153,7 +153,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="P15-Tp-NDF" kind="showDetail" id="MZJ-zG-WfD"/>
+                                    <segue destination="qcj-vN-u0O" kind="showDetail" id="esn-rP-aax"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -161,11 +161,11 @@
                         <constraints>
                             <constraint firstItem="NXi-eZ-FDy" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="414" id="0h7-82-ice"/>
                             <constraint firstItem="0Kb-aj-smf" firstAttribute="height" secondItem="Bia-Bl-wba" secondAttribute="height" id="2fV-wi-1W8"/>
-                            <constraint firstItem="NXi-eZ-FDy" firstAttribute="top" secondItem="0Kb-aj-smf" secondAttribute="bottom" constant="-7" id="4vW-wC-DFq"/>
+                            <constraint firstItem="NXi-eZ-FDy" firstAttribute="top" secondItem="0Kb-aj-smf" secondAttribute="bottom" constant="8" id="4vW-wC-DFq"/>
                             <constraint firstItem="0Kb-aj-smf" firstAttribute="width" secondItem="NXi-eZ-FDy" secondAttribute="width" id="6Gh-b3-efd"/>
                             <constraint firstItem="wea-rm-6GK" firstAttribute="height" secondItem="Vic-R8-VTA" secondAttribute="height" id="7na-Fj-Df9"/>
                             <constraint firstItem="Vic-R8-VTA" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="278" id="Aa3-77-dod"/>
-                            <constraint firstItem="8ox-fg-xGh" firstAttribute="top" secondItem="NXi-eZ-FDy" secondAttribute="bottom" constant="8" id="CNi-UO-sWj"/>
+                            <constraint firstItem="8ox-fg-xGh" firstAttribute="top" secondItem="NXi-eZ-FDy" secondAttribute="bottom" id="CNi-UO-sWj"/>
                             <constraint firstItem="Bia-Bl-wba" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="153" id="CP0-Y6-IhV"/>
                             <constraint firstItem="T0w-LO-pdc" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="149" id="HUF-1Q-i47"/>
                             <constraint firstItem="Bia-Bl-wba" firstAttribute="top" secondItem="7dc-ku-Qcu" secondAttribute="bottom" constant="8" id="ImL-g4-C3P"/>
@@ -192,10 +192,10 @@
                             <constraint firstItem="dI0-Lp-vig" firstAttribute="height" secondItem="T0w-LO-pdc" secondAttribute="height" id="nF4-qQ-vSh"/>
                             <constraint firstItem="Bia-Bl-wba" firstAttribute="leading" secondItem="hfI-XM-bsi" secondAttribute="leadingMargin" id="nvh-sa-OeJ"/>
                             <constraint firstItem="T0w-LO-pdc" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="149" id="pfP-wN-QC0"/>
-                            <constraint firstItem="dI0-Lp-vig" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" constant="8" id="pfg-3U-S63"/>
+                            <constraint firstItem="dI0-Lp-vig" firstAttribute="top" secondItem="4mD-8b-yHG" secondAttribute="bottom" id="pfg-3U-S63"/>
                             <constraint firstItem="T0w-LO-pdc" firstAttribute="top" secondItem="dI0-Lp-vig" secondAttribute="bottom" constant="8" id="rDS-vO-vgI"/>
                             <constraint firstItem="Bia-Bl-wba" firstAttribute="width" secondItem="7dc-ku-Qcu" secondAttribute="width" id="tyg-1d-6kU"/>
-                            <constraint firstItem="8ox-fg-xGh" firstAttribute="top" secondItem="wea-rm-6GK" secondAttribute="bottom" constant="8" id="vYd-py-e9t"/>
+                            <constraint firstItem="8ox-fg-xGh" firstAttribute="top" secondItem="wea-rm-6GK" secondAttribute="bottom" id="vYd-py-e9t"/>
                             <constraint firstItem="dI0-Lp-vig" firstAttribute="leading" secondItem="7dc-ku-Qcu" secondAttribute="trailing" constant="8" id="xgB-0F-W2P"/>
                             <constraint firstItem="7dc-ku-Qcu" firstAttribute="leading" secondItem="hfI-XM-bsi" secondAttribute="leadingMargin" id="yBD-PS-HCS"/>
                             <constraint firstItem="wea-rm-6GK" firstAttribute="trailing" secondItem="hfI-XM-bsi" secondAttribute="trailingMargin" id="yre-RA-MTo"/>
@@ -205,7 +205,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Language" id="rEh-PL-aU0">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="wlZ-bs-69y" kind="showDetail" id="dDO-OR-lWL"/>
+                                <segue destination="wlZ-bs-69y" kind="showDetail" id="as7-EP-Wep"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -264,7 +264,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lXM-Gs-J9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4979" y="-1026"/>
+            <point key="canvasLocation" x="5291" y="-282"/>
         </scene>
         <!--Friday Program-->
         <scene sceneID="HJR-hI-gVA">
@@ -312,7 +312,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ci4-iE-SxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4979" y="-1786"/>
+            <point key="canvasLocation" x="5291" y="-1042"/>
         </scene>
         <!--Musik Program-->
         <scene sceneID="Khm-wx-CP7">
@@ -333,7 +333,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Jn-6b-f8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3351" y="-1786"/>
+            <point key="canvasLocation" x="3663" y="-1042"/>
         </scene>
         <!--Kort over pladsen-->
         <scene sceneID="eHD-SK-8DO">
@@ -347,15 +347,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="festivalspladsmap.png" translatesAutoresizingMaskIntoConstraints="NO" id="7aV-ZL-Lho">
-                                <rect key="frame" x="10" y="64" width="581" height="536"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCC-eA-1XC">
+                                <rect key="frame" x="16" y="64" width="568" height="536"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="festivalspladsmap.png" translatesAutoresizingMaskIntoConstraints="NO" id="7aV-ZL-Lho">
+                                        <rect key="frame" x="0.0" y="0.0" width="581" height="536"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7aV-ZL-Lho" firstAttribute="top" secondItem="bCC-eA-1XC" secondAttribute="top" id="UfT-re-wbt"/>
+                                    <constraint firstAttribute="bottom" secondItem="7aV-ZL-Lho" secondAttribute="bottom" id="Zh2-G4-SmR"/>
+                                    <constraint firstItem="7aV-ZL-Lho" firstAttribute="leading" secondItem="bCC-eA-1XC" secondAttribute="leading" id="pyp-PE-5fC"/>
+                                    <constraint firstAttribute="trailing" secondItem="7aV-ZL-Lho" secondAttribute="trailing" constant="-13" id="tMk-g0-dTp"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7aV-ZL-Lho" firstAttribute="top" secondItem="Iqv-bC-rmk" secondAttribute="bottom" id="6Ki-6P-fZJ"/>
-                            <constraint firstItem="7aV-ZL-Lho" firstAttribute="centerX" secondItem="Z1L-Za-ocW" secondAttribute="centerX" id="YIf-0c-V0g"/>
-                            <constraint firstItem="1Tb-RP-6P9" firstAttribute="top" secondItem="7aV-ZL-Lho" secondAttribute="bottom" id="jrr-mc-w58"/>
+                            <constraint firstItem="bCC-eA-1XC" firstAttribute="leading" secondItem="Z1L-Za-ocW" secondAttribute="leadingMargin" id="16d-Ax-h8C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bCC-eA-1XC" secondAttribute="trailing" id="JRs-aW-cxS"/>
+                            <constraint firstItem="bCC-eA-1XC" firstAttribute="top" secondItem="Iqv-bC-rmk" secondAttribute="bottom" id="fAE-Ce-s2a"/>
+                            <constraint firstItem="1Tb-RP-6P9" firstAttribute="top" secondItem="bCC-eA-1XC" secondAttribute="bottom" id="nFY-IK-CWK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Kort over pladsen" id="1pe-Kq-mbF">
@@ -366,10 +379,14 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="7aV-ZL-Lho" id="AB9-MQ-UP7"/>
+                        <outlet property="scrollView" destination="bCC-eA-1XC" id="ZVS-nl-xgq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oi8-Us-k4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4125" y="54"/>
+            <point key="canvasLocation" x="4463" y="-3254"/>
         </scene>
         <!--Mad-->
         <scene sceneID="MgH-jK-c1O">
@@ -464,6 +481,7 @@
         <scene sceneID="S9O-Qm-9dj">
             <objects>
                 <navigationController title="NavKort" automaticallyAdjustsScrollViewInsets="NO" id="Fst-Mw-KlU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4qf-Zb-5oP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G76-Jz-me6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -476,7 +494,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8o-3S-tRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3389" y="54"/>
+            <point key="canvasLocation" x="3513" y="-3254"/>
         </scene>
         <!--Allan Taylor (UK)-->
         <scene sceneID="6lw-rg-I8H">
@@ -549,7 +567,8 @@ Sidst i 60’erne drog Allan Taylor fra Brighton til Greenwich Village i New Yor
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUS-OU-7AF" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Begrebet folkemusik bliver udvidet i hænderne på Dreamers’ Circus. Rune Tonsgaard Sørensen, violin, Nikolaj Busk, klaver, harmonika, og Ale Carr, cittern, fletter folk og klassisk på et højt musikalsk niveau. Albummet ”A Little Symphony” (2013) resulterede da også i strålende anmeldelser i ind- og udland og tre Danish Music Awards Folk. Deres andet album, ”Second Movement”, udkom i marts 2015.Samarbejdet med The Danish String Quartet er oplagt. Violinisten Rune Tonsgaard Sørensen er også medlem her, og på udgivelsen ”Wood Works” (2014) giver de klassisk uddannede musikere sig i kast med traditionel nordisk folkemusik. De øvrige medlemmer i The Danish String Quartet er Asbjørn Nørgaard, viola, Frederik Schøyen Sjölin, cello, og Frederik Øland, violin.</mutableString>
+                                <string key="text">Begrebet folkemusik bliver udvidet i hænderne på Dreamers’ Circus. Rune Tonsgaard Sørensen, violin, Nikolaj Busk, klaver, harmonika, og Ale Carr, cittern, fletter folk og klassisk på et højt musikalsk niveau. Albummet ”A Little Symphony” (2013) resulterede da også i strålende anmeldelser i ind- og udland og tre Danish Music Awards Folk. Deres andet album, ”Second Movement”, udkom i marts 2015.
+Samarbejdet med The Danish String Quartet er oplagt. Violinisten Rune Tonsgaard Sørensen er også medlem her, og på udgivelsen ”Wood Works” (2014) giver de klassisk uddannede musikere sig i kast med traditionel nordisk folkemusik. De øvrige medlemmer i The Danish String Quartet er Asbjørn Nørgaard, viola, Frederik Schøyen Sjölin, cello, og Frederik Øland, violin.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -629,7 +648,7 @@ Sidst i 60’erne drog Allan Taylor fra Brighton til Greenwich Village i New Yor
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6A-gS-wph" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4223" y="2407"/>
+            <point key="canvasLocation" x="4226" y="2439"/>
         </scene>
         <!--Kunstnere-->
         <scene sceneID="rO7-3I-YtM">
@@ -780,90 +799,39 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lR1-g8-tba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5249" y="2419"/>
+            <point key="canvasLocation" x="5252" y="2451"/>
         </scene>
         <!--Events-->
         <scene sceneID="cwl-vu-FdC">
             <objects>
-                <tableViewController title="Events" id="gRS-Yi-5bs" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lyw-yp-X5g">
+                <tableViewController title="Events" id="gRS-Yi-5bs" customClass="EventDKTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lyw-yp-X5g">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <sections>
-                            <tableViewSection headerTitle="Torsdag" id="DRl-Of-sqQ">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8DV-ct-1Qn" style="IBUITableViewCellStyleDefault" id="ERS-wO-4EF">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ERS-wO-4EF" id="BDc-h8-wac">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kl 8:00 - 5 km løb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8DV-ct-1Qn">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection headerTitle="Fredag" id="xtG-JX-eBh">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="VQw-Ih-ZUQ" style="IBUITableViewCellStyleDefault" id="cyD-Tq-F2z">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cyD-Tq-F2z" id="uy3-0z-Jsl">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kl 8:00 - 10 km løb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VQw-Ih-ZUQ">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection headerTitle="Lørdag" id="B7s-7z-gau">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="PSY-dg-ipK" style="IBUITableViewCellStyleDefault" id="Eiz-E5-EGh">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eiz-E5-EGh" id="DKk-ab-qf3">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="15:00 - Spooky Men Coral - Grannys room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PSY-dg-ipK">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection headerTitle="Søndag" id="9Ch-3G-yiS">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="YiN-SE-0VG" style="IBUITableViewCellStyleDefault" id="GsG-zs-r6y">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GsG-zs-r6y" id="LQb-lG-Dlr">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="18:00 - Afgørelse i Fotokonkurrence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YiN-SE-0VG">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="8DV-ct-1Qn" detailTextLabel="E1m-RG-VrF" style="IBUITableViewCellStyleSubtitle" id="ERS-wO-4EF">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ERS-wO-4EF" id="BDc-h8-wac">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kl 8:00 - 5 km løb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8DV-ct-1Qn">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E1m-RG-VrF">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="gRS-Yi-5bs" id="s1Z-wd-7l4"/>
                             <outlet property="delegate" destination="gRS-Yi-5bs" id="APc-dG-nU7"/>
@@ -873,7 +841,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQf-Td-VXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5035" y="3116"/>
+            <point key="canvasLocation" x="4166" y="3940"/>
         </scene>
         <!--Spotify-->
         <scene sceneID="b1c-hK-Baj">
@@ -928,7 +896,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fkK-n9-a65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3433" y="3116"/>
+            <point key="canvasLocation" x="4163" y="3220"/>
         </scene>
         <!--NavInfo-->
         <scene sceneID="LgR-Y4-8m2">
@@ -946,7 +914,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0v-bW-C6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3342" y="2419"/>
+            <point key="canvasLocation" x="3345" y="2451"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zjh-Jk-1rs">
@@ -964,7 +932,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C6s-O4-Blv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4154" y="3116"/>
+            <point key="canvasLocation" x="3285" y="3940"/>
         </scene>
         <!--News-->
         <scene sceneID="ySJ-vD-DsN">
@@ -980,9 +948,6 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mQD-Pr-vLs" id="RK6-bc-hvB">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="vTL-6e-NNH" kind="show" identifier="showDetail" id="isE-Yw-R0h"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -993,9 +958,6 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                     <navigationItem key="navigationItem" title="News" id="ad6-Hb-rAH">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="FF9-92-YK8">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <segue destination="1j5-qm-sGc" kind="showDetail" id="5gu-S8-Rie"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -1004,9 +966,9 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbc-6i-InC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5812" y="3873"/>
+            <point key="canvasLocation" x="5847" y="5161"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--News-->
         <scene sceneID="o4R-6A-Th5">
             <objects>
                 <viewController id="vTL-6e-NNH" customClass="APPDetailViewController" sceneMemberID="viewController">
@@ -1019,7 +981,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4FX-UR-5pP">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="592"/>
+                                <rect key="frame" x="0.0" y="4" width="600" height="592"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -1031,13 +993,24 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                             <constraint firstItem="4FX-UR-5pP" firstAttribute="leading" secondItem="01Q-UR-31B" secondAttribute="leadingMargin" id="p3p-1Q-cwW"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="News" id="mkc-XF-Hxb">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="0pw-k7-e44">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="1j5-qm-sGc" kind="showDetail" id="ar0-yy-nJX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="webView" destination="4FX-UR-5pP" id="gXX-Yu-3D2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1oU-pp-olL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6536" y="3873"/>
+            <point key="canvasLocation" x="4125" y="4713"/>
         </scene>
         <!--Adam Holmes and The Embers (SCO)-->
         <scene sceneID="PBC-AV-b3W">
@@ -1051,7 +1024,7 @@ DKK 300,- (torsdag 28/8 - mandag 1/9) </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6u-lB-2ek" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6u-lB-2ek" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="336" width="568" height="256"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Udråbt som et af de nye lysende talenter på den skotske folkscene er 24-årige Adam Holmes godt i gang med at indtage verden. Adam Holmes kommer fra Edinburgh, hvor han takket være sine musikkyndige forældre oplevede det levende folk-miljø på pubber og små spillesteder helt fra barnsben. 
@@ -1059,7 +1032,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Adam Holmes and The Embers.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ukp-kT-T6e">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Adam Holmes and The Embers.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ukp-kT-T6e">
                                 <rect key="frame" x="16" y="72" width="568" height="256"/>
                             </imageView>
                         </subviews>
@@ -1109,7 +1082,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="thr-7e-qHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4167" y="-1026"/>
+            <point key="canvasLocation" x="4479" y="-282"/>
         </scene>
         <!--Lørdag-->
         <scene sceneID="Qvu-Ql-P1X">
@@ -1159,7 +1132,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0i-st-4Go" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4979" y="-2537"/>
+            <point key="canvasLocation" x="5291" y="-1793"/>
         </scene>
         <!--Søndag-->
         <scene sceneID="QZN-df-ZUX">
@@ -1207,7 +1180,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4W-ye-ax4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4963" y="-3281"/>
+            <point key="canvasLocation" x="5275" y="-2537"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EbJ-Qo-Pl6">
@@ -1226,7 +1199,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Fy-vJ-W8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4167" y="-1786"/>
+            <point key="canvasLocation" x="4479" y="-1042"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sh0-xc-9rG">
@@ -1245,7 +1218,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QrR-aP-l7Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4151" y="-3281"/>
+            <point key="canvasLocation" x="4463" y="-2537"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6u5-Pa-S4L">
@@ -1264,7 +1237,7 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x2x-ca-BIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4167" y="-2537"/>
+            <point key="canvasLocation" x="4479" y="-1793"/>
         </scene>
         <!--KunstnerTabelNev-->
         <scene sceneID="UL7-m4-Wlr">
@@ -1299,8 +1272,8 @@ Debutalbummet ”Heirs and Graces” udkom i starten af 2014 og er produce- ret 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIn-cx-aW3" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Den irske sangerinde har et stort publikum i Danmark og har turneret i januar og fe- bruar 2015 på danske spillesteder. Blandt andet en udsolgt aften på Hagge’s i Tøn- der. En god opvarmning til årets festival, hvor Eleanor Shanley er på programmet. Det er ottende gang, Eleanor Shanley giver koncert på Tønder Festivalen. Første gang var i 1989 med den legendariske gruppe De Danann, som hun var medlem af fra 1988 til 1992. Gruppen blev opløst i 2003, men Shanley har siden optrådt med Alec Finn’s gendannede version De Danann – blandt andet i Tønder i 2011. 
-Eleanor Shanley modtager i år Den Danske Folkemusikpris, som Skagen Festivalen står bag. Ved dette års besøg i Tønder bliver det sammen med Paul Gurney, piano, guitar, mandolin, bas og vokal, Mike Hanrahan, guitar og vokal, og Eleanor Quaine, backing vokal.</mutableString>
+                                <string key="text">Den irske sangerinde har et stort publikum i Danmark og har turneret i januar og fe- bruar 2015 på danske spillesteder. Blandt andet en udsolgt aften på Hagge’s i Tøn- der. En god opvarmning til årets festival, hvor Eleanor Shanley er på programmet. Det er ottende gang, Eleanor Shanley giver koncert på Tønder Festivalen. Første gang var i 1989 med den legendariske gruppe De Danann, som hun var medlem af fra 1988 til 1992. Gruppen blev opløst i 2003, men Shanley har siden optrådt med Alec Finn’s gendannede version De Danann – blandt andet i Tønder i 2011. 
+Eleanor Shanley modtager i år Den Danske Folkemusikpris, som Skagen Festivalen står bag. Ved dette års besøg i Tønder bliver det sammen med Paul Gurney, piano, guitar, mandolin, bas og vokal, Mike Hanrahan, guitar og vokal, og Eleanor Quaine, backing vokal.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1355,7 +1328,10 @@ Eleanor Shanley modtager i år Den Danske Folkemusikpris, som Skagen Festivalen
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDP-bc-Dc9" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">”Rockgrass”, kalder Hayseed Dixie deres musik, der er en blanding af rock, blue- grass, country og hillbilly. Læg hertil en stor portion galskab, ironi og musikalitet. For godt 15 år siden bragede Hayseed Dixie igennem med en spøjs idé: Lad os spille AC/DC-numre på banjo, mandolin, akustisk guitar og gulvbas – og sætte tempoet lidt op. Også sange af Led Zeppelin, Kiss, The Who og Alice Cooper har været igennem Hayseed Dixies akustiske turbomaskine.Publikum var med på spøgen, og i dag kan Hayseed Dixie se tilbage på turneer i over 30 lande. Blandt andet Danmark, hvor Tønderpublikummet havde glæde af bandet første gang i 2005.Med det nye album ”Hair Down To My Grass” er der lagt op til narrestregermed eksempelvis Europe’s ”The Final Countdown” og Pink Floyds ”Comfortably Numb”.</mutableString>
+                                <string key="text">”Rockgrass”, kalder Hayseed Dixie deres musik, der er en blanding af rock, blue- grass, country og hillbilly. Læg hertil en stor portion galskab, ironi og musikalitet. For godt 15 år siden bragede Hayseed Dixie igennem med en spøjs idé: Lad os spille AC/DC-numre på banjo, mandolin, akustisk guitar og gulvbas – og sætte tempoet lidt op. Også sange af Led Zeppelin, Kiss, The Who og Alice Cooper har været igennem Hayseed Dixies akustiske turbomaskine.
+Publikum var med på spøgen, og i dag kan Hayseed Dixie se tilbage på turneer i over 30 lande. Blandt andet Danmark, hvor Tønderpublikummet havde glæde af bandet første gang i 2005.
+Med det nye album ”Hair Down To My Grass” er der lagt op til narrestreger
+med eksempelvis Europe’s ”The Final Countdown” og Pink Floyds ”Comfortably Numb”.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1407,8 +1383,9 @@ Eleanor Shanley modtager i år Den Danske Folkemusikpris, som Skagen Festivalen
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08N-Ao-sPm" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dansk folkemusik har med Harald Haugaard både en stor inspirationskilde og en virtuos. Han er en mester på violinen, og takket være et meget højt aktivitets- niveau gennem snart to årtier har han medvirket til at løfte kvaliteten blandt unge musikere herhjemme og samtidig være en fornem ambassadør for dansk folkemusik på den internationale scene. Hans seneste album ”Lys og Forfald” (marts 2015) afslutter en trilogi med”Burning Fields” (2009) og ”Den Femte Søster” (2012) som de to første. Det nye album består udelukkende af nye kompositioner af Harald Haugaard selv. 
-Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum, som danner par både musikalsk og privat. Helene Blum har sideløbende en solokarriere og har flere udgivelser bag sig.</mutableString>
+                                <string key="text">Dansk folkemusik har med Harald Haugaard både en stor inspirationskilde og en virtuos. Han er en mester på violinen, og takket være et meget højt aktivitets- niveau gennem snart to årtier har han medvirket til at løfte kvaliteten blandt unge musikere herhjemme og samtidig være en fornem ambassadør for dansk folkemusik på den internationale scene. Hans seneste album ”Lys og Forfald” (marts 2015) afslutter en trilogi med
+”Burning Fields” (2009) og ”Den Femte Søster” (2012) som de to første. Det nye album består udelukkende af nye kompositioner af Harald Haugaard selv. 
+Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum, som danner par både musikalsk og privat. Helene Blum har sideløbende en solokarriere og har flere udgivelser bag sig.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1460,7 +1437,9 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2P-cs-rpJ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Med to violiner, to stemmer og rytmiske fodstamp bryder Maja &amp; David grænserne for både musikken og kærligheden. Maja Kjær Jacobsen er rundet af midtjyske sang- og folkemusiktraditioner, og David Boulanger fra Quebec har gennem sit arbejde med gruppen La Bottine Souriante været i spidsen for at sprede den fransk-canadiske musik til Nordame- rika og videre ud i verden.Forskellige spillestile, traditioner og kompositioner blandes til et nyt udtryk,hvor den tekniske dygtighed og tætte sammenspil giver styrke til indlevelsen og oplevelsen. Debutpladen ”Nord” udkom i 2013 og blev i The Living Tradition Magazine benævnt som det ”sprødeste og reneste spil i lang tid”. Efterfølgende har duoen turneret i Canada, USA og Europa, og i løbet af 2015 lander duoens andet album, ”CPH-Café-YUL”.</mutableString>
+                                <string key="text">Med to violiner, to stemmer og rytmiske fodstamp bryder Maja &amp; David grænserne for både musikken og kærligheden. Maja Kjær Jacobsen er rundet af midtjyske sang- og folkemusiktraditioner, og David Boulanger fra Quebec har gennem sit arbejde med gruppen La Bottine Souriante været i spidsen for at sprede den fransk-canadiske musik til Nordame- rika og videre ud i verden.
+Forskellige spillestile, traditioner og kompositioner blandes til et nyt udtryk,
+hvor den tekniske dygtighed og tætte sammenspil giver styrke til indlevelsen og oplevelsen. Debutpladen ”Nord” udkom i 2013 og blev i The Living Tradition Magazine benævnt som det ”sprødeste og reneste spil i lang tid”. Efterfølgende har duoen turneret i Canada, USA og Europa, og i løbet af 2015 lander duoens andet album, ”CPH-Café-YUL”.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1512,7 +1491,8 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0d2-af-FGI" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Klezmermusikken har i årevis stået stærkt herhjemme, og et af de mest markante orkestre er københavnske Mames Babegenush. ”Mors auberginesalat” betyder det direkte oversat fra jiddish, og det seks mand store band har siden 2004 været ivrige i det musikalske verdenskøkken. Den traditionelle jødiske dansemusik er naturligvis en vigtig ingrediens, men også tango, cumbia, rock og electronica blander sig i udtrykket.Mames Babegenush kan få en fest banket op, uanset om de spiller til et bryllup herhjemme eller står på scenen i Carnegie Hall i New York. De modtog hele tre priser i 2010 ved The 2end Internatio- nal Jewish Music Competition i Amsterdam. Gruppens fjerde album, ”Mames Babegenush”, udkom i efteråret 2014. Tønderpublikummet kan glæde sig til en dansevenlig liveoplevelse med klangflader, klarinet, beats og messingblæs.</mutableString>
+                                <string key="text">Klezmermusikken har i årevis stået stærkt herhjemme, og et af de mest markante orkestre er københavnske Mames Babegenush. ”Mors auberginesalat” betyder det direkte oversat fra jiddish, og det seks mand store band har siden 2004 været ivrige i det musikalske verdenskøkken. Den traditionelle jødiske dansemusik er naturligvis en vigtig ingrediens, men også tango, cumbia, rock og electronica blander sig i udtrykket.
+Mames Babegenush kan få en fest banket op, uanset om de spiller til et bryllup herhjemme eller står på scenen i Carnegie Hall i New York. De modtog hele tre priser i 2010 ved The 2end Internatio- nal Jewish Music Competition i Amsterdam. Gruppens fjerde album, ”Mames Babegenush”, udkom i efteråret 2014. Tønderpublikummet kan glæde sig til en dansevenlig liveoplevelse med klangflader, klarinet, beats og messingblæs.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1564,7 +1544,8 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESA-xn-Zzk" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Seks musikere, der bringer stolte traditioner videre og puster ny energi og vitalitet ind i genren. Mànran besøgte Tønder i 2012 og har siden da befæstet deres position som et af de store skotske folkbands. I januar i år var de højt på plakaten på festivalen Celtic Connections i Glasgow, og de har turneret i Europa, USA og Australien. Mànran er highland- og uilleann pipes, violin, fløjte, guitar, harmonika, bas og trommer, og det er lydenaf skotsk traditionsmusik med reels for fuld udblæsning. Mànran tager dog ikke blot til takke med fortidens arvestykker, men skriver også nye sange og bidrager til at udvikle og holde traditionen ved lige. The Daily Record har skrevet om Mànran: ”Mànran er et af Skotlands bedste traditionelle bands, og deres stjerne er absolut opadstigende.”</mutableString>
+                                <string key="text">Seks musikere, der bringer stolte traditioner videre og puster ny energi og vitalitet ind i genren. Mànran besøgte Tønder i 2012 og har siden da befæstet deres position som et af de store skotske folkbands. I januar i år var de højt på plakaten på festivalen Celtic Connections i Glasgow, og de har turneret i Europa, USA og Australien. Mànran er highland- og uilleann pipes, violin, fløjte, guitar, harmonika, bas og trommer, og det er lyden
+af skotsk traditionsmusik med reels for fuld udblæsning. Mànran tager dog ikke blot til takke med fortidens arvestykker, men skriver også nye sange og bidrager til at udvikle og holde traditionen ved lige. The Daily Record har skrevet om Mànran: ”Mànran er et af Skotlands bedste traditionelle bands, og deres stjerne er absolut opadstigende.”</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1613,7 +1594,9 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poU-Eg-Ecz" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Sangskriveren Mary Gauthier kredser om de episke fortællinger, og ”sad songs”er hendes varemærke. Hun bevæger sig ind i sindets dystre lastrum og på det amerikanske samfunds skyggesider. Mary Gauthier er født i 1962 i New Orleans, startede tilværelsen på et børnehjem, blev adopteret, stak af hjemmefra som 15-årig og havde som ung store problemer med stoffer og alkohol. Hun læste filosofi i en årrække og drev senere en cajunrestaurant. Clean og klar til et nyt kapitel begyndte hun som 35-årig at skri- ve sange. Debutalbummet ”Dixie Kitchen” udkom i 1997.Seneste album er ”Trouble And Love” fra 2014, og anmelderne er begejstrede. Selv siger hun i et interview på sit website: ”There’s no such thing as going too deep.” Gaffa gav hele seks stjerner for Mary Gauthiers koncert i Danmark i 2012.</mutableString>
+                                <string key="text">Sangskriveren Mary Gauthier kredser om de episke fortællinger, og ”sad songs”
+er hendes varemærke. Hun bevæger sig ind i sindets dystre lastrum og på det amerikanske samfunds skyggesider. Mary Gauthier er født i 1962 i New Orleans, startede tilværelsen på et børnehjem, blev adopteret, stak af hjemmefra som 15-årig og havde som ung store problemer med stoffer og alkohol. Hun læste filosofi i en årrække og drev senere en cajunrestaurant. Clean og klar til et nyt kapitel begyndte hun som 35-årig at skri- ve sange. Debutalbummet ”Dixie Kitchen” udkom i 1997.
+Seneste album er ”Trouble And Love” fra 2014, og anmelderne er begejstrede. Selv siger hun i et interview på sit website: ”There’s no such thing as going too deep.” Gaffa gav hele seks stjerner for Mary Gauthiers koncert i Danmark i 2012.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1668,7 +1651,9 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5S-2t-wrt" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Begrebet oldtime får virkelig substans med trioen Sheesham, Lotus &amp; ‘Son fra Toronto i Canada. De besøgte Tønder i 2014 og leverede et varmt, legende og musikalsk show, der samtidig var en underholdende historietime. Sheesham, Lotus &amp; ‘Son er et af de mest populære oldtime &amp; roots-navne i Nordamerika, og nu får Tønderpublikummet atter chancen for at opleve dem.Musikken er oldtime, folksongs, fiddle-tunes og andet godt fra den store amerikanske folkemusikhylde. Instrumenterne er violin, banjo, jødeharpe og mundharpe – samt sousafon og forskellige hjemmebyggede instrumen- ter. Blandt andet synger de gennem en såkaldt ”Sephia-phonic Monophone”, et metalmonstrum i stil med en messing- tragt på en antik grammofon.Albummet ”1929” fra 2012 har banet vejen og sendt Sheesham, Lotus &amp; ‘Son ud på talrige festivalgigs og turneer.</mutableString>
+                                <string key="text">Begrebet oldtime får virkelig substans med trioen Sheesham, Lotus &amp; ‘Son fra Toronto i Canada. De besøgte Tønder i 2014 og leverede et varmt, legende og musikalsk show, der samtidig var en underholdende historietime. Sheesham, Lotus &amp; ‘Son er et af de mest populære oldtime &amp; roots-navne i Nordamerika, og nu får Tønderpublikummet atter chancen for at opleve dem.
+Musikken er oldtime, folksongs, fiddle-tunes og andet godt fra den store amerikanske folkemusikhylde. Instrumenterne er violin, banjo, jødeharpe og mundharpe – samt sousafon og forskellige hjemmebyggede instrumen- ter. Blandt andet synger de gennem en såkaldt ”Sephia-phonic Monophone”, et metalmonstrum i stil med en messing- tragt på en antik grammofon.
+Albummet ”1929” fra 2012 har banet vejen og sendt Sheesham, Lotus &amp; ‘Son ud på talrige festivalgigs og turneer.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1720,7 +1705,9 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOQ-SB-785" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">De besøgte Tønder i 2014, og der er ingen tvivl om, at publikum vil nyde gensynet i år. Skerryvore er et af tidens varmeste bud på et folkrockband, der arbejder i samme genre som eksempelvis Runrig og Wolfstone.Det nu syv mand store Skerryvore har ti års jubilæum i år, og det blev fejret med en stor open air-koncert 30. maj i den lil- le by Oban i Skotland. Skerryvore bygger på stolte traditioner, men er ikke bange for at hente inspiration i cajun, country og americana. I front er sangeren Alec Dalglish, der sikrer et absolut udadvendt show.Det var især albummet ”Skerryvore” fra 2010, der skabte hul igennem, og med ”World of Chances” fra 2012 med doser af country, jazz og verdensmusik fik Skerryvore for alvor fat i den internatio- nale scene. Bandets seneste album er ”Chasing The Sun” fra 2014.</mutableString>
+                                <string key="text">De besøgte Tønder i 2014, og der er ingen tvivl om, at publikum vil nyde gensynet i år. Skerryvore er et af tidens varmeste bud på et folkrockband, der arbejder i samme genre som eksempelvis Runrig og Wolfstone.
+Det nu syv mand store Skerryvore har ti års jubilæum i år, og det blev fejret med en stor open air-koncert 30. maj i den lil- le by Oban i Skotland. Skerryvore bygger på stolte traditioner, men er ikke bange for at hente inspiration i cajun, country og americana. I front er sangeren Alec Dalglish, der sikrer et absolut udadvendt show.
+Det var især albummet ”Skerryvore” fra 2010, der skabte hul igennem, og med ”World of Chances” fra 2012 med doser af country, jazz og verdensmusik fik Skerryvore for alvor fat i den internatio- nale scene. Bandets seneste album er ”Chasing The Sun” fra 2014.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1769,7 +1756,11 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPI-XZ-dLz" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Instrumentalgruppen Spiro er i de senere år blevet kendt som et af de mest uforudsigelige engelske folkbands. Gruppen voksede ud af sessionsceneni Bristol, hvor Jane Harbour (violin), Alex Vann (mandolin), Jason Sparkes (harmonika) og Joe Hunt (guitar) fandt sammen i gruppen The Famous Five. På trods af den traditionelle instrumentering er Spiro ikke bare et folkband. Gruppen låner fra den klassiske minimalmusik og dance-musikken.Ved at lade folkemelodier og stumper af disse være det skelet, musikken bygges op omkring, eksperimenteres der med gentagne forløb, som man kender det fra den elektroniske musik.Lyden kan minde om danske Dreamers’ Circus og skotske Lau.Trods over 20 år på bagen er det kun blevet til fire albums. Det senest er ”Lightbox” fra 2009 udgivet på Peter Gabriels Real World Records.</mutableString>
+                                <string key="text">Instrumentalgruppen Spiro er i de senere år blevet kendt som et af de mest uforudsigelige engelske folkbands. Gruppen voksede ud af sessionscenen
+i Bristol, hvor Jane Harbour (violin), Alex Vann (mandolin), Jason Sparkes (harmonika) og Joe Hunt (guitar) fandt sammen i gruppen The Famous Five. På trods af den traditionelle instrumentering er Spiro ikke bare et folkband. Gruppen låner fra den klassiske minimalmusik og dance-musikken.
+Ved at lade folkemelodier og stumper af disse være det skelet, musikken bygges op omkring, eksperimenteres der med gentagne forløb, som man kender det fra den elektroniske musik.
+Lyden kan minde om danske Dreamers’ Circus og skotske Lau.
+Trods over 20 år på bagen er det kun blevet til fire albums. Det senest er ”Lightbox” fra 2009 udgivet på Peter Gabriels Real World Records.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1824,7 +1815,9 @@ Tønderpublikummet havde også i 2014 glæde af Harald Haugaard og Helene Blum,
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ula-LO-Qmj" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Der går en linje fra Waylon Jennings, Willie Nelson og outlaw-countrymusikkens øvrige gamle helte til 36-årige Sturgill Simpson. Efter blot to albumudgivelser har Sturgill Simpson slået sit navn fast som en af tidens vigtigste arvtagere af countrymusikkens rebelske afdeling.Han kommer fra Kentucky, har spillet bluegrass, været jernbanearbejder og læst flittigt i bøger om superstrengteorier, kvantefysik og religion. I 2012 flyttede han til Nashville og udgav året efter debutalbummet ” ”High Top Mountain”. Blot ti måneder senere kom næste album, ” ”Metamodern Sounds in Country Music”. Sturgill Simpsons vaskeægte country med småpsykedeliske sidehistorier, Telecaster-twang og anti-kommerciel attitude har fået flere kritikere til at kalde ham countrymusikkens frelser.Selv siger han,” I’m just trying to save myself.”</mutableString>
+                                <string key="text">Der går en linje fra Waylon Jennings, Willie Nelson og outlaw-countrymusikkens øvrige gamle helte til 36-årige Sturgill Simpson. Efter blot to albumudgivelser har Sturgill Simpson slået sit navn fast som en af tidens vigtigste arvtagere af countrymusikkens rebelske afdeling.
+Han kommer fra Kentucky, har spillet bluegrass, været jernbanearbejder og læst flittigt i bøger om superstrengteorier, kvantefysik og religion. I 2012 flyttede han til Nashville og udgav året efter debutalbummet ” ”High Top Mountain”. Blot ti måneder senere kom næste album, ” ”Metamodern Sounds in Country Music”. Sturgill Simpsons vaskeægte country med småpsykedeliske sidehistorier, Telecaster-twang og anti-kommerciel attitude har fået flere kritikere til at kalde ham countrymusikkens frelser.
+Selv siger han,” I’m just trying to save myself.”</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1923,14 +1916,15 @@ Sidst i 60’erne drog Allan Taylor fra Brighton til Greenwich Village i New Yor
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Bellowhead.png" translatesAutoresizingMaskIntoConstraints="NO" id="n5W-UG-Wqg">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Bellowhead.png" translatesAutoresizingMaskIntoConstraints="NO" id="n5W-UG-Wqg">
                                 <rect key="frame" x="16" y="72" width="568" height="256"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPO-Ei-jxG" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPO-Ei-jxG" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="336" width="568" height="256"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">I løbet af det sidste årti har Bellowhead udviklet sig til at blive et af de absolut største folk-acts i England. Bandet består af 11 personligheder, der på forskellig vis har været med til at præge mangfoldighe- den på den engelske folkemusik-scene.I front er Jon Boden (violin, sang) og John Spiers (melodeon, concertina), der i duoen Spiers &amp; Boden lagde grunden til den lyd, der kendetegner Bellowhead. Bellowhead dyrker gerne det muntre og teatralske. Som når alle i bandet kaster sig ud i den traditionelle morris-dans, eller når sømandsviser bliver fremført med storheden og vildskaben fra de gråkolde bølger. 
-I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byder på en coverversion af Linda &amp; Richard Thompson-sangen ”I Want To See The Bright Lights Tonight.”</mutableString>
+                                <string key="text">I løbet af det sidste årti har Bellowhead udviklet sig til at blive et af de absolut største folk-acts i England. Bandet består af 11 personligheder, der på forskellig vis har været med til at præge mangfoldighe- den på den engelske folkemusik-scene.
+I front er Jon Boden (violin, sang) og John Spiers (melodeon, concertina), der i duoen Spiers &amp; Boden lagde grunden til den lyd, der kendetegner Bellowhead. Bellowhead dyrker gerne det muntre og teatralske. Som når alle i bandet kaster sig ud i den traditionelle morris-dans, eller når sømandsviser bliver fremført med storheden og vildskaben fra de gråkolde bølger. 
+I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byder på en coverversion af Linda &amp; Richard Thompson-sangen ”I Want To See The Bright Lights Tonight.”</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1982,7 +1976,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Sn-37-ern" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Chris Smithers sange er blevet indspillet af blandt andre Bonnie Raitt, Emmylou Harris og Diana Krall, og selv har han over 20 udgivelser bag sig. Som ung blev Chris Smither præsenteret for bluesmu- sikken og tog i midten af 60’erne turen til Boston for at blive en del af det spirende folk-miljø omkring Harvard Square.I 1971 udkom Chris Smithers første album ”I’m A Stranger Too”. I 1997 bevægede albummet ”Small Revelation” sig op ad americana-hitlisterne, og Chris Smither spillede koncerter med B.B. King og Nancy Griffith. Året efter turnerede han sammen med Ramblin’ Jack Elliott, Dave Alvin og Tom Russell på en succesfuld turné under navnet ”Monsters of Folk”. I anledningen af 50 års-jubilæet i 2014 udgav Chris Smither den retro- spektive ”Still on the Levee”.</mutableString>
+                                <string key="text">Chris Smithers sange er blevet indspillet af blandt andre Bonnie Raitt, Emmylou Harris og Diana Krall, og selv har han over 20 udgivelser bag sig. Som ung blev Chris Smither præsenteret for bluesmu- sikken og tog i midten af 60’erne turen til Boston for at blive en del af det spirende folk-miljø omkring Harvard Square.
+I 1971 udkom Chris Smithers første album ”I’m A Stranger Too”. I 1997 bevægede albummet ”Small Revelation” sig op ad americana-hitlisterne, og Chris Smither spillede koncerter med B.B. King og Nancy Griffith. Året efter turnerede han sammen med Ramblin’ Jack Elliott, Dave Alvin og Tom Russell på en succesfuld turné under navnet ”Monsters of Folk”. I anledningen af 50 års-jubilæet i 2014 udgav Chris Smither den retro- spektive ”Still on the Levee”.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2034,7 +2030,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUD-fp-Z4G" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">De har været på Tønder Festivalen mange gange før, og irske Danú er oplagte gengangere. Gruppen tilhører eliten inden for den traditionelle irske musik og er et af Irlands store internationale navne. Danú blev dannet i 1995, har udgivet otte album, turneret flittigt i Europa og Nordamerika og vundet adskillige priser. Blandt andet ”Best Traditional Group” to gange ved BBC Folk Awards.Danú består af Benny McCarthy, accordion, Dónal Clancy, guitar – søn af LiamClancy fra de navnkundige The Clancy Brothers, Donnchadh Gough, bodhrán, uillian pipes, Muireann MacAmhlaoibh, vokal, Oisín McAuley, violin, og Éamon Doorley (som også spiller med Julie Fowlis), bouzouki, violin. Seneste album er ”Buan” (januar 2015) med Dónal Lunny (Planxty, The Bothy Band) som producer. Dónal Lunny gæster i øvrigt Tønder sammen med Usher’s Island.</mutableString>
+                                <string key="text">De har været på Tønder Festivalen mange gange før, og irske Danú er oplagte gengangere. Gruppen tilhører eliten inden for den traditionelle irske musik og er et af Irlands store internationale navne. Danú blev dannet i 1995, har udgivet otte album, turneret flittigt i Europa og Nordamerika og vundet adskillige priser. Blandt andet ”Best Traditional Group” to gange ved BBC Folk Awards.
+Danú består af Benny McCarthy, accordion, Dónal Clancy, guitar – søn af Liam
+Clancy fra de navnkundige The Clancy Brothers, Donnchadh Gough, bodhrán, uillian pipes, Muireann MacAmhlaoibh, vokal, Oisín McAuley, violin, og Éamon Doorley (som også spiller med Julie Fowlis), bouzouki, violin. Seneste album er ”Buan” (januar 2015) med Dónal Lunny (Planxty, The Bothy Band) som producer. Dónal Lunny gæster i øvrigt Tønder sammen med Usher’s Island.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2086,7 +2084,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ae-0f-gl5" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">“The best in town.” Sådan lyder det i hjembyen New Orleans om den talentfulde sangerinde Meschiya Lake. Store ord i en selvbevidst musikby, men de holder. De publikummer, der var så heldige at opleve Meschiya Lake &amp; The Little Big Horns i 2012 og 2013 på Tønder Festivalen, vil uden tvivl være enige. Den amerikanske sangerinde og hendes band støver den traditionelle New Orleans-jazz af og tilfører elementer af andre stilarter – og gør det på en så velswingende måde, at kun de allermest stivbenede kan sidde stille. ”The spirit of New Orleans” bliver lukket ud af flasken, og i centrum for det hele står Meschiya Lake med både sødme og power. Meschiya Lake &amp; The Little Big Horns har udgivet to album, ”Lucky Devil” i 2010 og ”Foolers Gold” i 2013.</mutableString>
+                                <string key="text">“The best in town.” Sådan lyder det i hjembyen New Orleans om den talentfulde sangerinde Meschiya Lake. Store ord i en selvbevidst musikby, men de holder. De publikummer, der var så heldige at opleve Meschiya Lake &amp; The Little Big Horns i 2012 og 2013 på Tønder Festivalen, vil uden tvivl være enige. Den amerikanske sangerinde og hendes band støver den traditionelle New Orleans-jazz af og tilfører elementer af andre stilarter – og gør det på en så velswingende måde, at kun de allermest stivbenede kan sidde stille. ”The spirit of New Orleans” bliver lukket ud af flasken, og i centrum for det hele står Meschiya Lake med både sødme og power. Meschiya Lake &amp; The Little Big Horns har udgivet to album, ”Lucky Devil” i 2010 og ”Foolers Gold” i 2013.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2138,7 +2136,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10d-Bt-MgI" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Han er en af landets bedste blues- og soulsangere og tillige en ferm guitarist. Gennem mere end ti år har han sammen med sit band arbejdet sig op fra de små klubber og spillesteder i bluesmiljøerne til store festivaler og koncertsale. Mike Andersen har fået et bredt publikum i tale både herhjemme og internationalt.Han er aktuel med sit femte album, ”Home” og turnerer flittigt i forår og sommer 2015 i Danmark, Norge og Tyskland. 37-årige Mikkel Andersen slog op gennem 90’erne sit navn fast som bluesguitarist og snart også som sanger. Debutalbummet ”My Love For The Blues” i 2002 fik fremragende anmeldelser. Mike Andersen kommer til Tønder med sit band bestående af Kristian Fogh, tangenter, Jens Kristian Dam, trommer, Kristian Kold, bas, og Johannes Nørrelykke, guitar.</mutableString>
+                                <string key="text">Han er en af landets bedste blues- og soulsangere og tillige en ferm guitarist. Gennem mere end ti år har han sammen med sit band arbejdet sig op fra de små klubber og spillesteder i bluesmiljøerne til store festivaler og koncertsale. Mike Andersen har fået et bredt publikum i tale både herhjemme og internationalt.
+Han er aktuel med sit femte album, ”Home” og turnerer flittigt i forår og sommer 2015 i Danmark, Norge og Tyskland. 37-årige Mikkel Andersen slog op gennem 90’erne sit navn fast som bluesguitarist og snart også som sanger. Debutalbummet ”My Love For The Blues” i 2002 fik fremragende anmeldelser. Mike Andersen kommer til Tønder med sit band bestående af Kristian Fogh, tangenter, Jens Kristian Dam, trommer, Kristian Kold, bas, og Johannes Nørrelykke, guitar.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2190,7 +2189,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-6D-odn" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Sidste år fyldte Niels Hausgaard 70 år - 31. august midt under Tønder Festivalen. Det gjorde han dog ikke et stort nummer ud af. Til gengæld gjorde han det, haner bedst til, nemlig at underholde en fyldt sal. Niels Hausgaards aftener på Kulturhuset er legendariske, og han har altid gode gæster med.Den nordjyske entertainer og sangskriver er et af Tønder Festivalens sikre og stærke kort. Publikum elsker ham, hvilket hans flere måneder lange vinterturneer med udsolgte huse vidner om. Han optrådte første gang i Tønder i 1977 og har været et trofast indslag lige siden. Folkemusikken og visesangen er Haus- gaards fundament, og som han sagde om Tønderpublikummet for nogle år siden: “Det er folk, der interesserer sig for den grundlæggende musik. Den musik, som al anden musik står på skuldrene af.”</mutableString>
+                                <string key="text">Sidste år fyldte Niels Hausgaard 70 år - 31. august midt under Tønder Festivalen. Det gjorde han dog ikke et stort nummer ud af. Til gengæld gjorde han det, han
+er bedst til, nemlig at underholde en fyldt sal. Niels Hausgaards aftener på Kulturhuset er legendariske, og han har altid gode gæster med.
+Den nordjyske entertainer og sangskriver er et af Tønder Festivalens sikre og stærke kort. Publikum elsker ham, hvilket hans flere måneder lange vinterturneer med udsolgte huse vidner om. Han optrådte første gang i Tønder i 1977 og har været et trofast indslag lige siden. Folkemusikken og visesangen er Haus- gaards fundament, og som han sagde om Tønderpublikummet for nogle år siden: “Det er folk, der interesserer sig for den grundlæggende musik. Den musik, som al anden musik står på skuldrene af.”</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2242,7 +2243,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9On-7Z-V4O" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Når Poul Krebs går på scenen i Tønder i 2015, bliver det med et hold prominente skandinaviske venner: Den svenske sangerinde Lisa Nilsson, den svenske sangskriver og sanger Daniel Lemma og Krebs’ trofaste sanger- og sangskriverkolleger fra Norge, Claudia Scott og Henning Kvitnes. Poul Krebs er en af landets mest populære sangskrivere og har gæstet Tønder mange gange. Blandt andet med ”Song Island Revue” i 2008 og med et stort hold musikalske venner ved festiva- lens 40 års fødselsdag sidste år.Lisa Nilsson, der fik sit store gennembrud med ”Himlen Runt Hörnet” i 1992, har arbejdet sammen med Poul Krebs på hans album ”Asfalt” fra 2014. Samarbej- det mellem Poul Krebs, Claudia Scott og Henning Kvitnes går flere årtier tilbage, og i 2011 turnerede Poul Krebs sammen med Daniel Lemma.</mutableString>
+                                <string key="text">Når Poul Krebs går på scenen i Tønder i 2015, bliver det med et hold prominente skandinaviske venner: Den svenske sangerinde Lisa Nilsson, den svenske sangskriver og sanger Daniel Lemma og Krebs’ trofaste sanger- og sangskriverkolleger fra Norge, Claudia Scott og Henning Kvitnes. Poul Krebs er en af landets mest populære sangskrivere og har gæstet Tønder mange gange. Blandt andet med ”Song Island Revue” i 2008 og med et stort hold musikalske venner ved festiva- lens 40 års fødselsdag sidste år.
+Lisa Nilsson, der fik sit store gennembrud med ”Himlen Runt Hörnet” i 1992, har arbejdet sammen med Poul Krebs på hans album ”Asfalt” fra 2014. Samarbej- det mellem Poul Krebs, Claudia Scott og Henning Kvitnes går flere årtier tilbage, og i 2011 turnerede Poul Krebs sammen med Daniel Lemma.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2294,7 +2296,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uak-Be-2PA" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Opskriften er umiddelbart simpel: Ti strenge (en violin og en guitar) og et gedeskind (en bodhrán). At dømme efter valg af instrumenter, skiller Ten Strings And A Goat Skin sig måske ikke ud fra så mange andre på de canadiske Prince Edwards Islands, hvor den keltiske musik står stærkt. Hvad de tre unge fyre får ud af instrumenterne er en helt anden sag. Ten Strings And A Goat Skin er inspireret af bands som Lau, Solas, Flook og Kíla og sangskriveren Stan Rogers, men det musikalske udtryk er unikt. De tætte fraseringer og hurtige melodier, der er kendetegnende for den keltiske musik i det østlige Canada, følges til dørs af den kraftfulde folk-lyd, der de seneste år har bragt folkemusikinspirerede bands på hitlisterne. Trioens seneste udgivelse er ”Corbeau” fra 2013.</mutableString>
+                                <string key="text">Opskriften er umiddelbart simpel: Ti strenge (en violin og en guitar) og et gedeskind (en bodhrán). At dømme efter valg af instrumenter, skiller Ten Strings And A Goat Skin sig måske ikke ud fra så mange andre på de canadiske Prince Edwards Islands, hvor den keltiske musik står stærkt. Hvad de tre unge fyre får ud af instrumenterne er en helt anden sag. Ten Strings And A Goat Skin er inspireret af bands som Lau, Solas, Flook og Kíla og sangskriveren Stan Rogers, men det musikalske udtryk er unikt. De tætte fraseringer og hurtige melodier, der er kendetegnende for den keltiske musik i det østlige Canada, følges til dørs af den kraftfulde folk-lyd, der de seneste år har bragt folkemusikinspirerede bands på hitlisterne. Trioens seneste udgivelse er ”Corbeau” fra 2013.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2346,7 +2348,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaN-Dw-cZ0" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Barra MacNeils forener familieklan og folkemusikhistorie på fineste vis. The Barra MacNeils, som gæstede Tønder i 1997, har spillet sammen siden 80’erne og har et ry som nogle af de bedste ambassadører for den keltiske musik og kultur fra Cape Breton. En koncert med The Barra MacNeils er en rejse til folkemusikken, historien, sproget, fortællingerne og kulturen i Nova Scotia. The Barra MacNeils har optrådt over detmeste af verden, udgivet 17 album og modtaget stribevis af priser.The Barra MacNeils er: Kyle, vokal, guitar, violin, mandolin - Lucy, vokal, bodhrán, celtic harp, violin, stepdancing - Sheumas, vokal, keyboards, bodhrán, violin, bouzouki - Stewart, vokal, accor- dion, tin whistle, fløjte, bouzouki, guitar, stepdancing - Boyd, mandolin, violin, guitar, banjo, percussion, stepdancing, og Jamie Gatti, bas.</mutableString>
+                                <string key="text">The Barra MacNeils forener familieklan og folkemusikhistorie på fineste vis. The Barra MacNeils, som gæstede Tønder i 1997, har spillet sammen siden 80’erne og har et ry som nogle af de bedste ambassadører for den keltiske musik og kultur fra Cape Breton. En koncert med The Barra MacNeils er en rejse til folkemusikken, historien, sproget, fortællingerne og kulturen i Nova Scotia. The Barra MacNeils har optrådt over det
+meste af verden, udgivet 17 album og modtaget stribevis af priser.
+The Barra MacNeils er: Kyle, vokal, guitar, violin, mandolin - Lucy, vokal, bodhrán, celtic harp, violin, stepdancing - Sheumas, vokal, keyboards, bodhrán, violin, bouzouki - Stewart, vokal, accor- dion, tin whistle, fløjte, bouzouki, guitar, stepdancing - Boyd, mandolin, violin, guitar, banjo, percussion, stepdancing, og Jamie Gatti, bas.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2398,7 +2402,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xb-3s-7Sc" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Bros Landreth fra Winnipeg i Canada er ikke vokset op i sydstaterne i USA, men de har et godt greb om rootsrocken i den rene form. Hvis man har en svaghed for John Hiatt, Allman Brothers Band, Little Feat og Bonnie Raitt, er der virkelig god grund til at møde op, når The Bros Landreth går på scenen i Tønder. Joey Landreth synger og spiller slide, som får én til at sende en hilsen til salig Lowell George. Der er rå bluesfeeling både i vokal og guitar. Hans bror Dave spiller bas, Ariel Posen spiller guitar og lapsteel, og Ryan ”Rhino” Voth sidder bag trommerne. Debutalbummet ”Let It Lie” kom på gaden tidligere i år og har sendt The Bros Landreth af sted mod højere bjerge. Tønder Festivalen har traditionfor at præsentere nye navne på vej op – således også med The Bros Landreth.</mutableString>
+                                <string key="text">The Bros Landreth fra Winnipeg i Canada er ikke vokset op i sydstaterne i USA, men de har et godt greb om rootsrocken i den rene form. Hvis man har en svaghed for John Hiatt, Allman Brothers Band, Little Feat og Bonnie Raitt, er der virkelig god grund til at møde op, når The Bros Landreth går på scenen i Tønder. Joey Landreth synger og spiller slide, som får én til at sende en hilsen til salig Lowell George. Der er rå bluesfeeling både i vokal og guitar. Hans bror Dave spiller bas, Ariel Posen spiller guitar og lapsteel, og Ryan ”Rhino” Voth sidder bag trommerne. Debutalbummet ”Let It Lie” kom på gaden tidligere i år og har sendt The Bros Landreth af sted mod højere bjerge. Tønder Festivalen har tradition
+for at præsentere nye navne på vej op – således også med The Bros Landreth.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2450,7 +2455,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-A0-YPE" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tre unge musikere med stor kærlighed til den traditionelle musik. Koady Chaisson spiller banjo, og hans fætter Tim Chaisson spiller violin. De kommer fra Prince Edward Island ved Nova Scotia og er sjette generation af en slægt med spillemænd og folkemusikere. Tredje mand i trioen er guitaristen Jake Charron, der kommer fra Ontario.The East Pointers udgav deres selvbe- titlede EP ”The East Pointers” i oktober2014. Udgivelsen har givet dem to priser i maj 2015 ved Prince Edward Islands Music Week. Samtidig er trioen i fuld gang med at skabe sig et navn i Canada, og i juni er de på turné i England. I foråret 2015 var de været i studiet, og en nyt album er undervejs. The East Pointers er med på den store Fanø/Cape Breton- aften fredag på Tønder Festivalen.</mutableString>
+                                <string key="text">Tre unge musikere med stor kærlighed til den traditionelle musik. Koady Chaisson spiller banjo, og hans fætter Tim Chaisson spiller violin. De kommer fra Prince Edward Island ved Nova Scotia og er sjette generation af en slægt med spillemænd og folkemusikere. Tredje mand i trioen er guitaristen Jake Charron, der kommer fra Ontario.
+The East Pointers udgav deres selvbe- titlede EP ”The East Pointers” i oktober
+2014. Udgivelsen har givet dem to priser i maj 2015 ved Prince Edward Islands Music Week. Samtidig er trioen i fuld gang med at skabe sig et navn i Canada, og i juni er de på turné i England. I foråret 2015 var de været i studiet, og en nyt album er undervejs. The East Pointers er med på den store Fanø/Cape Breton- aften fredag på Tønder Festivalen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2502,7 +2509,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwA-4i-hm2" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tim O’Brien har i en årrække været en flittig gæst på Tønder Festival, men først i 2010 lykkedes det at få vennerne fra Hot Rize til Tønder. Hot Rize opstod sidst i 70’erne og blev hurtigt et af de mest fremtrædende bluegrassbands i USA. I 1990 stoppede Hot Rize som fuldtidsband, og medlemmerne tog hul på nye projekter. De fortsatte dog med lejlighedsvis at spille reunion-koncerter, men der skulle gå 24 år, før der kom endnu et studie-album fra kvartetten. ”When I’m Free” udkom sidste år og blev efterfulgt af den første store USA-tour i årtier.Ud over Tim O’Brien på mandolin består Hot Rize af Pete Wernick ”Dr. Banjo”, bassist Nick Forster og guitarist Bryan Sutton. De samme går igen i western swing-bandet Red Knuckles and the Trail- blazers, der ofte spiller et sæt ved Hot Rize’s koncerter.</mutableString>
+                                <string key="text">Tim O’Brien har i en årrække været en flittig gæst på Tønder Festival, men først i 2010 lykkedes det at få vennerne fra Hot Rize til Tønder. Hot Rize opstod sidst i 70’erne og blev hurtigt et af de mest fremtrædende bluegrassbands i USA. I 1990 stoppede Hot Rize som fuldtidsband, og medlemmerne tog hul på nye projekter. De fortsatte dog med lejlighedsvis at spille reunion-koncerter, men der skulle gå 24 år, før der kom endnu et studie-album fra kvartetten. ”When I’m Free” udkom sidste år og blev efterfulgt af den første store USA-tour i årtier.
+Ud over Tim O’Brien på mandolin består Hot Rize af Pete Wernick ”Dr. Banjo”, bassist Nick Forster og guitarist Bryan Sutton. De samme går igen i western swing-bandet Red Knuckles and the Trail- blazers, der ofte spiller et sæt ved Hot Rize’s koncerter.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2554,7 +2562,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLJ-QX-FDR" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Han har haft fart på, 19-årige Jacob Dinesen fra Tønder, siden han for nogle år siden begyndte at optræde for alvor med sine americana- og folkinspirerede sange. I 2012 kom han med i årets Tønder Revy, og samme år optrådte han – flere gange – på P4 Scenen på Tønder Festivalen. I september samme år spillede han sammen med Allan Taylor ved en koncert på Hagge’s Pub i Tønder. Et legat gjorde det muligt for ham at tage til Austin, Texas, på et ugelangt ophold i sangskriverprojektet ”House of Songs”.I 2013 var han på plakaten på Skagen Festivalen. Det er han også i år, og det er med stor glæde, at Tønder Festivalen kan præsentere bysbarnet Jacob Dinesen, der efter at have afsluttet 3. g på musik- linjen på Tønder Gymnasium sidste år er godt i gang med karrieren som sangskri- ver og rejsende i musik.</mutableString>
+                                <string key="text">Han har haft fart på, 19-årige Jacob Dinesen fra Tønder, siden han for nogle år siden begyndte at optræde for alvor med sine americana- og folkinspirerede sange. I 2012 kom han med i årets Tønder Revy, og samme år optrådte han – flere gange – på P4 Scenen på Tønder Festivalen. I september samme år spillede han sammen med Allan Taylor ved en koncert på Hagge’s Pub i Tønder. Et legat gjorde det muligt for ham at tage til Austin, Texas, på et ugelangt ophold i sangskriverprojektet ”House of Songs”.
+I 2013 var han på plakaten på Skagen Festivalen. Det er han også i år, og det er med stor glæde, at Tønder Festivalen kan præsentere bysbarnet Jacob Dinesen, der efter at have afsluttet 3. g på musik- linjen på Tønder Gymnasium sidste år er godt i gang med karrieren som sangskri- ver og rejsende i musik.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2603,7 +2613,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdJ-cs-dwo" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Scoop i Tønder: John Prine er en af de helt store amerikanske sangskrivere. Hans evne til at skrive enkle, fængende sange og fortælle vedkommende og be- vægende historier er legendarisk. Utallige andre kunstnere har været inspireret af ham, blandt andre Bob Dylan og Johnny Cash.John Prine begyndte karrieren på folkscenen i Chicago sidst i 60’erne. På opfordring fra et par venner stillede han en aften op til en ”open mic”-aften på en folk club. Det satte gang i sagerne, og blandt andre Kris Kristofferson fik øje på den talentfulde musiker.John Prine udgav sit første album i 1971. Hans anerkendelse steg hurtigt, og snart blev hans sange indspillet af andre kunstnere. Eksempelvis The EverLy Brothers: ”Paradise”, Bonnie Raitt: ”Angel From Montgomery” og Johnny Cash: ”Sam Stone”.</mutableString>
+                                <string key="text">Scoop i Tønder: John Prine er en af de helt store amerikanske sangskrivere. Hans evne til at skrive enkle, fængende sange og fortælle vedkommende og be- vægende historier er legendarisk. Utallige andre kunstnere har været inspireret af ham, blandt andre Bob Dylan og Johnny Cash.
+John Prine begyndte karrieren på folkscenen i Chicago sidst i 60’erne. På opfordring fra et par venner stillede han en aften op til en ”open mic”-aften på en folk club. Det satte gang i sagerne, og blandt andre Kris Kristofferson fik øje på den talentfulde musiker.
+John Prine udgav sit første album i 1971. Hans anerkendelse steg hurtigt, og snart blev hans sange indspillet af andre kunstnere. Eksempelvis The EverLy Brothers: ”Paradise”, Bonnie Raitt: ”Angel From Montgomery” og Johnny Cash: ”Sam Stone”.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2658,7 +2670,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JY3-gc-O70" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Det syv mand store band fra Thy har et godt greb om americana, folk og eget musikalsk ophav. Det unge musikmiljø i Thy står stærkt i disse år, og Jonah Blacksmith har dybe rødder i det nordvestjyske. De to brødre Simon og Thomas Alstrup er i front i bandetpå henholdsvis vokal og guitar og bas og banjo. De har fået folkemusik og sangglæde med fra barnsben, og bandet er opkaldt efter deres farfar, Johannes Alstrup i Koldby, også kaldet Johannes Smed, der spillede banjo og var inspiration for børnebørnene.Jonah Blacksmith er opdateret indierock med storladne lydflader og elementer af folk, country og skandinavisk tone. Bandet har eksisteret i fire år og udgav deres debutalbum ”Northern Trail” i november 2014. Et nyt dansk navn med en naturlig plads på scenen i Tønder.</mutableString>
+                                <string key="text">Det syv mand store band fra Thy har et godt greb om americana, folk og eget musikalsk ophav. Det unge musikmiljø i Thy står stærkt i disse år, og Jonah Blacksmith har dybe rødder i det nordvestjyske. De to brødre Simon og Thomas Alstrup er i front i bandet
+på henholdsvis vokal og guitar og bas og banjo. De har fået folkemusik og sangglæde med fra barnsben, og bandet er opkaldt efter deres farfar, Johannes Alstrup i Koldby, også kaldet Johannes Smed, der spillede banjo og var inspiration for børnebørnene.
+Jonah Blacksmith er opdateret indierock med storladne lydflader og elementer af folk, country og skandinavisk tone. Bandet har eksisteret i fire år og udgav deres debutalbum ”Northern Trail” i november 2014. Et nyt dansk navn med en naturlig plads på scenen i Tønder.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2710,7 +2724,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EH-1T-bOn" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Sangene har været en del af hans liv, siden han som 20-årig købte sin første guitar. Det var først i 60’erne, hvor den unge Richard J. Dobson havde forfat- terdrømme og tampede løs på sin Smith Corona skrivemaskine. Men guitaren tiltog sig mere og mere plads, og snart var han i gang med at skrive sange. Først i 70’erne boede han i Nashville og fik lagt grunden til en sangskriver- og musiker- karriere, der senere bragte ham sammen med folk som Guy Clark, Rodney Crowell og Townes Van Zandt. Op gennem 80’erne var Richard J. Dobson særdeles aktiv i Nashville, og han udgav en række albums i den periode. Han fik kontrakt med det schweiziske label Brambus, hvor han op til i dag har udgivet plader. 73-årige Richard J. Dobson er sangskriver af den gamle skole, og Townes Van Zandt udtalte engang om ham: ”His rhythms and ideas are great. His words are precise and never wasted. He’s one of my favorite songwriters.” Richard J. Dobson er naturligvis med på den store Townes Van Zandt Tribute koncert på Tønder Festivalen.</mutableString>
+                                <string key="text">Sangene har været en del af hans liv, siden han som 20-årig købte sin første guitar. Det var først i 60’erne, hvor den unge Richard J. Dobson havde forfat- terdrømme og tampede løs på sin Smith Corona skrivemaskine. Men guitaren tiltog sig mere og mere plads, og snart var han i gang med at skrive sange. Først i 70’erne boede han i Nashville og fik lagt grunden til en sangskriver- og musiker- karriere, der senere bragte ham sammen med folk som Guy Clark, Rodney Crowell og Townes Van Zandt. Op gennem 80’erne var Richard J. Dobson særdeles aktiv i Nashville, og han udgav en række albums i den periode. Han fik kontrakt med det schweiziske label Brambus, hvor han op til i dag har udgivet plader. 73-årige Richard J. Dobson er sangskriver af den gamle skole, og Townes Van Zandt udtalte engang om ham: ”His rhythms and ideas are great. His words are precise and never wasted. He’s one of my favorite songwriters.” Richard J. Dobson er naturligvis med på den store Townes Van Zandt Tribute koncert på Tønder Festivalen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2762,7 +2776,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNy-du-agw" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">En stilistisk ener som guitarist og en særdeles anerkendt sangskriver. Den 66-årige Richard Thompson har om nogen været med til at definere begrebet engelsk folkrock og var med til at danne Fairport Convention i 1967. I 70’erne og i starten af 80’erne var samarbejdet med hans daværende kone Linda Thompson i centrum. Især duoens debutalbum ”I Want To See The Bright Lights Tonight” står som en milepæl. I 1983 udgav Richard Thompson ”Hand Of Kindness”, der varslede en ny æra for ham som solist. Richard Thompson har flere end 40 udgivelser bag sig, og mange andre kunstnere har indspillet hans sange. Blandt andre Robert Plant, Elvis Costello, Bonnie Raitt, David Byrne og Don Henley. Som guitarist har hans særlige ”hybrid fingerpickin’ style” bragt ham helt op i toppen af guitaristernes kanonliste.</mutableString>
+                                <string key="text">En stilistisk ener som guitarist og en særdeles anerkendt sangskriver. Den 66-årige Richard Thompson har om nogen været med til at definere begrebet engelsk folkrock og var med til at danne Fairport Convention i 1967. I 70’erne og i starten af 80’erne var samarbejdet med hans daværende kone Linda Thompson i centrum. Især duoens debutalbum ”I Want To See The Bright Lights Tonight” står som en milepæl. I 1983 udgav Richard Thompson ”Hand Of Kindness”, der varslede en ny æra for ham som solist. Richard Thompson har flere end 40 udgivelser bag sig, og mange andre kunstnere har indspillet hans sange. Blandt andre Robert Plant, Elvis Costello, Bonnie Raitt, David Byrne og Don Henley. Som guitarist har hans særlige ”hybrid fingerpickin’ style” bragt ham helt op i toppen af guitaristernes kanonliste.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2814,7 +2828,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mim-OQ-8Ve" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">ROD er et årligt tilbagevendende folkemusikstævne for unge mellem 15 og 25 år, der foregår i påsken. Men ROD er meget mere end det. ROD er blevet en ungdomsbevægelse, hvis betydning for folkemusikkens udvikling i Danmark har været enorm. Sammen med Folkemusik- konservatoriet har ROD været med til at skabe en fornyet og spirende interesse for folkemusik blandt unge. ROD har gen- nem de seneste år oplevet en fordobling i antallet af medlemmer, hvilket tydeligt indikerer, at ROD har skabt et voksende ungdomsmiljø omkring det at spille og lytte til folkemusik i Danmark.På ROD finder man en blanding af nybegyndere, let øvede musikere og gar- vede musikere. Dét der forener dem er kærligheden til folkemusikken og lysten til at spille og udleve musikken i fællesskab. Resultaterne kan for første gang opleves på årets Tønder Festival.</mutableString>
+                                <string key="text">ROD er et årligt tilbagevendende folkemusikstævne for unge mellem 15 og 25 år, der foregår i påsken. Men ROD er meget mere end det. ROD er blevet en ungdomsbevægelse, hvis betydning for folkemusikkens udvikling i Danmark har været enorm. Sammen med Folkemusik- konservatoriet har ROD været med til at skabe en fornyet og spirende interesse for folkemusik blandt unge. ROD har gen- nem de seneste år oplevet en fordobling i antallet af medlemmer, hvilket tydeligt indikerer, at ROD har skabt et voksende ungdomsmiljø omkring det at spille og lytte til folkemusik i Danmark.
+På ROD finder man en blanding af nybegyndere, let øvede musikere og gar- vede musikere. Dét der forener dem er kærligheden til folkemusikken og lysten til at spille og udleve musikken i fællesskab. Resultaterne kan for første gang opleves på årets Tønder Festival.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2866,7 +2881,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hL6-on-eOd" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Den irske sanger, sangskriver, producer, forfatter og multi-instrumentalist Ron Kavana har i mange årtier været en del af fortroppen på den internationale folkemusikscene. Han er en kær gæst i Tønder og har været med på festivalen siden starten af 90’erne. Som solist eller sammen med kolleger – blandt andre skotske Brian McNeill.Ron Kavana blev født i County Cork i det sydlige Irland. Han har udgivet 10 prisbelønnede albums og har modtaget Folk Roots Awards tre gange. Et af hans projekter, som han arbejdede på i seks år, er 4-cd-udgivelsen ”Irish Ways”, der fortæller historien om det irske folk gennem sange og digte. Musikalsk er hans energi og nysgerrighed legendarisk. Solo eller med band, akustisk eller elektrisk, traditionals eller folkrock - Ron Kavana dækker det hele.</mutableString>
+                                <string key="text">Den irske sanger, sangskriver, producer, forfatter og multi-instrumentalist Ron Kavana har i mange årtier været en del af fortroppen på den internationale folkemusikscene. Han er en kær gæst i Tønder og har været med på festivalen siden starten af 90’erne. Som solist eller sammen med kolleger – blandt andre skotske Brian McNeill.
+Ron Kavana blev født i County Cork i det sydlige Irland. Han har udgivet 10 prisbelønnede albums og har modtaget Folk Roots Awards tre gange. Et af hans projekter, som han arbejdede på i seks år, er 4-cd-udgivelsen ”Irish Ways”, der fortæller historien om det irske folk gennem sange og digte. Musikalsk er hans energi og nysgerrighed legendarisk. Solo eller med band, akustisk eller elektrisk, traditionals eller folkrock - Ron Kavana dækker det hele.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2918,7 +2934,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzo-H9-Vw8" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Det otte mand store The Great Malarkey fra London med sangerinden Alex Ware i front spiller en heftig blanding af gypsypunk, balkan, ska og alskens stilarter og har for længst bevist, at de kan sætte gang i ethvert spillested og enhver festival. Det kan Tønderpublikummet skrive under på efter bandets koncerter på festivalen i 2013.Inspirationskilderne er navne som The Pogues, Mano Negra, Fanfare Ciocarlia og Tom Waits. Et opvarmningsjob for det legendariske ska- og reggae-band Toots &amp; The Maytals for en del år siden skabte stor opmærksomhed om bandet, der er vokset ud af indie- og undergrundsscenen i London.I 2012 vandt bandet en Pure Rawk Award for singlen ”Merry Profits”. I 2013 var The Great Malarkey nomineret i kategorierne bedste band og bedste album for debut- albummet ”Badly Stuffed Animals”.</mutableString>
+                                <string key="text">Det otte mand store The Great Malarkey fra London med sangerinden Alex Ware i front spiller en heftig blanding af gypsypunk, balkan, ska og alskens stilarter og har for længst bevist, at de kan sætte gang i ethvert spillested og enhver festival. Det kan Tønderpublikummet skrive under på efter bandets koncerter på festivalen i 2013.
+Inspirationskilderne er navne som The Pogues, Mano Negra, Fanfare Ciocarlia og Tom Waits. Et opvarmningsjob for det legendariske ska- og reggae-band Toots &amp; The Maytals for en del år siden skabte stor opmærksomhed om bandet, der er vokset ud af indie- og undergrundsscenen i London.
+I 2012 vandt bandet en Pure Rawk Award for singlen ”Merry Profits”. I 2013 var The Great Malarkey nomineret i kategorierne bedste band og bedste album for debut- albummet ”Badly Stuffed Animals”.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2970,7 +2988,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVF-oE-YSz" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">De fem muntre herrer i The Hot Seats vil uden tvivl få meget let ved at integrere sig på Tønder Festivalen. De har godt fat i de helt basale kundskaber: De kan spille, underholde og fortælle historier, så det er en lyst.The Hot Seats er et stringband fra Vir- ginia, som med umanerlig meget energi og stor musikalitet leverer en original blanding af bluegrass, old time, ragtime og rock’n’roll. Med stor virtuositet vrider og tamper de nye sider frem af folkemusikken fra Appalacherne og tilfører ikke så lidt galskab og satire. Selv siger de, at inspirationen kommer fra såvel blue- grass-ikoner som Flatt &amp; Scruggs som 60’er-satirikere og normbrydere som Frank Zappa og The Fugs. Guitar, banjo, fiddle, mandolin, bas, vaskebræt og en dosis verbal 60’er-syre. Velkommen til The Hot Seats i Tønder.</mutableString>
+                                <string key="text">De fem muntre herrer i The Hot Seats vil uden tvivl få meget let ved at integrere sig på Tønder Festivalen. De har godt fat i de helt basale kundskaber: De kan spille, underholde og fortælle historier, så det er en lyst.
+The Hot Seats er et stringband fra Vir- ginia, som med umanerlig meget energi og stor musikalitet leverer en original blanding af bluegrass, old time, ragtime og rock’n’roll. Med stor virtuositet vrider og tamper de nye sider frem af folkemusikken fra Appalacherne og tilfører ikke så lidt galskab og satire. Selv siger de, at inspirationen kommer fra såvel blue- grass-ikoner som Flatt &amp; Scruggs som 60’er-satirikere og normbrydere som Frank Zappa og The Fugs. Guitar, banjo, fiddle, mandolin, bas, vaskebræt og en dosis verbal 60’er-syre. Velkommen til The Hot Seats i Tønder.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3022,7 +3041,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5E0-9j-uQ9" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Det amerikanske band The Lone Bellow var sidste års helt store oplevelse i Tønder. Publikum kan glæde sig til et gensyn, når The Lone Bellow spiller to koncerter på årets Tønder Festival – bandets eneste i Danmark til sommer. Bandet er aktuelle med et nyt album, ”Then Came the Morning”, der udkom i januar 2015. Udgivelsen er blevet til med Aaron Des- sner fra The National bag knapperne og afslører en mere stemningsfuld udgave af Brooklyn-trioen.Zach Williams’ sangskrivning er udgangspunktet for The Lone Bellow, mens Kanene Pipkin og Brian Elmquist tilføjer perlende harmonier og et musikalsk udtryk, der spænder mellem følsomme folkballader, countryinspiration og ren rock ’n’ roll. En fyldt koncertkalender i 2015 vidner om The Lone Bellows stigende popularitet i hjemlandet og Canada.</mutableString>
+                                <string key="text">Det amerikanske band The Lone Bellow var sidste års helt store oplevelse i Tønder. Publikum kan glæde sig til et gensyn, når The Lone Bellow spiller to koncerter på årets Tønder Festival – bandets eneste i Danmark til sommer. Bandet er aktuelle med et nyt album, ”Then Came the Morning”, der udkom i januar 2015. Udgivelsen er blevet til med Aaron Des- sner fra The National bag knapperne og afslører en mere stemningsfuld udgave af Brooklyn-trioen.
+Zach Williams’ sangskrivning er udgangspunktet for The Lone Bellow, mens Kanene Pipkin og Brian Elmquist tilføjer perlende harmonier og et musikalsk udtryk, der spænder mellem følsomme folkballader, countryinspiration og ren rock ’n’ roll. En fyldt koncertkalender i 2015 vidner om The Lone Bellows stigende popularitet i hjemlandet og Canada.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3074,7 +3095,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtR-HI-CbJ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Danske The Sexican vil uden tvivl sætte gang i party-musklerne hos Tønderpublikummet. Kvintetten har siden starten i 2006 støt og roligt arbejdet sig frem til en position som et af landets markante world-rockbands. Musikken er en heftig blanding af balkan, klezmer, rock, punk og mexicansk mariachi, og der er ikke sparet på energiudladningerne. I front er sanger og guitarist Mike Hecchi, der med hæs og rå røst leverer samfundskritiske tekster og er bandets naturlige udadvendte powerfigur.Bandets miks af stilarter og kultlignende status har fået Gaffa til at sammenligne dem med Gogol Bordello og Kaizers Orchestra. The Sexican har i sommeren 2014 været på turné i mariachi-musikkens hjemland Mexico, og deres seneste album ”Conscription” fra 2013 fik fine anmeldelser i blandt andet den mexicanske udgave af Rolling Stone.</mutableString>
+                                <string key="text">Danske The Sexican vil uden tvivl sætte gang i party-musklerne hos Tønderpublikummet. Kvintetten har siden starten i 2006 støt og roligt arbejdet sig frem til en position som et af landets markante world-rockbands. Musikken er en heftig blanding af balkan, klezmer, rock, punk og mexicansk mariachi, og der er ikke sparet på energiudladningerne. I front er sanger og guitarist Mike Hecchi, der med hæs og rå røst leverer samfundskritiske tekster og er bandets naturlige udadvendte powerfigur.
+Bandets miks af stilarter og kultlignende status har fået Gaffa til at sammenligne dem med Gogol Bordello og Kaizers Orchestra. The Sexican har i sommeren 2014 været på turné i mariachi-musikkens hjemland Mexico, og deres seneste album ”Conscription” fra 2013 fik fine anmeldelser i blandt andet den mexicanske udgave af Rolling Stone.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3126,7 +3148,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaE-UC-f2X" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Det er nærmest umuligt at tale om northumbrian smallpipes uden også at nævne Kathryn Tickell. I snart 30 år har hun været den fremmeste ambassadør for den lille bælgdrevne sækkepibe og den traditionelle musik i området omkring Newcastle og floden Thyne.Med pladen ”The Kathryn Tickell Band” fra 1991 kom der for alvor skub i karrieren. Kathryn Tickell er sammen med navne som Eliza Carthy, Kate Rusby, Nancy Kerr og Seth Lakeman en vigtig del af den folk-revival, der skyllede henover England i 90’erne.Udover det traditionelle materiale, som Kathryn Tickell sætter i nye rammer, har hun skrevet en lang række melodier og har løbende afsøgt forskellige musikal- ske genrer og stilarter. Senest har hun fundet sammen med klassiske musikere i projektet The Side.</mutableString>
+                                <string key="text">Det er nærmest umuligt at tale om northumbrian smallpipes uden også at nævne Kathryn Tickell. I snart 30 år har hun været den fremmeste ambassadør for den lille bælgdrevne sækkepibe og den traditionelle musik i området omkring Newcastle og floden Thyne.
+Med pladen ”The Kathryn Tickell Band” fra 1991 kom der for alvor skub i karrieren. Kathryn Tickell er sammen med navne som Eliza Carthy, Kate Rusby, Nancy Kerr og Seth Lakeman en vigtig del af den folk-revival, der skyllede henover England i 90’erne.
+Udover det traditionelle materiale, som Kathryn Tickell sætter i nye rammer, har hun skrevet en lang række melodier og har løbende afsøgt forskellige musikal- ske genrer og stilarter. Senest har hun fundet sammen med klassiske musikere i projektet The Side.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3178,7 +3202,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yke-hA-zlJ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tønder Festivalen har flere gange præsenteret musik fra det nordlige Spanien, blandt andre Carlos Núnez og Susana Seivane fra Galicien. Nu kommer turen til Kepa Junkera, djævleblændt dygtig og anerkendt harmonikaspiller fra Bilbao i Baskerlandet. Han er født i 1965 og begyndte som helt ung at spille på den diatoniske harmonika kaldet trikitixa. Op gennem 80’erne etablerede han sig som fornyer og fortolker af den traditionelle folkemusik.I dag er den selvlærte Kepa Junkera en betydelig og stilskabende virtuos, der har gjort trikitixaen kendt og skabt fornyet interesse for den traditionelle baskiske folkemusik. Men han har også udvidet spektret via sit samarbejde med musikere på tværs af  andegrænser og genrer. Eksempelvis med The Chieftains og Bilbao Symphony Orchestra.</mutableString>
+                                <string key="text">Tønder Festivalen har flere gange præsenteret musik fra det nordlige Spanien, blandt andre Carlos Núnez og Susana Seivane fra Galicien. Nu kommer turen til Kepa Junkera, djævleblændt dygtig og anerkendt harmonikaspiller fra Bilbao i Baskerlandet. Han er født i 1965 og begyndte som helt ung at spille på den diatoniske harmonika kaldet trikitixa. Op gennem 80’erne etablerede han sig som fornyer og fortolker af den traditionelle folkemusik.
+I dag er den selvlærte Kepa Junkera en betydelig og stilskabende virtuos, der har gjort trikitixaen kendt og skabt fornyet interesse for den traditionelle baskiske folkemusik. Men han har også udvidet spektret via sit samarbejde med musikere på tværs af  andegrænser og genrer. Eksempelvis med The Chieftains og Bilbao Symphony Orchestra.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3230,7 +3256,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqS-dP-RMw" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tønder Festivalen har stor succes med det særlige ”NOLA”-område, hvor overskriften er Louisiana og New Orleans. Cajun, jazz, blues og meget mere. Med King James &amp; The Special Men får publikum et skud levende kultur fra The Big Easy – et decideret wake up call direkte fra BJ’s Lounge på Burgundy Street i New Orleans. Her spiller det syv mand store band King James &amp; The Special Men hver mandag aften og leverer svedigNew Orleans rhythm ’n’ blues af den gamle skole.Med piano, blæsergruppe, guitar, bas og trommer og sangeren Jimmy Horn i spidsen er King James &amp; The Special Men den ægte funky vare fra New Orleans. En hyldest til den klassiske New Orleans-lyd med tråde til Roy Brown, Professor Longhair, Fats Domino og sågar også jazzmyten Sun Ra.</mutableString>
+                                <string key="text">Tønder Festivalen har stor succes med det særlige ”NOLA”-område, hvor overskriften er Louisiana og New Orleans. Cajun, jazz, blues og meget mere. Med King James &amp; The Special Men får publikum et skud levende kultur fra The Big Easy – et decideret wake up call direkte fra BJ’s Lounge på Burgundy Street i New Orleans. Her spiller det syv mand store band King James &amp; The Special Men hver mandag aften og leverer svedig
+New Orleans rhythm ’n’ blues af den gamle skole.
+Med piano, blæsergruppe, guitar, bas og trommer og sangeren Jimmy Horn i spidsen er King James &amp; The Special Men den ægte funky vare fra New Orleans. En hyldest til den klassiske New Orleans-lyd med tråde til Roy Brown, Professor Longhair, Fats Domino og sågar også jazzmyten Sun Ra.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3282,7 +3310,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otB-aP-vsD" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">I snart fire årtier har La Bottine Souriante spredt de fransk-canadiske rødder fra Quebec og ud i verden. I starten var det med de traditionelle call-and-respon- se-sange og de hurtige keltisk inspire- rede reels. Med tiden fulgte La Bottine Souriante de franske spor til Louisiana, og med sit jazzede udtryk og masser af brass blev ”Jusqu’aux p’tites heures” fra 1991 blev en slags missing link mellem New Orleans-musikken og Quebec-tra- ditionerne.Det var netop lyden af hurtige melodier, fodtramp og skarpe horn-riffs, La Bottine Souriante tog med sig, da de samme år spillede sig ind i hjerterne på Tønder Festivalens dansende publikum. Det blev en hed kærlighedsaffære, og La Bottine Souriante har flere gange siden optrådt på Tønder Festivalen. Nu er de tilbage, så på med danseskoene.</mutableString>
+                                <string key="text">I snart fire årtier har La Bottine Souriante spredt de fransk-canadiske rødder fra Quebec og ud i verden. I starten var det med de traditionelle call-and-respon- se-sange og de hurtige keltisk inspire- rede reels. Med tiden fulgte La Bottine Souriante de franske spor til Louisiana, og med sit jazzede udtryk og masser af brass blev ”Jusqu’aux p’tites heures” fra 1991 blev en slags missing link mellem New Orleans-musikken og Quebec-tra- ditionerne.
+Det var netop lyden af hurtige melodier, fodtramp og skarpe horn-riffs, La Bottine Souriante tog med sig, da de samme år spillede sig ind i hjerterne på Tønder Festivalens dansende publikum. Det blev en hed kærlighedsaffære, og La Bottine Souriante har flere gange siden optrådt på Tønder Festivalen. Nu er de tilbage, så på med danseskoene.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3334,7 +3363,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyO-XK-iJS" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">”The Music - The People - The Spirit”, er overskriften på denne store aften, hvor to tæt forbundne musikkulturer folder sig ud. Siden navnkundige Jerry Holland og Marion Dewar spillede på Tønder Festivalen første gang for 15 år siden, er venskabet og samarbejdet mellem Fanø/Danmark og Cape Breton/Canada vokset.Oplev medrivende musik med canadiske og danske musikere, dyk ned i traditions- musikken fra Fanø og Cape Breton og kom ud og rør fødderne på dansegulvet.Fra Canada kommer Troy MacGillivray, Allan Dewar, Marion Dewar, Jake Charron, Andrea Beaton, Kinnon Beaton, Betty Lou Beaton, Kendra MacGillivray, JJ Chaisson og Sabra MacGillivray samt The East Pointers. Fra Danmark er det de Fries &amp; D. Beck, ULC Quintet, Rannok (Michael Graubæk og Theis Juhl Langland, Jesper Rudloff og Fristadskapellet (Peter og Kirstine Uhrbrand, Ole og Jens Mouritzen, Nils Thorlund).</mutableString>
+                                <string key="text">”The Music - The People - The Spirit”, er overskriften på denne store aften, hvor to tæt forbundne musikkulturer folder sig ud. Siden navnkundige Jerry Holland og Marion Dewar spillede på Tønder Festivalen første gang for 15 år siden, er venskabet og samarbejdet mellem Fanø/Danmark og Cape Breton/Canada vokset.
+Oplev medrivende musik med canadiske og danske musikere, dyk ned i traditions- musikken fra Fanø og Cape Breton og kom ud og rør fødderne på dansegulvet.
+Fra Canada kommer Troy MacGillivray, Allan Dewar, Marion Dewar, Jake Charron, Andrea Beaton, Kinnon Beaton, Betty Lou Beaton, Kendra MacGillivray, JJ Chaisson og Sabra MacGillivray samt The East Pointers. Fra Danmark er det de Fries &amp; D. Beck, ULC Quintet, Rannok (Michael Graubæk og Theis Juhl Langland, Jesper Rudloff og Fristadskapellet (Peter og Kirstine Uhrbrand, Ole og Jens Mouritzen, Nils Thorlund).</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3386,7 +3417,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SZ-Qq-qnb" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Fara er fem unge kvindelige musikere, der kommer fra Kirkwall på Orkneyøerne. Jennifer Austin, Louise Bichan, Kristan Harvey, Jeana Leslie og Catriona Price går til opgaven med fire violiner og klaver og er et frisk og fyrigt bud på skotsk folkemusik med særlig vægt på musik- ken fra Orkney. De fem piger har kendt hinanden, siden de var små, og er vokset op med den traditionelle musik. Faras medlemmer er uddannet på blandt andetThe Royal Conservatoire of Scotland og The Royal Academy of Music.Fara har trods en forholdsvis kort levetid som band gjort sig bemærket på den skotske musikscene og har vundet priser såsom BBC Radio 2 Young Folk Award og BBC Radio Scotland Young Traditional Musician of the Year. Musikken er en blanding af traditionals fra Orkney og nye selvskrevne melodier.</mutableString>
+                                <string key="text">Fara er fem unge kvindelige musikere, der kommer fra Kirkwall på Orkneyøerne. Jennifer Austin, Louise Bichan, Kristan Harvey, Jeana Leslie og Catriona Price går til opgaven med fire violiner og klaver og er et frisk og fyrigt bud på skotsk folkemusik med særlig vægt på musik- ken fra Orkney. De fem piger har kendt hinanden, siden de var små, og er vokset op med den traditionelle musik. Faras medlemmer er uddannet på blandt andet
+The Royal Conservatoire of Scotland og The Royal Academy of Music.
+Fara har trods en forholdsvis kort levetid som band gjort sig bemærket på den skotske musikscene og har vundet priser såsom BBC Radio 2 Young Folk Award og BBC Radio Scotland Young Traditional Musician of the Year. Musikken er en blanding af traditionals fra Orkney og nye selvskrevne melodier.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3438,7 +3471,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="938-Lu-JyT" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tønder Festivalen støtter aktivt den store talentmasse i folkemusikmiljøet. I forbindelse med kulturaftale Sønderjylland- Schleswig havde festivalen sidste år besøg af folkBALTICA Ensemble, og det kan publikum glæde sig til igen i år. Ensemblet har sit udspring i folkBALTICA Festivalen og består af 50 unge musikere fra Slesvig-Holsten og region Syddanmark. Violinisten Harald Haugaard står som kunstnerisk leder af folkBALTICA.Festivalen i spidsen for ensemblet med hjælp fra de to assistenter Andreas Tophøj og Rasmus Zeeberg. Sidste år lagde folkBALTICA Ensemble Telt 1 ned med en forrygende eftermiddagskoncert. Der er lagt op til en gentagelse i år, hvor ensem- blet også ligesom sidste år vil optræde ved en stor skolekoncert for elever fra skoler på begge sider af grænsen.</mutableString>
+                                <string key="text">Tønder Festivalen støtter aktivt den store talentmasse i folkemusikmiljøet. I forbindelse med kulturaftale Sønderjylland- Schleswig havde festivalen sidste år besøg af folkBALTICA Ensemble, og det kan publikum glæde sig til igen i år. Ensemblet har sit udspring i folkBALTICA Festivalen og består af 50 unge musikere fra Slesvig-Holsten og region Syddanmark. Violinisten Harald Haugaard står som kunstnerisk leder af folkBALTICA.
+Festivalen i spidsen for ensemblet med hjælp fra de to assistenter Andreas Tophøj og Rasmus Zeeberg. Sidste år lagde folkBALTICA Ensemble Telt 1 ned med en forrygende eftermiddagskoncert. Der er lagt op til en gentagelse i år, hvor ensem- blet også ligesom sidste år vil optræde ved en stor skolekoncert for elever fra skoler på begge sider af grænsen.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3490,7 +3525,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kif-Gb-s5p" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Den folkekære trio befinder sig et sted mellem rock og folkemusik. Medlemmerne af Folkeklubben er One-Eyed Mule-frontmand og guitarist Rasmus Dall, perkussionist Rasmus Jusjong og sanger og guitarist Kjartan Arngrim, der i sin stemme har en sprødhed og nerve, der sender venlige tanker til Kim Larsen.Det var den selvsamme Larsen, der spottede Folkeklubben på sit stamværtshus i Odense og kvitterede med øl efter trioen spillede hittet ”Fedterøv”. I 2014 kom Folkeklubbens andet fuldlængde-album, ”Danmarksfilm”, der inspireret af PH og Jørgen Leths danmarksfilm forsøger at kredse sig ind på et af tidens helt store spørgsmål: Hvad vil det sige at være dansk?Folkeklubben er hjemmevante på festivalen og på Hagge’s Musik Pub, hvor de holdt releaseparty i efteråret 2014 for ”Danmarksfilm”.</mutableString>
+                                <string key="text">Den folkekære trio befinder sig et sted mellem rock og folkemusik. Medlemmerne af Folkeklubben er One-Eyed Mule-frontmand og guitarist Rasmus Dall, perkussionist Rasmus Jusjong og sanger og guitarist Kjartan Arngrim, der i sin stemme har en sprødhed og nerve, der sender venlige tanker til Kim Larsen.
+Det var den selvsamme Larsen, der spottede Folkeklubben på sit stamværtshus i Odense og kvitterede med øl efter trioen spillede hittet ”Fedterøv”. I 2014 kom Folkeklubbens andet fuldlængde-album, ”Danmarksfilm”, der inspireret af PH og Jørgen Leths danmarksfilm forsøger at kredse sig ind på et af tidens helt store spørgsmål: Hvad vil det sige at være dansk?
+Folkeklubben er hjemmevante på festivalen og på Hagge’s Musik Pub, hvor de holdt releaseparty i efteråret 2014 for ”Danmarksfilm”.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3539,7 +3576,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHz-Yf-AkI" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Greg Russell, guitar og vokal, og Ciaran Algar, violin og vokal, har på kort tid etableret sig som Storbritanniens nye hotte folknavn. De er begge vokset op med folkemusikken og har et godt greb om traditionerne. Et par unge talenter, der får alle ældre folkemusikere til at smile lyksaligt, for Russell og Algar tilfører traditionsmusikken en ordentlig dosis nyfortolkning, energi og vovemod.De to musikere mødte hinanden i 2011 og fik hurtigt en pladekontrakt. Debut- albummet ”The Queen’s Lover” udkom i 2012, og i januar 2013 modtog duoen ”BBC Radio2 Young Folk Award”. I no- vember 2013 udgav de albummet ”The Call”, som har modtaget særdeles gode anmeldelser. BBC Radio2 har også tildelt dem ”The Horizon Award” for bedste gennembrud i 2014.</mutableString>
+                                <string key="text">Greg Russell, guitar og vokal, og Ciaran Algar, violin og vokal, har på kort tid etableret sig som Storbritanniens nye hotte folknavn. De er begge vokset op med folkemusikken og har et godt greb om traditionerne. Et par unge talenter, der får alle ældre folkemusikere til at smile lyksaligt, for Russell og Algar tilfører traditionsmusikken en ordentlig dosis nyfortolkning, energi og vovemod.
+De to musikere mødte hinanden i 2011 og fik hurtigt en pladekontrakt. Debut- albummet ”The Queen’s Lover” udkom i 2012, og i januar 2013 modtog duoen ”BBC Radio2 Young Folk Award”. I no- vember 2013 udgav de albummet ”The Call”, som har modtaget særdeles gode anmeldelser. BBC Radio2 har også tildelt dem ”The Horizon Award” for bedste gennembrud i 2014.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3594,7 +3632,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx6-oI-a6M" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Trofaste festivalgæster i Tønder kender blues &amp; rootsmusikeren Hans Theessink særdeles godt, for han har optrådt på fe- stivalen mange gange. Og det er bestemt ikke kun i Tønder, den 67-årige guitarist og sanger har et stort publikum. Hans Theessink er om nogen en rejsende bluesmusiker og kan se tilbage på flere end 7500 koncerter,40 år på landevejen og udgivelse af 20 albums. Han turnerer jævnligt herhjemme sammen med sin mangeårige danske makker, guitaristen Knud Møller. I foråret 2015 udgav han sammen med den amerikanske sanger og guitarist Terry Evans albummet ”True &amp; Blue”. De to har tidligere udgivet og turneret sammen og har også rundet Danmark i denne omgang. Hans Theessink kommer fra Holland, har Danmark som sit andet hjemland og boede her i 70erne, og han bor i dag i Wien i Østrig.På årets festival er Hans Theessink vært ved den store Townes Van Zandt Tribute Koncert, hvor Richard J. Dobson, Butch Hancock, Van Zandts søn J.T. Van Zandt, Mary Gauthier og Chris Smither deltager.</mutableString>
+                                <string key="text">Trofaste festivalgæster i Tønder kender blues &amp; rootsmusikeren Hans Theessink særdeles godt, for han har optrådt på fe- stivalen mange gange. Og det er bestemt ikke kun i Tønder, den 67-årige guitarist og sanger har et stort publikum. Hans Theessink er om nogen en rejsende bluesmusiker og kan se tilbage på flere end 7500 koncerter,
+40 år på landevejen og udgivelse af 20 albums. Han turnerer jævnligt herhjemme sammen med sin mangeårige danske makker, guitaristen Knud Møller. I foråret 2015 udgav han sammen med den amerikanske sanger og guitarist Terry Evans albummet ”True &amp; Blue”. De to har tidligere udgivet og turneret sammen og har også rundet Danmark i denne omgang. Hans Theessink kommer fra Holland, har Danmark som sit andet hjemland og boede her i 70erne, og han bor i dag i Wien i Østrig.
+På årets festival er Hans Theessink vært ved den store Townes Van Zandt Tribute Koncert, hvor Richard J. Dobson, Butch Hancock, Van Zandts søn J.T. Van Zandt, Mary Gauthier og Chris Smither deltager.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3646,7 +3686,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTu-m2-c6p" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Med highland pipes, fiddle, bodhran, guitar, fløjte og vokal har gruppen Rura siden 2010 gjort sig stærkt gældende på den skotske folkscene. De fire unge musikere Steven Blake, Jack Smedley, David Foley and Adam Brown fik deres første gennembrud på Celtic Connections festivalen i Glasgow i 2010. Debutalbum- met ”Break It Up” fra 2012, produceret af Aidan O’Rourke fra gruppen Lau, fik gode anmeldelser og opnåede adskillige nomineringer, blandt andet til BBC Radio 2 Horizon Award. Med i bandet er nu sangeren og guitaristen Adam Holmes, som Tønder-publikummet også kan møde, når han stiller op med sit eget band Adam Holmes and The Embers. Kombinationen af Ruras faste greb om den skotske tradition og Adam Holmes’ sangskriverkunst har skabt stor inter- national interesse. Deres andet album, ”Despite The Dark”, udkom i april 2015.</mutableString>
+                                <string key="text">Med highland pipes, fiddle, bodhran, guitar, fløjte og vokal har gruppen Rura siden 2010 gjort sig stærkt gældende på den skotske folkscene. De fire unge musikere Steven Blake, Jack Smedley, David Foley and Adam Brown fik deres første gennembrud på Celtic Connections festivalen i Glasgow i 2010. Debutalbum- met ”Break It Up” fra 2012, produceret af Aidan O’Rourke fra gruppen Lau, fik gode anmeldelser og opnåede adskillige nomineringer, blandt andet til BBC Radio 2 Horizon Award. Med i bandet er nu sangeren og guitaristen Adam Holmes, som Tønder-publikummet også kan møde, når han stiller op med sit eget band Adam Holmes and The Embers. Kombinationen af Ruras faste greb om den skotske tradition og Adam Holmes’ sangskriverkunst har skabt stor inter- national interesse. Deres andet album, ”Despite The Dark”, udkom i april 2015.
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3698,7 +3739,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYX-f1-LQ0" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Trioen fra Pennsylvania tog publikum med storm sidste år i Tønder, og der er al mulig grund til at glæde sig til et gensyn i 2015. Maya de Vitry, leadvokal, guitar og violin, Oliver Craven, vokal og violin, og Charles Muench, bas, er alle klassisk uddannede musikere. De har samtidig fået store doser af folk, country og bluegrass med sig, og den cocktail er tydelig, når trioen står på scenen.The Stray Birds rammer tidens tone inden for folk og bluegrass. Deres trestemmigevokaler står knivskarpe, og som instrumentalister byder de på både overskud og virtuositet. De er blevet sammenlignet med navne som Crooked Still og Gillian Welch, og der er en ofte melankolsk og drømmende stemning i deres sange. The Stray Birds har flere udgivelser bag sig, senest albummet ”Best Medicine” fra efteråret 2014.</mutableString>
+                                <string key="text">Trioen fra Pennsylvania tog publikum med storm sidste år i Tønder, og der er al mulig grund til at glæde sig til et gensyn i 2015. Maya de Vitry, leadvokal, guitar og violin, Oliver Craven, vokal og violin, og Charles Muench, bas, er alle klassisk uddannede musikere. De har samtidig fået store doser af folk, country og bluegrass med sig, og den cocktail er tydelig, når trioen står på scenen.
+The Stray Birds rammer tidens tone inden for folk og bluegrass. Deres trestemmige
+vokaler står knivskarpe, og som instrumentalister byder de på både overskud og virtuositet. De er blevet sammenlignet med navne som Crooked Still og Gillian Welch, og der er en ofte melankolsk og drømmende stemning i deres sange. The Stray Birds har flere udgivelser bag sig, senest albummet ”Best Medicine” fra efteråret 2014.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3747,7 +3790,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMN-mi-NN4" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Oprindeligt kommer Lynn Miles fra Ottawa i Quebec, og karrieren har bragt hende til Los Angeles, Nashville og Austin. Nu er hun igen flyttet tilbage til Canada, men de dybe country- og sangskrivertraditioner fra de steder, hun har boet, brænder igennem. Musikalsk trækker hun på Shawn Colvins stærke folk-sangskrivning ogden skrøbelighed, der gemmer sig under Lucinda William’s hærgede overflade. ”Downpour” fra 2013 fik fremragende anmeldelser, blandt andet i det uafhængige countrymagasin Maverick, der gav pladen fem ud af fem stjerner.Tidligere er Lynn Miles’ klare og dybe vokal blevet honoreret med priser. I 2003 modtog hun en Juno Award for ”Roots and Traditional Solo Album of the Year” og i 2011 modtog hun prisen for ”English Songwriter of the Year” ved Canadian Folk Music Awards.</mutableString>
+                                <string key="text">Oprindeligt kommer Lynn Miles fra Ottawa i Quebec, og karrieren har bragt hende til Los Angeles, Nashville og Austin. Nu er hun igen flyttet tilbage til Canada, men de dybe country- og sangskrivertraditioner fra de steder, hun har boet, brænder igennem. Musikalsk trækker hun på Shawn Colvins stærke folk-sangskrivning og
+den skrøbelighed, der gemmer sig under Lucinda William’s hærgede overflade. ”Downpour” fra 2013 fik fremragende anmeldelser, blandt andet i det uafhængige countrymagasin Maverick, der gav pladen fem ud af fem stjerner.
+Tidligere er Lynn Miles’ klare og dybe vokal blevet honoreret med priser. I 2003 modtog hun en Juno Award for ”Roots and Traditional Solo Album of the Year” og i 2011 modtog hun prisen for ”English Songwriter of the Year” ved Canadian Folk Music Awards.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3802,7 +3847,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahl-cK-QP0" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Med respekt for traditionerne og kærlighed til rødderne krydses musiske og geografiske grænser på Folk Spot Denmark 2015. Otte nordiske bands – syv danske og et norsk – der dækker folk-, roots- og folkemusik-scenen bredt, otte koncerter med artister på et højt internationalt niveau, der hører blandt de mest rejsende og efterspurgte folk-artister, vi har. Hver især repræsenterer de levende nordiske folkemusik-traditioner, sangskrivning i topklasse, sprød electronica og nordica- na når det er absolut bedst.Folk Spot er, ud over at være koncerter for Tønders publikum, også en international showcase med deltagelse af udenlandske nøglepersoner inden for musikbranchen. Disse er taget til Tønder fra så forskellige lande som Norge, Tyskland, England og Canada for at høre dansk og nordisk musik i verdensklasse og selvfølgelig for at opleve en af verdens bedste festivaler på en og samme gang. FolkSpot-koncerterne i P4-Teltet fredag og lørdag er en unik chance for at tage live-pulsen på hvad den danske folk- og roots-scene har at byde på netop nu!</mutableString>
+                                <string key="text">Med respekt for traditionerne og kærlighed til rødderne krydses musiske og geografiske grænser på Folk Spot Denmark 2015. Otte nordiske bands – syv danske og et norsk – der dækker folk-, roots- og folkemusik-scenen bredt, otte koncerter med artister på et højt internationalt niveau, der hører blandt de mest rejsende og efterspurgte folk-artister, vi har. Hver især repræsenterer de levende nordiske folkemusik-traditioner, sangskrivning i topklasse, sprød electronica og nordica- na når det er absolut bedst.
+Folk Spot er, ud over at være koncerter for Tønders publikum, også en international showcase med deltagelse af udenlandske nøglepersoner inden for musikbranchen. Disse er taget til Tønder fra så forskellige lande som Norge, Tyskland, England og Canada for at høre dansk og nordisk musik i verdensklasse og selvfølgelig for at opleve en af verdens bedste festivaler på en og samme gang. FolkSpot-koncerterne i P4-Teltet fredag og lørdag er en unik chance for at tage live-pulsen på hvad den danske folk- og roots-scene har at byde på netop nu!</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3854,7 +3900,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVW-Hq-O5G" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Harmonierne står rent og funklende, og stemmerne rækker mod himlen. Klangen af de tre kvindevokaler bringer mindelser om navnkundige The Trio, hvor Dolly Parton, Emmylou Harris og Linda Ronstadt foldede sig ud for nogle årtier siden. Nicky Mehta og Ruth Moody fra Winnipeg i Canada og Heather Masse fra Maine i USA har solidt fat i rødderne fra country og bluegrass og blander det med elegant folkpop.Gruppen blev dannet i 2002, og debu- talbummet ”40 Days” fra 2004 vandt en Juno Award (Canadas Grammy) som Roots and Traditional Album of the Year. Seneste album ”Bright Morning Stars” løb med samme statuette i 2012. Medlem- merne i The Wailin’ Jennys arbejder ved siden af trioen også med solokarrierer. Blandt andet har Ruth Moody samarbejdet med Mark Knopfler live og i studiet.</mutableString>
+                                <string key="text">Harmonierne står rent og funklende, og stemmerne rækker mod himlen. Klangen af de tre kvindevokaler bringer mindelser om navnkundige The Trio, hvor Dolly Parton, Emmylou Harris og Linda Ronstadt foldede sig ud for nogle årtier siden. Nicky Mehta og Ruth Moody fra Winnipeg i Canada og Heather Masse fra Maine i USA har solidt fat i rødderne fra country og bluegrass og blander det med elegant folkpop.
+Gruppen blev dannet i 2002, og debu- talbummet ”40 Days” fra 2004 vandt en Juno Award (Canadas Grammy) som Roots and Traditional Album of the Year. Seneste album ”Bright Morning Stars” løb med samme statuette i 2012. Medlem- merne i The Wailin’ Jennys arbejder ved siden af trioen også med solokarrierer. Blandt andet har Ruth Moody samarbejdet med Mark Knopfler live og i studiet.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3906,7 +3953,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDT-90-PI6" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Oliver og Chris Wood voksede op i byen Boulder, et hot spot for folk og bluegrass i bjergrige Colorado. Gennem forældrene blev brødrene tidligt præsenteret for folkroots-musikken, og de delte interessen for gamle bluesnavne som Jimmy Reed og Lightnin’ Hopkins. Deres veje skiltes, og mens Oliver Wood dyrkede blues’en som guitarist for Atlanta-fænomenet Tinsley Ellis, var Chris Wood med til at danne den eksperimentelle jazz-trio Medeski, Martin &amp; Wood.I 2005 fandt brødrene igen sammen musikalsk, og udgangspunktet var den musik, de var vokset op med.”The Muse” fra 2013 tager afsæt i swingende americana, som den kendes fra især The Band. The Wood Brothers er blevet udvidet med trommeslager og altmuligmand Jano Rix, og præmieproducer Buddy Miller har siddet bag knapperne.</mutableString>
+                                <string key="text">Oliver og Chris Wood voksede op i byen Boulder, et hot spot for folk og bluegrass i bjergrige Colorado. Gennem forældrene blev brødrene tidligt præsenteret for folkroots-musikken, og de delte interessen for gamle bluesnavne som Jimmy Reed og Lightnin’ Hopkins. Deres veje skiltes, og mens Oliver Wood dyrkede blues’en som guitarist for Atlanta-fænomenet Tinsley Ellis, var Chris Wood med til at danne den eksperimentelle jazz-trio Medeski, Martin &amp; Wood.
+I 2005 fandt brødrene igen sammen musikalsk, og udgangspunktet var den musik, de var vokset op med.
+”The Muse” fra 2013 tager afsæt i swingende americana, som den kendes fra især The Band. The Wood Brothers er blevet udvidet med trommeslager og altmuligmand Jano Rix, og præmieproducer Buddy Miller har siddet bag knapperne.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3958,7 +4007,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMV-LU-NAJ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Three Tall Pines er endnu et af de mange yngre amerikanske bands, der fyrer op under traditionerne og kaster nye friske urter i gryden. Udstyret med guitar, mandolin, violin, kontrabas og ikke mindst tætte vokalharmonier er Three Tall Pines fra Boston godt på vej til at etablere sig som både nyfortolkere og genfortællere af bluegrassgenren. Som instrumentalister er de fire musikere i den bedste klasse, og sammen skaber deen orkesterlyd, der har givet dem mange gode anmelderord, publikumsrespons samt priser med på vejen.Bandet har udgivet ”Short While Ago i 2008” og ”All That’s Left” i 2011. Seneste udgivelse er EP’en ”Taproot” fra efteråret 2014. Three Tall Pines er som skabt til Tønder Festivalen og lever helt op til festivalens tradition for at præsentere nye fremstormende folkrootsnavne.</mutableString>
+                                <string key="text">Three Tall Pines er endnu et af de mange yngre amerikanske bands, der fyrer op under traditionerne og kaster nye friske urter i gryden. Udstyret med guitar, mandolin, violin, kontrabas og ikke mindst tætte vokalharmonier er Three Tall Pines fra Boston godt på vej til at etablere sig som både nyfortolkere og genfortællere af bluegrassgenren. Som instrumentalister er de fire musikere i den bedste klasse, og sammen skaber de
+en orkesterlyd, der har givet dem mange gode anmelderord, publikumsrespons samt priser med på vejen.
+Bandet har udgivet ”Short While Ago i 2008” og ”All That’s Left” i 2011. Seneste udgivelse er EP’en ”Taproot” fra efteråret 2014. Three Tall Pines er som skabt til Tønder Festivalen og lever helt op til festivalens tradition for at præsentere nye fremstormende folkrootsnavne.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4010,7 +4061,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTu-PZ-2h3" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Der venter en helt særlig oplevelse: En ”Tribute to Townes Van Zandt”-koncert. Vært er blues &amp; roots-veteranen Hans Theessink, som har optrådt talrige gange i Tønder gennem fire årtier. Der er god grund til at hylde den amerikanske sangskriver Townes Van Zandt, der døde i 1997 blot 52 år gammel. Townes Van Zandt har skrevet en guldgrube af sange, som er indspillet af en lang række kunstnere – bl.a. Bob Dylan, Emmylou Harris, Norah Jones, The Avett Brothers og Lyle Lovett. Blandt de mest kendte sange er ”If I Needed You” og ”Pancho and Lefty”. Med på scenen er Townes Van Zandt’s ældste søn, J. T. Van Zandt samt de to sangskrivere og guitarister Butch Hancock og Richard J. Dobson. Også Chris Smither og Mary Gauthier dukker op.</mutableString>
+                                <string key="text">Der venter en helt særlig oplevelse: En ”Tribute to Townes Van Zandt”-koncert. Vært er blues &amp; roots-veteranen Hans Theessink, som har optrådt talrige gange i Tønder gennem fire årtier. Der er god grund til at hylde den amerikanske sangskriver Townes Van Zandt, der døde i 1997 blot 52 år gammel. Townes Van Zandt har skrevet en guldgrube af sange, som er indspillet af en lang række kunstnere – bl.a. Bob Dylan, Emmylou Harris, Norah Jones, The Avett Brothers og Lyle Lovett. Blandt de mest kendte sange er ”If I Needed You” og ”Pancho and Lefty”. Med på scenen er Townes Van Zandt’s ældste søn, J. T. Van Zandt samt de to sangskrivere og guitarister Butch Hancock og Richard J. Dobson. Også Chris Smither og Mary Gauthier dukker op.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4062,7 +4113,9 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNH-CP-F9u" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Der er tale om en vaskeægte supergruppe, når to generationer af banebrydende irske musikere slår pjalterne sammen i Usher ́s Island. Som en del af bands som Planxty, The Bothy Band og Moving Hearts repræsenterer Andy Irvine, Dónal Lunny og Paddy Glackin en generation, der i 70’erne gjorde op med gamle normer og dogmer.De byggede videre på traditionerne og skabte en dengang helt ny og progressiv lyd, der inspirerede en lang række af de irske folkemusikere. Blandt disse er Michael McGoldrick og John Doyle, der i henholdsvis Lúnasa og Solas bibragte musikken fornyet intensitet og magi og flittigt er blevet brugt som studiemusikere for internationale stjerner som for eksempel Mark Knopfler.Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ballader og Glackin og McGoldrick’s tætte fraseringer.</mutableString>
+                                <string key="text">Der er tale om en vaskeægte supergruppe, når to generationer af banebrydende irske musikere slår pjalterne sammen i Usher ́s Island. Som en del af bands som Planxty, The Bothy Band og Moving Hearts repræsenterer Andy Irvine, Dónal Lunny og Paddy Glackin en generation, der i 70’erne gjorde op med gamle normer og dogmer.
+De byggede videre på traditionerne og skabte en dengang helt ny og progressiv lyd, der inspirerede en lang række af de irske folkemusikere. Blandt disse er Michael McGoldrick og John Doyle, der i henholdsvis Lúnasa og Solas bibragte musikken fornyet intensitet og magi og flittigt er blevet brugt som studiemusikere for internationale stjerner som for eksempel Mark Knopfler.
+Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ballader og Glackin og McGoldrick’s tætte fraseringer.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4112,7 +4165,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scN-kD-TCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2621" y="3116"/>
+            <point key="canvasLocation" x="3351" y="3220"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="76F-vh-vnk">
@@ -4130,7 +4183,7 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4os-MY-7vv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5000" y="3873"/>
+            <point key="canvasLocation" x="5035" y="5161"/>
         </scene>
         <!--Furbar-->
         <scene sceneID="pyy-8a-Xuo">
@@ -4144,10 +4197,10 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-dR-gRB">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-dR-gRB">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="z43-rR-SvI" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="z43-rR-SvI" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -4182,6 +4235,24 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sWe-Ho-RYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5014" y="1703"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="amP-Pf-McO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qcj-vN-u0O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kvC-70-uFj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vTL-6e-NNH" kind="relationship" relationship="rootViewController" id="0aI-Yo-aqt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4G-v7-UNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3295" y="4705"/>
         </scene>
     </scenes>
     <resources>
@@ -4262,8 +4333,8 @@ I sommeren 2014 udkom Bel- lowheads seneste album, ”Revival”, der blandt byd
         <image name="uk.png" width="606" height="305"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V3r-vp-oh0"/>
-        <segue reference="5JF-B2-tkK"/>
-        <segue reference="bKP-gI-GF0"/>
+        <segue reference="ZUH-35-dFY"/>
+        <segue reference="8TY-Iv-emH"/>
+        <segue reference="P9q-gT-Y2l"/>
     </inferredMetricsTieBreakers>
 </document>
