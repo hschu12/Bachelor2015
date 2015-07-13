@@ -136,7 +136,7 @@
     }
     //"C"
     if ([celltext  isEqual: @"Coffee and Cookies"]) {
-        [self performSegueWithIdentifier:@"Cookies" sender:self];
+        [self performSegueWithIdentifier:@"Coffee" sender:self];
     }
     //"D"
     if ([celltext  isEqual: @"Den Hemmelige"]) {
@@ -144,7 +144,7 @@
     }
     //"F"
     if ([celltext  isEqual: @"Festivalscafeen"]) {
-        [self performSegueWithIdentifier:@"cafe" sender:self];
+        [self performSegueWithIdentifier:@"Cafe" sender:self];
     }
     if ([celltext  isEqual: @"Fidlers Green"]) {
         [self performSegueWithIdentifier:@"Green" sender:self];
@@ -159,9 +159,12 @@
     if ([celltext  isEqual: @"Grilltelt"]) {
         [self performSegueWithIdentifier:@"Grilltelt" sender:self];
     }
+    if ([celltext  isEqual: @"Grill/Lam og Gris"]) {
+        [self performSegueWithIdentifier:@"Grill" sender:self];
+    }
     //"I"
     if ([celltext  isEqual: @"Irish Pub"]) {
-        [self performSegueWithIdentifier:@"Irish" sender:self];
+        [self performSegueWithIdentifier:@"Pub" sender:self];
     }
     //"K"
     if ([celltext  isEqual: @"Kupeen"]) {
@@ -173,24 +176,24 @@
     }
     //"M"
     if ([celltext  isEqual: @"Madbod"]) {
-        [self performSegueWithIdentifier:@"Madbod" sender:self];
+        [self performSegueWithIdentifier:@"Mad" sender:self];
     }
     if ([celltext  isEqual: @"Marie Laveau"]) {
         [self performSegueWithIdentifier:@"Marie" sender:self];
     }
     if ([celltext  isEqual: @"Mormors Køkken"]) {
-        [self performSegueWithIdentifier:@"Mormors" sender:self];
+        [self performSegueWithIdentifier:@"Mormor" sender:self];
     }
     //"N"
     if ([celltext  isEqual: @"Nolabar"]) {
-        [self performSegueWithIdentifier:@"Nolabar" sender:self];
+        [self performSegueWithIdentifier:@"Nola" sender:self];
     }
     //"P"
     if ([celltext  isEqual: @"Pandekager/Fastfood"]) {
         [self performSegueWithIdentifier:@"Pandekager" sender:self];
     }
     if ([celltext  isEqual: @"Pølesvogn"]) {
-        [self performSegueWithIdentifier:@"Pølesvogn" sender:self];
+        [self performSegueWithIdentifier:@"Vogn" sender:self];
     }
     //"R"
     if ([celltext  isEqual: @"Rom og Cigarbar"]) {
@@ -198,16 +201,16 @@
     }
     //"S"
     if ([celltext  isEqual: @"Sandwichbar"]) {
-        [self performSegueWithIdentifier:@"Sandwichbar" sender:self];
+        [self performSegueWithIdentifier:@"Sandwich" sender:self];
     }
     if ([celltext  isEqual: @"Schackenborg"]) {
-        [self performSegueWithIdentifier:@"Schackenborg" sender:self];
+        [self performSegueWithIdentifier:@"Schacken" sender:self];
     }
     if ([celltext  isEqual: @"SOS-bar"]) {
         [self performSegueWithIdentifier:@"SOS" sender:self];
     }
     if ([celltext  isEqual: @"Spisestue med Bar"]) {
-        [self performSegueWithIdentifier:@"Spisestue" sender:self];
+        [self performSegueWithIdentifier:@"Spise" sender:self];
     }
     if ([celltext  isEqual: @"Steakhouse med lounge"]) {
         [self performSegueWithIdentifier:@"Steak" sender:self];
@@ -228,10 +231,10 @@
     }
     //"Ø"
     if ([celltext  isEqual: @"Øko-bod"]) {
-        [self performSegueWithIdentifier:@"Øko" sender:self];
+        [self performSegueWithIdentifier:@"Oko" sender:self];
     }
     if ([celltext  isEqual: @"Ølbar"]) {
-        [self performSegueWithIdentifier:@"Ølbar" sender:self];
+        [self performSegueWithIdentifier:@"Olbar" sender:self];
     }
     
 
