@@ -31,7 +31,7 @@ NSArray *spilletiderSections;
                     @"18:00" : @[@"18:00 - Chris Smither", @"18:00 - The Great Malarkey", @"18:15 - Fara", @"18:15 - Ron Kavana"],
                     @"19:00" : @[@"19:30 - Richard Thompson"],
                     @"20:00" : @[@"20:00 - Hot Rize", @"20:00 - Richard J. Dobson", @"20:15 - Hans Theessink"],
-                    @"21:00" : @[@"21:15 - Bros Landreth", @"21:45 - Jacob Dinesen", @"21:45 - King James & The Special Men"],
+                    @"21:00" : @[@"21:15 - The Bros Landreth", @"21:45 - Jacob Dinesen", @"21:45 - King James & The Special Men"],
                     @"22:00" : @[@"22:00 - The Hot Seats", @"22:30 - Sturgill Simpson"],
                     @"23:00" : @[@"23:30 - Mánran", @"23:45 - Meschiya Lake & The Little Big Horns"]};
     

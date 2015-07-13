@@ -42,7 +42,7 @@
                     
     scene = @{@"10:00" : @[@"Telt 2"],
               @"11:00" : @[@"Palais Des Glaces"],
-              @"12:00" : @[@"Telt 2", @"12:00 - Fara"],
+              @"12:00" : @[@"Telt 2", @"P4 Scenen"],
               @"13:00" : @[@"Palais Des Glaces", @"Telt 1", @"Open Air"],
               @"14:00" : @[@"P4 Scenen"],
               @"15:00" : @[@"Open Air", @"La Gayola"],

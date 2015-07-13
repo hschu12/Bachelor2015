@@ -27,10 +27,10 @@
     
     spilletider = @{@" 11:00" : @[@"11:00 - Maja & David", @"11:30 - Ron Kavana"],
                     @" 12:00" : @[@"12:30 - The Chaissons"],
-                    @" 13:00" : @[@"13:00 - Wailin’Jennys", @"13:00 - Three Tall Pines"],
+                    @" 13:00" : @[@"13:00 - The Wailin’Jennys", @"13:00 - Three Tall Pines"],
                     @" 14:00" : @[@"14:00 - Band Battle New Orleans Style", @"14:00 - DR P4 Madsen Live", @"14:00 - The Beatons", @"14:15 - Allan Taylor"],
                     @" 15:00" : @[@"15:00 - Poul Krebs & Friends", @"15:30 - Adam Holmes & The Embers", @"15:30 - The MacGillivrays"],
-                    @" 16:00" : @[@"16:00 - DR P5 Folk på 5'eren Live", @"16:30 - Mary Gauthier", @"16:45 - Greg Russell & Claran Algar"],
+                    @" 16:00" : @[@"16:00 - DR P5 Folk på 5'eren Live", @"16:30 - Mary Gauthier", @"16:45 - Greg Russell & Ciaran Algar"],
                     @" 17:00" : @[@"17:00 - FolkSpot, Phønix", @"17:00 - The Dewars", @"17:30 - The Lone Bellow"],
                     @" 18:00" : @[@"18:00 - FolkSpot, Ida Wenøe", @"18:00 - Niels Hausgaard med gæster"],
                     @" 19:00" : @[@"19:15 - La Bottine Souriante", @"19:30 - Lynn Miles"],
@@ -38,7 +38,7 @@
                     @" 21:00" : @[@"21:00 - Skerryvore", @"21:00 - FolkSpot, Lukkif", @"21:00 - Neanders"],
                     @" 22:00" : @[@"22:00 - Eleanor Shanley", @"22:00 - The East Pointers", @"22:00 - Helene Blum & Harald Haugaard Band"],
                     @" 23:00" : @[@"23:00 - Sheesham, Lotus & ‘Son", @"23:15 - Jonah Blacksmith",  @"23:30 - The Wood Brothers", @"23:45 - Spiro"],
-                    @"00:00" : @[@"00:15 - The Hot Seats", @"00:45 - Bros Landreth"],
+                    @"00:00" : @[@"00:15 - The Hot Seats", @"00:45 - The Bros Landreth"],
                     @"01:00" : @[@"01:00 - The Sexican", @"01:15 - King James & The Special Men"]};
     
     scene = @{@" 11:00" : @[@"Visemøllen", @"La Gayola"],
@@ -48,7 +48,7 @@
               @" 15:00" : @[@"Telt 1", @"Palais Des Glaces", @"Visemøllen"],
               @" 16:00" : @[@"P4 Scenen", @"Telt 2", @"La Gayola"],
               @" 17:00" : @[@"P4 Scenen", @"Visemøllen", @"Open Air"],
-              @" 18:00" : @[@"P4 Scenen, Ida Wenøe", @"Palais Des Glaces"],
+              @" 18:00" : @[@"P4 Scenen", @"Palais Des Glaces"],
               @" 19:00" : @[@"Open Air", @"La Gayola"],
               @" 20:00" : @[@"Telt 1", @"P4 Scenen", @"Palais Des Glaces"],
               @" 21:00" : @[@"Open Air", @"P4 Scenen", @"Visemøllen"],

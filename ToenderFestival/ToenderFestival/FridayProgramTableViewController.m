@@ -30,14 +30,14 @@
                     @" 13:00" : @[@"13:00 - Skerryvore", @"13:00 - DR P4 Madsen Live", @"13:45 - Allan Taylor"],
                     @" 14:00" : @[@"14:00 - Greg Russell & Ciaran Algar"],
                     @" 15:00" : @[@"15:30 - Adam Holmes & The Embers", @"15:45 - Fara"],
-                    @" 16:00" : @[@"16:00 - Danú", @"DR P5 Live"],
+                    @" 16:00" : @[@"16:00 - Danú", @"16:00 - DR P5 Live"],
                     @" 17:00" : @[@"17:00 - Folk Spot, Maja & David", @"17:15 - Sheesham, Lotus & ‘Son", @"17:30 - The Hot Seats"],
                     @" 18:00" : @[@"18:00 - Folk Spot, MC Hansen", @"18:30 - Rura", @"18:30 - Hot Rize", @"18:45 - Ten Strings And A Goat Skin"],
                     @" 19:00" : @[@"19:15 - Rod"],
                     @" 20:00" : @[@"20:00 - Folkeklubben", @"20:00 - Folk Spot, Jansberg", @"20:00 - Chris Smither", @"20:30 - Bellowhead"],
                     @" 21:00" : @[@"21:00 - Three Tall Pines", @"21:00 - FolkSpot, Northern Assembly"],
                     @" 22:00" : @[@"22:00 - Kepa Junkera", @"22:15 - Mike Andersen", @"22:30 - Kathryn Tickell & The Side"],
-                    @" 23:00" : @[@"23:15 - Fanø/Cape Breton Night", @"23:30 - La Bottine Souriante", @"23:45 - Barra Mac Neils"],
+                    @" 23:00" : @[@"23:15 - Fanø/Cape Breton Night", @"23:30 - La Bottine Souriante", @"23:45 - The Barra MacNeils"],
                     @"00:00" : @[@"00:00 - The Great Malarkey", @"00:45 - Mames Babegenush"],
                     @"01:00" : @[@"01:15 - Fanø Bal", @"01:15 - King James & The Special Men"]};
     
