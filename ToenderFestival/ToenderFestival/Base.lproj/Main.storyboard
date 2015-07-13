@@ -4226,12 +4226,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-dR-gRB">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Fur.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-dR-gRB">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="z43-rR-SvI" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z43-rR-SvI" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Fået nok Tuborg Classic til en hel livstid? Så kom forbi og prøv Furbars enestående udvalg af øl fra Fur Bryghus. 
+
+Du finder Furbar overfor Telt 2.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4295,10 +4298,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="i6h-wr-v39">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Coffee.png" translatesAutoresizingMaskIntoConstraints="NO" id="i6h-wr-v39">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="390-tC-7BH" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Coffee and Cookies foran La Gayola og Palais Des Glaces." translatesAutoresizingMaskIntoConstraints="NO" id="390-tC-7BH" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -4346,12 +4349,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-Ce-aR7">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hemmelige.png" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-Ce-aR7">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="z3N-1g-eVG" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3N-1g-eVG" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Hvad gemmer der sig under den mørke jord bag museet?
+
+Du finder Den Hemmelige ved Tønder Museum på toppen af bakken ved Open Air.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4397,10 +4403,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="km3-Sz-fAg">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="km3-Sz-fAg">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="GYz-Rh-vct" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Grillen ved Open Air." translatesAutoresizingMaskIntoConstraints="NO" id="GYz-Rh-vct" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -4448,12 +4454,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="gQr-sC-GiW">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Gris.png" translatesAutoresizingMaskIntoConstraints="NO" id="gQr-sC-GiW">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="rd5-0O-Hxm" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rd5-0O-Hxm" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Grillet lam eller pattegris med salat og kartoffel.
+
+Du finder Lam og Gris ved Campingindgangen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4502,9 +4511,14 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZIe-Gy-qPg">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="0VB-5O-Ptd" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VB-5O-Ptd" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">I vores Irish Pub/ "Little Dublin" finder du et dejlig udvalg af Whisky og øl.
+
+På første sal i ”Little Dublin”er der også i år sessions, stort set fra festivalen åbner til den lukker. Her spilles åbne sessions under ledelse af festivalveteranen Hans Jørgen ”McKenna” Jensen.I stuen i ”Little Dublin” spiller denne irske trio med venner daglige traditionelle irske sessions. Ronan O’Flaherty violin, Damien O’Reilly box og Tim McHugh fløjte, ledsages blandt andre af fire sætdansere.
+
+Du finder Irish Pub / Little Dublin i det gule hus overfor Telt 1.</mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4550,12 +4564,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="Coe-4E-9bm">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Cafe.png" translatesAutoresizingMaskIntoConstraints="NO" id="Coe-4E-9bm">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="nEu-0h-tdf" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEu-0h-tdf" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Byder på lækre sandwich, karrysuppe og paella, når sulten skal stilles.Gælder det den søde tand serverer vi lækre kager, tærter og vores specialitet den sønderjyske brødtorte.
+
+Du finder Festivalscafeen overfor P4-Scenen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4601,12 +4618,25 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="l9G-iH-0UW">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Green.png" translatesAutoresizingMaskIntoConstraints="NO" id="l9G-iH-0UW">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="iTS-Jn-dHj" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTS-Jn-dHj" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Festivalens gourmet restaurant Fiddlers Green tilbyder lækker og spændende mad. 
+ 
+Hver dag har vi en ny aftenmenu af friske råvarer med tilhørende udsøgte vine. I dagtimerne serverer vi luksusbrunch, tapas og frokostplatte af høj kvalitet. 
+ 
+Åbningstider: 
+aftenmenu alle festivaldage fra kl. 17 (torsdag dog kl. 18)  
+torsdag og fredag tapasanretning kl. 12 
+lørdag luksus morgenbrunch kl. 9 og lækker frokostplatte kl. 12  
+søndag hang-over brunch fra kl. 9.00  
+ 
+Bordbestilling anbefales og kan ske lørdag den 22. aug. i tidsrummet 10-15 og søndag        den 23. aug. 11-14 på tlf. 7472 4747. Herefter bedes man benytte tlf. 7472 0983  
+ 
+Vi glæder os til jeres besøg </mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4652,12 +4682,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQs-TM-QL1">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Fish.png" translatesAutoresizingMaskIntoConstraints="NO" id="KQs-TM-QL1">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-gE-BKF" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-gE-BKF" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Frisklavet stegt fisk med stegte kartoffelbåde og frisk tillavet special dressing
+
+Du finder Fish'n'Chips ved siden af Millstream.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4703,12 +4736,22 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="RE0-Ss-geU">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Blues.png" translatesAutoresizingMaskIntoConstraints="NO" id="RE0-Ss-geU">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="nFd-09-7py" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFd-09-7py" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Er du også til den lidt stæke Louisianske mad stil, så kig forbi Blues'n'food. Her kan du få :
+
+- Shrimp Creole 
+- Catfish Balls med salsa, krydderurter, ris og hot sauce
+- Evil Fried Chicken med salat, jalapenosalsa og grove fritter
+- Kreolsk Fiskesuppe med marineret fisk og krydderurter
+- Muslinger med kreolske urter, aioli og grove fritter
+- Crawfish Fettucine Casserole
+
+Du finder Blues'n'food mellem La Gayola og Palais Des Glaces.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4754,10 +4797,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="2f3-Y2-1zj">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Kuppen.png" translatesAutoresizingMaskIntoConstraints="NO" id="2f3-Y2-1zj">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="cOj-H1-lwj" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder kupeen mellem vestindgangen og Telt 1." translatesAutoresizingMaskIntoConstraints="NO" id="cOj-H1-lwj" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -4805,10 +4848,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LZ-uz-qrF">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LZ-uz-qrF">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="PFQ-KD-7dt" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder &quot;Lounge med Bar&quot; ved siden af Millstream." translatesAutoresizingMaskIntoConstraints="NO" id="PFQ-KD-7dt" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -4856,12 +4899,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="njE-6Q-d2P">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="njE-6Q-d2P">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="Cku-lY-eyW" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cku-lY-eyW" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Bagte kartofler eller pitabrød med forskelligt fyld – serveres også som vegetar.
+
+Du finder madboden ved Open Air.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4907,12 +4953,14 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-BP-2Ic">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-BP-2Ic">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="Dbz-yp-p0f" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbz-yp-p0f" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I vores helt egen Voodoo bar finder du lækre drinks som kan køle dig af i varmen.
+Du finder Marie Laveau ved siden af Palais Des Glaces.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4958,12 +5006,26 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="QLt-Ny-C0Q">
-                                <rect key="frame" x="16" y="28" width="568" height="278"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Mormor.png" translatesAutoresizingMaskIntoConstraints="NO" id="QLt-Ny-C0Q">
+                                <rect key="frame" x="16" y="28" width="568" height="351"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="VF4-1i-ONK" userLabel="Beskrivelse">
-                                <rect key="frame" x="16" y="314" width="568" height="278"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VF4-1i-ONK" userLabel="Beskrivelse">
+                                <rect key="frame" x="16" y="387" width="568" height="351"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Morgenmad kl. 9 – 11Rundstykker, rugbrød, smør, ost Marmelade, pålæg Surmælksprodukter og mysli Kaffe, te, mælk og juice, grøntsagssnacks
+Små lune retterBiksemad m. spejlæg, rugbrød og rødbeder Hjemmelavede frikadeller med kold kartoffelsalat og surt 2 lune tarteletter med høns i asparges
+
+FrokostHåndmadder
+
+DessertGammeldags æblekage med flødeskum Kaffe og te
+
+3 Retters menuF.eks. tarteletter, biksemad og æblekage m. kaffe
+
+Lørdag og søndag eftermiddagKaffe og kage
+
+Kun søndagHjemmelavet skipperlabskovs med rødbeder
+
+Du finder Mormors Køkken ved Telt 1.</mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5009,10 +5071,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gm9-sn-5zH">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gm9-sn-5zH">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="C5U-dH-fSp" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Nolabar ved siden af La Gayola." translatesAutoresizingMaskIntoConstraints="NO" id="C5U-dH-fSp" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5060,12 +5122,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPI-dw-fXT">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="pandekage.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPI-dw-fXT">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="9TX-7W-QnP" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TX-7W-QnP" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Madpandekager med forskelligt fyld eller søde pandekager med forskelligt fyld.
+
+Du finder Pandekager/Fastfood overfor Telt 1.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5111,10 +5176,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="co5-Ai-WPy">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Pølse.png" translatesAutoresizingMaskIntoConstraints="NO" id="co5-Ai-WPy">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-My-1ka" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Pølsevognen foran Front Porch Stage ved indgang vest." translatesAutoresizingMaskIntoConstraints="NO" id="lZF-My-1ka" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5162,12 +5227,16 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="jYa-sM-x8c">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Rom.png" translatesAutoresizingMaskIntoConstraints="NO" id="jYa-sM-x8c">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="MzH-02-OTL" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzH-02-OTL" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Her kan du nyde den hyggelige stemning i en af sofagrupperne mens du spiller et spil, får en hyggesnak eller bare slapper af ind imellem koncerterne.
+Uanset hvad du vælger, sp kan du samtidig nyde en fantastisk rom fra barens store udvalg - sammen med, eller uden en udsøgt håndrullet cigar!
+
+Du finder Rom og Cigarbar ved siden af Telt 2.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5213,12 +5282,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="Toq-9C-ErQ">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Toq-9C-ErQ">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-8m-klO" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-8m-klO" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Serverer lækre panini og sandwich med fyld efter eget valg. Vælg mellem flere slags brød, pålæg, grønt og dressinger. Vi har også glutenfrit brød.
+
+Du finder Shamrock Sandwich/Sandwichbar tæt på P4-Scenen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5264,10 +5336,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="SHg-OD-ppP">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Schackenborg.png" translatesAutoresizingMaskIntoConstraints="NO" id="SHg-OD-ppP">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="Y4r-9f-Y0t" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Schakenborg over for Telt 2." translatesAutoresizingMaskIntoConstraints="NO" id="Y4r-9f-Y0t" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5315,12 +5387,20 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="7ye-Mb-9XJ">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="SOS.png" translatesAutoresizingMaskIntoConstraints="NO" id="7ye-Mb-9XJ">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="EyI-me-mTZ" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EyI-me-mTZ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Trænger du til at komme ud på det åbne hav? Vi kan nok ikke fragte dig hele vejen, men vores retter og omgivelser sende dig på rette vej. i SOS-Baren finder du:
+
+- Marineret sild med karrysalat, rugbrød og smør 
+- Bakskuld med citron, rugbrød og smør 
+- Friskrøget ørred med citron, rugbrød og smør 
+- Rømørejer- Hertil kan serveres kaffepunch, eller øl og snaps.
+
+Du finder SOS-baren overfor Telt 2.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5366,10 +5446,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="07l-6M-edl">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="07l-6M-edl">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="AIB-sf-E8s" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder vores Spisestue med bar ved siden af P4-scenen." translatesAutoresizingMaskIntoConstraints="NO" id="AIB-sf-E8s" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5417,10 +5497,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="neH-aS-nT0">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="neH-aS-nT0">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="8W0-fs-RL5" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder vores steakhouse med louge ved siden af P4-Scenen." translatesAutoresizingMaskIntoConstraints="NO" id="8W0-fs-RL5" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5468,12 +5548,21 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0y-qS-x4E">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0y-qS-x4E">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="tRi-kw-05G" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRi-kw-05G" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Få en autentisk Vadehavs/Sønderjysk snack med en omgang Tapas. Vadehavs Tapas kan tilbyde:
+
+- Vadehavs Tapas 
+- Sønderjysk Tapas
+- Vadehavssaft fra Vibegaard
+- Vadehavsbryg fra Ribe Bryghus
+- Rødvin og Hvidvin
+
+Du finder Vadehavstapas over for Telt 2.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5519,12 +5608,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="diK-jT-Xyw">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Vaffelbod.png" translatesAutoresizingMaskIntoConstraints="NO" id="diK-jT-Xyw">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="Grq-mf-ry9" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grq-mf-ry9" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I Vaffelboden byder vi på belgiske vafler, softice og slush ice.
+
+Du finder Vaffelboden på hjørnet ved Telt 2.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5570,12 +5662,14 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgp-8k-Onr">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="vinotek.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgp-8k-Onr">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="BCG-YD-NYx" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCG-YD-NYx" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Vinoteket på Tønder Festival er et telt med både indendørs og udendørs plads, hvor man kan spise lidt let mad og nyde nogle gode vine eller en specialøl.
+Vinoteket ´s kendetegne er flere alsaciske vine, som mange nyder til den alsaciske specialitet der kaldes ”Tarte flambée” eller til vinbjergsnegle, en stegt camembert, suppe og som noget nyt fra i år er blå muslinger.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5621,12 +5715,15 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="yhC-0g-BSe">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="wok.png" translatesAutoresizingMaskIntoConstraints="NO" id="yhC-0g-BSe">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="qTN-iT-73M" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTN-iT-73M" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Håndsnittede friske grøntsager og marineret kalkun direkte fra wok panden. Serveres med tortillas, pandekage eller ris.Desuden serveres der efter bestilling vegetar wok.
+
+Du finder wokken modsat Telt 1.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5672,10 +5769,10 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="vm2-Zc-JhB">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vm2-Zc-JhB">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="5hi-WS-mxd" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder øko-boden ved campingindgangen." translatesAutoresizingMaskIntoConstraints="NO" id="5hi-WS-mxd" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -5723,12 +5820,14 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Sheesham, Lotus &amp; ´Son.png" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-Dq-6bC">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Øl.png" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-Dq-6bC">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="FURBARRRRRR" translatesAutoresizingMaskIntoConstraints="NO" id="r5w-d2-qam" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5w-d2-qam" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Ølbarene findes flere steder på festivalspladsen, og kan hjælpe hvis tørsten skulle melde sig. 
+Du finder én ølbar foran Telt 1, Telt 2 og Front Porch Stage samt 2 mere på hver side af Openair scenen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5772,19 +5871,27 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
         <image name="Allan Taylor.png" width="561" height="512"/>
         <image name="Band Battle New Orleans Style.png" width="563" height="466"/>
         <image name="Bellowhead.png" width="560" height="489"/>
+        <image name="Blues.png" width="800" height="450"/>
+        <image name="Cafe.png" width="3264" height="2448"/>
         <image name="Chris Smither.png" width="564" height="491"/>
+        <image name="Coffee.png" width="5472" height="3648"/>
         <image name="Danú.png" width="562" height="467"/>
         <image name="Dreamers' Circus &amp; The Danish String Quartet.png" width="561" height="484"/>
         <image name="Eleanor Shanley.png" width="563" height="490"/>
         <image name="Fanø:Cape Breton Night.png" width="562" height="468"/>
         <image name="Fara.png" width="564" height="491"/>
+        <image name="Fish.png" width="850" height="650"/>
         <image name="FolkSpot.png" width="563" height="389"/>
         <image name="Folkeklubben.png" width="562" height="469"/>
+        <image name="Fur.png" width="940" height="520"/>
+        <image name="Green.png" width="1936" height="1288"/>
         <image name="Greg Russell og Ciaran Algar.png" width="561" height="489"/>
+        <image name="Gris.png" width="1000" height="667"/>
         <image name="Hand Made logo.png" width="1937" height="1827"/>
         <image name="Hans Theessink.png" width="558" height="419"/>
         <image name="Hayseed Dixie.png" width="562" height="466"/>
         <image name="Helene Blum &amp; Harald Haugaard Band.png" width="561" height="489"/>
+        <image name="Hemmelige.png" width="1124" height="610"/>
         <image name="Hot Rize.png" width="562" height="492"/>
         <image name="Jacob Dinesen.png" width="562" height="491"/>
         <image name="John Prine.png" width="559" height="466"/>
@@ -5792,6 +5899,7 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
         <image name="Kathryn Tickell &amp; The Side.png" width="561" height="491"/>
         <image name="Kepa Junkera.png" width="559" height="459"/>
         <image name="King James &amp; The Special Men.png" width="560" height="488"/>
+        <image name="Kuppen.png" width="5472" height="3648"/>
         <image name="La Bottine Souriante.png" width="559" height="465"/>
         <image name="Lynn Miles.png" width="562" height="475"/>
         <image name="Maja &amp; David.png" width="560" height="465"/>
@@ -5800,14 +5908,19 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
         <image name="Mánran.png" width="561" height="490"/>
         <image name="Meschiya Lake &amp; The Little Big Horns.png" width="563" height="515"/>
         <image name="Mike Andersen.png" width="561" height="490"/>
+        <image name="Mormor.png" width="640" height="431"/>
         <image name="Niels Hausgaard med gæster.png" width="563" height="492"/>
         <image name="Poul Krebs &amp; venner.png" width="563" height="491"/>
         <image name="Programtext.png" width="200" height="200"/>
+        <image name="Pølse.png" width="5472" height="3648"/>
         <image name="ROD.png" width="562" height="466"/>
         <image name="Richard J. Dobson.png" width="563" height="418"/>
         <image name="Richard Thompson.png" width="558" height="488"/>
+        <image name="Rom.png" width="5472" height="3648"/>
         <image name="Ron Kavana.png" width="557" height="488"/>
         <image name="Rura.png" width="560" height="466"/>
+        <image name="SOS.png" width="3648" height="5472"/>
+        <image name="Schackenborg.png" width="900" height="600"/>
         <image name="Sheesham, Lotus &amp; ´Son.png" width="561" height="465"/>
         <image name="Skerryvore.png" width="562" height="465"/>
         <image name="Spiro.png" width="561" height="465"/>
@@ -5828,6 +5941,7 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
         <image name="Three Tall Pines.png" width="559" height="491"/>
         <image name="Townes Van Zandt Tribute.png" width="559" height="517"/>
         <image name="Usher's Island.png" width="561" height="475"/>
+        <image name="Vaffelbod.png" width="3264" height="2448"/>
         <image name="dk.png" width="604" height="498"/>
         <image name="festivalspladsmap.png" width="581" height="941"/>
         <image name="folkBALTICA Ensemble.png" width="559" height="487"/>
@@ -5836,13 +5950,17 @@ Glæd jer til verdenseliten inden for irsk folkemusik, Andy Irvine’s smukke ba
         <image name="kunstneretext.png" width="200" height="200"/>
         <image name="madtext.png" width="200" height="200"/>
         <image name="newstext.png" width="200" height="200"/>
+        <image name="pandekage.png" width="700" height="350"/>
         <image name="smiletext.png" width="200" height="200"/>
         <image name="tysk.png" width="606" height="365"/>
         <image name="uk.png" width="606" height="305"/>
+        <image name="vinotek.png" width="3888" height="2592"/>
+        <image name="wok.png" width="5472" height="3648"/>
+        <image name="Øl.png" width="5472" height="3648"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k6c-RL-oKf"/>
-        <segue reference="IKG-R8-hXE"/>
+        <segue reference="xK1-T9-w1t"/>
         <segue reference="EPt-C8-0qY"/>
     </inferredMetricsTieBreakers>
 </document>

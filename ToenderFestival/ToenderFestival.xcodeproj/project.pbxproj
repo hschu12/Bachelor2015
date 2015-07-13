@@ -81,6 +81,25 @@
 		1E2BFC201ADFDB6B007F50A4 /* KunstnerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */; };
 		1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BFC221ADFE96A007F50A4 /* KortViewController.m */; };
 		1E420C101AE2896100E96552 /* Spejl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E420C0E1AE2896100E96552 /* Spejl.png */; };
+		1E4730B41B53DF8E00E09C2E /* vinotek.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B31B53DF8E00E09C2E /* vinotek.png */; };
+		1E4730BF1B53E89500E09C2E /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B51B53E89500E09C2E /* Cafe.png */; };
+		1E4730C01B53E89500E09C2E /* Coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B61B53E89500E09C2E /* Coffee.png */; };
+		1E4730C11B53E89500E09C2E /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B71B53E89500E09C2E /* Green.png */; };
+		1E4730C21B53E89500E09C2E /* Kuppen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B81B53E89500E09C2E /* Kuppen.png */; };
+		1E4730C31B53E89500E09C2E /* Øl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730B91B53E89500E09C2E /* Øl.png */; };
+		1E4730C41B53E89500E09C2E /* Pølse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730BA1B53E89500E09C2E /* Pølse.png */; };
+		1E4730C51B53E89500E09C2E /* Rom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730BB1B53E89500E09C2E /* Rom.png */; };
+		1E4730C61B53E89500E09C2E /* SOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730BC1B53E89500E09C2E /* SOS.png */; };
+		1E4730C71B53E89500E09C2E /* Vaffelbod.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730BD1B53E89500E09C2E /* Vaffelbod.png */; };
+		1E4730C81B53E89500E09C2E /* wok.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730BE1B53E89500E09C2E /* wok.png */; };
+		1E4730CA1B53F01300E09C2E /* Blues.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730C91B53F01300E09C2E /* Blues.png */; };
+		1E4730CC1B53F38200E09C2E /* Hemmelige.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730CB1B53F38200E09C2E /* Hemmelige.png */; };
+		1E4730CE1B53F55B00E09C2E /* Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730CD1B53F55B00E09C2E /* Fish.png */; };
+		1E4730D01B53F5DF00E09C2E /* Fur.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730CF1B53F5DF00E09C2E /* Fur.png */; };
+		1E4730D21B53F73100E09C2E /* Gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730D11B53F73100E09C2E /* Gris.png */; };
+		1E4730D41B53FCB500E09C2E /* Mormor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730D31B53FCB500E09C2E /* Mormor.png */; };
+		1E4730D61B53FDB700E09C2E /* pandekage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730D51B53FDB700E09C2E /* pandekage.png */; };
+		1E4730D81B53FF8F00E09C2E /* Schackenborg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4730D71B53FF8F00E09C2E /* Schackenborg.png */; };
 		1E5157191B283EFC00763BDB /* FridayProgramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5157181B283EFC00763BDB /* FridayProgramTableViewController.m */; };
 		1E51571C1B285D3200763BDB /* SaturdayProgramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E51571B1B285D3200763BDB /* SaturdayProgramTableViewController.m */; };
 		1E51571F1B285D4000763BDB /* SundayProgramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E51571E1B285D4000763BDB /* SundayProgramTableViewController.m */; };
@@ -207,6 +226,25 @@
 		1E2BFC211ADFE96A007F50A4 /* KortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KortViewController.h; sourceTree = "<group>"; };
 		1E2BFC221ADFE96A007F50A4 /* KortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KortViewController.m; sourceTree = "<group>"; };
 		1E420C0E1AE2896100E96552 /* Spejl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spejl.png; path = ../../images/Spejl.png; sourceTree = "<group>"; };
+		1E4730B31B53DF8E00E09C2E /* vinotek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vinotek.png; path = ../../images/Madsteder/vinotek.png; sourceTree = "<group>"; };
+		1E4730B51B53E89500E09C2E /* Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cafe.png; path = ../../images/Madsteder/Cafe.png; sourceTree = "<group>"; };
+		1E4730B61B53E89500E09C2E /* Coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coffee.png; path = ../../images/Madsteder/Coffee.png; sourceTree = "<group>"; };
+		1E4730B71B53E89500E09C2E /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = ../../images/Madsteder/Green.png; sourceTree = "<group>"; };
+		1E4730B81B53E89500E09C2E /* Kuppen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kuppen.png; path = ../../images/Madsteder/Kuppen.png; sourceTree = "<group>"; };
+		1E4730B91B53E89500E09C2E /* Øl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Øl.png"; path = "../../images/Madsteder/Øl.png"; sourceTree = "<group>"; };
+		1E4730BA1B53E89500E09C2E /* Pølse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pølse.png"; path = "../../images/Madsteder/Pølse.png"; sourceTree = "<group>"; };
+		1E4730BB1B53E89500E09C2E /* Rom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rom.png; path = ../../images/Madsteder/Rom.png; sourceTree = "<group>"; };
+		1E4730BC1B53E89500E09C2E /* SOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SOS.png; path = ../../images/Madsteder/SOS.png; sourceTree = "<group>"; };
+		1E4730BD1B53E89500E09C2E /* Vaffelbod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vaffelbod.png; path = ../../images/Madsteder/Vaffelbod.png; sourceTree = "<group>"; };
+		1E4730BE1B53E89500E09C2E /* wok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wok.png; path = ../../images/Madsteder/wok.png; sourceTree = "<group>"; };
+		1E4730C91B53F01300E09C2E /* Blues.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blues.png; path = ../../images/Madsteder/Blues.png; sourceTree = "<group>"; };
+		1E4730CB1B53F38200E09C2E /* Hemmelige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hemmelige.png; path = ../../images/Madsteder/Hemmelige.png; sourceTree = "<group>"; };
+		1E4730CD1B53F55B00E09C2E /* Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fish.png; path = ../../images/Madsteder/Fish.png; sourceTree = "<group>"; };
+		1E4730CF1B53F5DF00E09C2E /* Fur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fur.png; path = ../../images/Madsteder/Fur.png; sourceTree = "<group>"; };
+		1E4730D11B53F73100E09C2E /* Gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gris.png; path = ../../images/Madsteder/Gris.png; sourceTree = "<group>"; };
+		1E4730D31B53FCB500E09C2E /* Mormor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mormor.png; path = ../../images/Madsteder/Mormor.png; sourceTree = "<group>"; };
+		1E4730D51B53FDB700E09C2E /* pandekage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pandekage.png; path = ../../images/Madsteder/pandekage.png; sourceTree = "<group>"; };
+		1E4730D71B53FF8F00E09C2E /* Schackenborg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Schackenborg.png; path = ../../images/Madsteder/Schackenborg.png; sourceTree = "<group>"; };
 		1E5157171B283EFC00763BDB /* FridayProgramTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FridayProgramTableViewController.h; sourceTree = "<group>"; };
 		1E5157181B283EFC00763BDB /* FridayProgramTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FridayProgramTableViewController.m; sourceTree = "<group>"; };
 		1E51571A1B285D3200763BDB /* SaturdayProgramTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaturdayProgramTableViewController.h; sourceTree = "<group>"; };
@@ -310,6 +348,25 @@
 		1E1C43FC1B1DCF5B00BF1734 /* Madsteder */ = {
 			isa = PBXGroup;
 			children = (
+				1E4730C91B53F01300E09C2E /* Blues.png */,
+				1E4730CB1B53F38200E09C2E /* Hemmelige.png */,
+				1E4730B51B53E89500E09C2E /* Cafe.png */,
+				1E4730B61B53E89500E09C2E /* Coffee.png */,
+				1E4730CD1B53F55B00E09C2E /* Fish.png */,
+				1E4730CF1B53F5DF00E09C2E /* Fur.png */,
+				1E4730D11B53F73100E09C2E /* Gris.png */,
+				1E4730B71B53E89500E09C2E /* Green.png */,
+				1E4730B81B53E89500E09C2E /* Kuppen.png */,
+				1E4730D31B53FCB500E09C2E /* Mormor.png */,
+				1E4730D51B53FDB700E09C2E /* pandekage.png */,
+				1E4730BA1B53E89500E09C2E /* Pølse.png */,
+				1E4730BB1B53E89500E09C2E /* Rom.png */,
+				1E4730D71B53FF8F00E09C2E /* Schackenborg.png */,
+				1E4730BC1B53E89500E09C2E /* SOS.png */,
+				1E4730BD1B53E89500E09C2E /* Vaffelbod.png */,
+				1E4730B31B53DF8E00E09C2E /* vinotek.png */,
+				1E4730BE1B53E89500E09C2E /* wok.png */,
+				1E4730B91B53E89500E09C2E /* Øl.png */,
 				1E420C0E1AE2896100E96552 /* Spejl.png */,
 			);
 			name = Madsteder;
@@ -576,7 +633,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E184B2C1B25D0A4000F337C /* Eleanor Shanley.png in Resources */,
+				1E4730C31B53E89500E09C2E /* Øl.png in Resources */,
 				1E184B281B25D0A4000F337C /* Bellowhead.png in Resources */,
+				1E4730C81B53E89500E09C2E /* wok.png in Resources */,
 				1EC66F7E1B298DFB0053E62A /* festivalspladsmap.png in Resources */,
 				1E184B4D1B25D0A4000F337C /* Skerryvore.png in Resources */,
 				1E573DE81B1C69AD00690BB7 /* tonder-festival-toplogo.png in Resources */,
@@ -587,6 +646,7 @@
 				1E184B591B25D0A4000F337C /* The Wailin' Jennys.png in Resources */,
 				1E184B2E1B25D0A4000F337C /* Fara.png in Resources */,
 				1E184B3A1B25D0A4000F337C /* Kathryn Tickell & The Side.png in Resources */,
+				1E4730C61B53E89500E09C2E /* SOS.png in Resources */,
 				1E7EBD5D1AF0227200604071 /* madtext.png in Resources */,
 				1E184B401B25D0A4000F337C /* Mames Babegenush.png in Resources */,
 				1E2306F01ADED50D00D79524 /* Main.storyboard in Resources */,
@@ -594,13 +654,19 @@
 				1E184B381B25D0A4000F337C /* John Prine.png in Resources */,
 				1E27DF001B4E9C4A0090F96C /* Vest.png in Resources */,
 				1E184B391B25D0A4000F337C /* Jonah Blacksmith.png in Resources */,
+				1E4730D41B53FCB500E09C2E /* Mormor.png in Resources */,
+				1E4730C11B53E89500E09C2E /* Green.png in Resources */,
 				1E184B461B25D0A4000F337C /* Poul Krebs & venner.png in Resources */,
 				1E184B271B25D0A4000F337C /* Band Battle New Orleans Style.png in Resources */,
+				1E4730B41B53DF8E00E09C2E /* vinotek.png in Resources */,
 				1E1C451C1B1DF31D00BF1734 /* tysk.png in Resources */,
 				1E184B4F1B25D0A4000F337C /* Sturgill Simpson.png in Resources */,
 				1E184B5C1B25D0A4000F337C /* Townes Van Zandt Tribute.png in Resources */,
 				1E184B261B25D0A4000F337C /* Allan Taylor.png in Resources */,
+				1E4730BF1B53E89500E09C2E /* Cafe.png in Resources */,
 				1E184B251B25D0A4000F337C /* Adam Holmes and The Embers.png in Resources */,
+				1E4730C51B53E89500E09C2E /* Rom.png in Resources */,
+				1E4730CA1B53F01300E09C2E /* Blues.png in Resources */,
 				1EDAB5001B1F2D810016C76B /* test.png in Resources */,
 				1E184B311B25D0A4000F337C /* FolkSpot.png in Resources */,
 				1E2306F51ADED50D00D79524 /* LaunchScreen.xib in Resources */,
@@ -608,11 +674,16 @@
 				1E573DEC1B1C6C5A00690BB7 /* Background.png in Resources */,
 				1E184B3D1B25D0A4000F337C /* La Bottine Souriante.png in Resources */,
 				1E2306F21ADED50D00D79524 /* Images.xcassets in Resources */,
+				1E4730C21B53E89500E09C2E /* Kuppen.png in Resources */,
 				1E1C44001B1DCFBC00BF1734 /* Hand Made logo.png in Resources */,
+				1E4730C71B53E89500E09C2E /* Vaffelbod.png in Resources */,
 				1E184B331B25D0A4000F337C /* Hans Theessink.png in Resources */,
+				1E4730C41B53E89500E09C2E /* Pølse.png in Resources */,
 				1E184B4A1B25D0A4000F337C /* Ron Kavana.png in Resources */,
 				1E184B4B1B25D0A4000F337C /* Rura.png in Resources */,
 				1EC66F841B2A187F0053E62A /* 29.png in Resources */,
+				1E4730C01B53E89500E09C2E /* Coffee.png in Resources */,
+				1E4730D01B53F5DF00E09C2E /* Fur.png in Resources */,
 				1E184B561B25D0A4000F337C /* The Lone Bellow.png in Resources */,
 				1E184B361B25D0A4000F337C /* Hot Rize.png in Resources */,
 				1E184B341B25D0A4000F337C /* Hayseed Dixie.png in Resources */,
@@ -631,8 +702,10 @@
 				1E184B3F1B25D0A4000F337C /* Maja & David.png in Resources */,
 				1E184B4C1B25D0A4000F337C /* Sheesham, Lotus & ´Son.png in Resources */,
 				1E7EBD5A1AF0227200604071 /* infotext.png in Resources */,
+				1E4730D81B53FF8F00E09C2E /* Schackenborg.png in Resources */,
 				1E184B521B25D0A4000F337C /* The Bros Landreth.png in Resources */,
 				1E1C451A1B1DF2E200BF1734 /* dk.png in Resources */,
+				1E4730CC1B53F38200E09C2E /* Hemmelige.png in Resources */,
 				1E7EBD5B1AF0227200604071 /* korttext.png in Resources */,
 				1E7EBD611AF0227200604071 /* Spotifytext.png in Resources */,
 				1E184B501B25D0A4000F337C /* Ten Strings And A Goat Skin.png in Resources */,
@@ -651,14 +724,17 @@
 				1E184B491B25D0A4000F337C /* ROD.png in Resources */,
 				1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */,
 				1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */,
+				1E4730D21B53F73100E09C2E /* Gris.png in Resources */,
 				1E184B5D1B25D0A4000F337C /* Usher's Island.png in Resources */,
 				1E184B4E1B25D0A4000F337C /* Spiro.png in Resources */,
 				1E7EBD5E1AF0227200604071 /* newstext.png in Resources */,
 				1E184B321B25D0A4000F337C /* Greg Russell og Ciaran Algar.png in Resources */,
+				1E4730D61B53FDB700E09C2E /* pandekage.png in Resources */,
 				1E184B571B25D0A4000F337C /* The Sexican.png in Resources */,
 				1E7EBD601AF0227200604071 /* smiletext.png in Resources */,
 				1E184B2D1B25D0A4000F337C /* Fanø:Cape Breton Night.png in Resources */,
 				1E184B471B25D0A4000F337C /* Richard J. Dobson.png in Resources */,
+				1E4730CE1B53F55B00E09C2E /* Fish.png in Resources */,
 				1E184B581B25D0A4000F337C /* The Stray Birds.png in Resources */,
 				1E184B301B25D0A4000F337C /* Folkeklubben.png in Resources */,
 			);
