@@ -10,7 +10,6 @@
 
 @interface InfoTableViewController (){
     NSDictionary *spilletider;
-    NSDictionary *scene;
     NSArray *spilletiderSections;
 }
 
@@ -27,10 +26,9 @@
     
     
     spilletider = @{@"Billetter og Armbånd" : @[@"Armbånd", @"Køb Billet"],
-                    @"Det Praktiske" :@[@"Apotek", @"Camping", @"Førstehjælp", @"Parkering",
+                    @"Det Praktiske" :@[@"Apotek og Samaritter", @"Camping", @"Parkering",
                                         @"Offentlig Transport", @"Tabte Sager"],
                     @"Festivalen" : @[@"Kontakt", @"Sponsorer"],
-                    @"Om Appen" : @[@"Credits"]
                     };
     
     spilletiderSections = [[spilletider allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -95,14 +93,11 @@
         [self performSegueWithIdentifier:@"Billet" sender:self];
     }
     //"Praktisk"
-    if ([celltext  isEqual: @"Apotek"]) {
+    if ([celltext  isEqual: @"Apotek og Samaritter"]) {
         [self performSegueWithIdentifier:@"Apotek" sender:self];
     }
     if ([celltext  isEqual: @"Camping"]) {
         [self performSegueWithIdentifier:@"Camping" sender:self];
-    }
-    if ([celltext  isEqual: @"Førstehjælp"]) {
-        [self performSegueWithIdentifier:@"Førstehjælp" sender:self];
     }
     if ([celltext  isEqual: @"Parkering"]) {
         [self performSegueWithIdentifier:@"Parkering" sender:self];

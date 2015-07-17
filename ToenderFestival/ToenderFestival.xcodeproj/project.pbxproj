@@ -117,6 +117,9 @@
 		1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD571AF0227200604071 /* Programtext.png */; };
 		1E7EBD601AF0227200604071 /* smiletext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD581AF0227200604071 /* smiletext.png */; };
 		1E7EBD611AF0227200604071 /* Spotifytext.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD591AF0227200604071 /* Spotifytext.png */; };
+		1E826CE01B591E5500157B97 /* Billetter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E826CDF1B591E5500157B97 /* Billetter.png */; };
+		1E826CE31B591E9F00157B97 /* BilleterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E826CE21B591E9F00157B97 /* BilleterViewController.m */; };
+		1E826CE61B594D5500157B97 /* SponsorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E826CE51B594D5500157B97 /* SponsorTableViewController.m */; };
 		1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D21ADEF6D6006517BE /* MenuViewController.m */; };
 		1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */; };
 		1EC66F7E1B298DFB0053E62A /* festivalspladsmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC66F7D1B298DFB0053E62A /* festivalspladsmap.png */; };
@@ -266,6 +269,11 @@
 		1E7EBD571AF0227200604071 /* Programtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Programtext.png; path = ../../images/Programtext.png; sourceTree = "<group>"; };
 		1E7EBD581AF0227200604071 /* smiletext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiletext.png; path = ../../images/smiletext.png; sourceTree = "<group>"; };
 		1E7EBD591AF0227200604071 /* Spotifytext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spotifytext.png; path = ../../images/Spotifytext.png; sourceTree = "<group>"; };
+		1E826CDF1B591E5500157B97 /* Billetter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Billetter.png; path = ../../images/Billetter.png; sourceTree = "<group>"; };
+		1E826CE11B591E9F00157B97 /* BilleterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilleterViewController.h; sourceTree = "<group>"; };
+		1E826CE21B591E9F00157B97 /* BilleterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilleterViewController.m; sourceTree = "<group>"; };
+		1E826CE41B594D5500157B97 /* SponsorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorTableViewController.h; sourceTree = "<group>"; };
+		1E826CE51B594D5500157B97 /* SponsorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorTableViewController.m; sourceTree = "<group>"; };
 		1EBF76D11ADEF6D6006517BE /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		1EBF76D21ADEF6D6006517BE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KunstnerViewController.h; sourceTree = "<group>"; };
@@ -481,6 +489,8 @@
 				1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */,
 				1EC66F871B2AD1700053E62A /* InfoTableViewController.h */,
 				1EC66F881B2AD1700053E62A /* InfoTableViewController.m */,
+				1E826CE41B594D5500157B97 /* SponsorTableViewController.h */,
+				1E826CE51B594D5500157B97 /* SponsorTableViewController.m */,
 				1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */,
 				1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */,
 				1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */,
@@ -491,6 +501,8 @@
 				1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */,
 				1E7EBD3D1AF010DD00604071 /* SpotifyViewController.h */,
 				1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */,
+				1E826CE11B591E9F00157B97 /* BilleterViewController.h */,
+				1E826CE21B591E9F00157B97 /* BilleterViewController.m */,
 				1E2306EE1ADED50D00D79524 /* Main.storyboard */,
 				1E184AE91B258F90000F337C /* ThursdayProgramTableViewController.h */,
 				1E184AEA1B258F90000F337C /* ThursdayProgramTableViewController.m */,
@@ -537,6 +549,7 @@
 		1E2307131ADEDFE900D79524 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1E826CDF1B591E5500157B97 /* Billetter.png */,
 				1E1C43FB1B1DCEEF00BF1734 /* TFLoger */,
 				1E1C43FA1B1DCECC00BF1734 /* Icons */,
 				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
@@ -725,6 +738,7 @@
 				1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */,
 				1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */,
 				1E4730D21B53F73100E09C2E /* Gris.png in Resources */,
+				1E826CE01B591E5500157B97 /* Billetter.png in Resources */,
 				1E184B5D1B25D0A4000F337C /* Usher's Island.png in Resources */,
 				1E184B4E1B25D0A4000F337C /* Spiro.png in Resources */,
 				1E7EBD5E1AF0227200604071 /* newstext.png in Resources */,
@@ -757,7 +771,9 @@
 				1E2306EA1ADED50D00D79524 /* AppDelegate.m in Sources */,
 				1E2BFC201ADFDB6B007F50A4 /* KunstnerTableViewController.m in Sources */,
 				1E184AEB1B258F90000F337C /* ThursdayProgramTableViewController.m in Sources */,
+				1E826CE31B591E9F00157B97 /* BilleterViewController.m in Sources */,
 				1E5157191B283EFC00763BDB /* FridayProgramTableViewController.m in Sources */,
+				1E826CE61B594D5500157B97 /* SponsorTableViewController.m in Sources */,
 				1E2306E71ADED50D00D79524 /* main.m in Sources */,
 				1EC66F891B2AD1700053E62A /* InfoTableViewController.m in Sources */,
 				1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */,
