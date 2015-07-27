@@ -134,6 +134,7 @@
 		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
 		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
 		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
+		1EEA25CF1B668C1F00AF3DB3 /* Marie.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA25CE1B668C1F00AF3DB3 /* Marie.png */; };
 		1EEE6D5E1B4D635C00DD9615 /* EventDKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -296,6 +297,7 @@
 		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
 		1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
 		1EDAB4FF1B1F2D810016C76B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../images/test.png; sourceTree = "<group>"; };
+		1EEA25CE1B668C1F00AF3DB3 /* Marie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marie.png; path = ../../images/Madsteder/Marie.png; sourceTree = "<group>"; };
 		1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDKTableViewController.h; sourceTree = "<group>"; };
 		1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDKTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -360,6 +362,7 @@
 		1E1C43FC1B1DCF5B00BF1734 /* Madsteder */ = {
 			isa = PBXGroup;
 			children = (
+				1EEA25CE1B668C1F00AF3DB3 /* Marie.png */,
 				1E63442D1B66823B0027F762 /* Coffee.png */,
 				1E4730C91B53F01300E09C2E /* Blues.png */,
 				1E4730CB1B53F38200E09C2E /* Hemmelige.png */,
@@ -659,6 +662,7 @@
 				1E184B4D1B25D0A4000F337C /* Skerryvore.png in Resources */,
 				1E573DE81B1C69AD00690BB7 /* tonder-festival-toplogo.png in Resources */,
 				1E184B5B1B25D0A4000F337C /* Three Tall Pines.png in Resources */,
+				1EEA25CF1B668C1F00AF3DB3 /* Marie.png in Resources */,
 				1E184B451B25D0A4000F337C /* Niels Hausgaard med gæster.png in Resources */,
 				1E184B511B25D0A4000F337C /* The Barra MacNeils.png in Resources */,
 				1EC66F821B2A18150053E62A /* 28.png in Resources */,

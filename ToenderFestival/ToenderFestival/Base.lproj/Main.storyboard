@@ -829,13 +829,13 @@ Søndag - 12:00 - Telt 2</string>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kl 8:00 - 5 km løb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8DV-ct-1Qn">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E1m-RG-VrF">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -4575,7 +4575,7 @@ Du finder Furbar overfor Telt 2.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="390-tC-7BH" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Kaffevognen: `Coffee and Cookies´
+                                <string key="text">Kaffevognen: `Coffee and Cookies´
 En retro- amerikaner- airstream vogn, hvor der er indbygget en speciel Barista kaffemaskine.
 Det er her du kan få Tønder Festivals bedste kaffe( ifølge vores trofaste kunder), friskmalet og tilberedt efter bedste Barimanér.  
 Vi tilbyder alt hvad hjertet begærer: Espresso, Cappuccino, Café Latte, Creoler café, Café med Baileys, Iskaffe, Irish coffee, Chai, ´IzBlend ´( is med mocca eller vanilje smag og chokolade/karamelsovs og fløde til), velsorteret té og meget mere.
@@ -4586,7 +4586,7 @@ Glade, dejlige, frivillige TF medarbejder sørger for, at ingen keder sig, når 
  
 NOLA Kaffevogn `Coffee and Cookie´ står på NOLA området, lige ved siden af indgangen til vores egen lille NOLA torvet med spejltelte, bar og grill. 
  
-Se efter den sølvfarvede amerikaner kaffevogn og nyd en god kop kaffe, imens du lytter til dejlig New Orleans Louisiana inspireret musik.</mutableString>
+Se efter den sølvfarvede amerikaner kaffevogn og nyd en god kop kaffe, imens du lytter til dejlig New Orleans Louisiana inspireret musik.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -5241,7 +5241,7 @@ Du finder madboden ved Open Air.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-BP-2Ic">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Marie.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-BP-2Ic">
                                 <rect key="frame" x="16" y="28" width="568" height="278"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbz-yp-p0f" userLabel="Beskrivelse">
@@ -6610,11 +6610,13 @@ info@tf.dk</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Je-Ep0" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="20" width="541" height="482"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">I was standing by my window
+                                <string key="text">I was standing by my window
 On one cold and cloudy day 
 When I saw that hearse come rolling 
 for to carry my mother away
-Chorus:Will the circle be unbroken 
+
+Chorus:
+Will the circle be unbroken 
 Bye and bye, Lord, bye and bye 
 there’s a better home a-waiting 
 In the sky, Lord, in the sky.
@@ -6623,12 +6625,16 @@ Lord, I told that undertaker,
 “Undertaker, please drive slow 
 For this body you are hauling
 Lord, I hate to see her go”.
-Then I followed close behind her 
+
+Then I followed close behind her 
 Tried to hold up and be brave 
 But I could not hide my sorrow 
 When they laid her in the grave.
-Went back home, Lord, my home was lonely 
-Now my mother she has goneAll my brothers, sisters cryingWhat a home, so sad and lone.</mutableString>
+
+Went back home, Lord, my home was lonely 
+Now my mother she has gone
+All my brothers, sisters crying
+What a home, so sad and lone.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -6753,6 +6759,7 @@ Now my mother she has goneAll my brothers, sisters cryingWhat a home, so sad a
         <image name="Lynn Miles.png" width="562" height="475"/>
         <image name="Maja &amp; David.png" width="560" height="465"/>
         <image name="Mames Babegenush.png" width="560" height="469"/>
+        <image name="Marie.png" width="960" height="720"/>
         <image name="Mary Gauthier.png" width="560" height="465"/>
         <image name="Mánran.png" width="561" height="490"/>
         <image name="Meschiya Lake &amp; The Little Big Horns.png" width="563" height="515"/>
