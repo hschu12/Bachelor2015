@@ -25,7 +25,8 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:116.0f/255.0f green:141.0f/255.0f blue:160.0f/255.0f alpha:1.0f];
     
     
-    spilletider = @{@"Billetter og Armbånd" : @[@"Armbånd", @"Køb Billet"],
+    spilletider = @{@"Afslutningssang" : @[@"Will The Circle Be Unbroken"],
+                    @"Billetter og Armbånd" : @[@"Armbånd", @"Køb Billet"],
                     @"Det Praktiske" :@[@"Apotek og Samaritter", @"Camping", @"Parkering",
                                         @"Offentlig Transport", @"Tabte Sager"],
                     @"Festivalen" : @[@"Kontakt", @"Sponsorer"],
@@ -85,6 +86,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSString *celltext = cell.textLabel.text;
+    if ([celltext  isEqual: @"Will The Circle Be Unbroken"]) {
+        [self performSegueWithIdentifier:@"Circle" sender:self];
+    }
     //"Billetter og Armbånd"
     if ([celltext  isEqual: @"Armbånd"]) {
         [self performSegueWithIdentifier:@"Armbånd" sender:self];

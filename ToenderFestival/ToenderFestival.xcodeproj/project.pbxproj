@@ -105,6 +105,8 @@
 		1E51571F1B285D4000763BDB /* SundayProgramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E51571E1B285D4000763BDB /* SundayProgramTableViewController.m */; };
 		1E573DE81B1C69AD00690BB7 /* tonder-festival-toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E573DE71B1C69AD00690BB7 /* tonder-festival-toplogo.png */; };
 		1E573DEC1B1C6C5A00690BB7 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E573DEB1B1C6C5A00690BB7 /* Background.png */; };
+		1E63442E1B66823B0027F762 /* Coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E63442D1B66823B0027F762 /* Coffee.png */; };
+		1E6344301B6685840027F762 /* Under.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E63442F1B6685840027F762 /* Under.png */; };
 		1E7EBD3A1AF00E5500604071 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD371AF00E5500604071 /* face.png */; };
 		1E7EBD3B1AF00E5500604071 /* insta.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD381AF00E5500604071 /* insta.png */; };
 		1E7EBD3C1AF00E5500604071 /* twit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EBD391AF00E5500604071 /* twit.png */; };
@@ -256,6 +258,8 @@
 		1E51571E1B285D4000763BDB /* SundayProgramTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SundayProgramTableViewController.m; sourceTree = "<group>"; };
 		1E573DE71B1C69AD00690BB7 /* tonder-festival-toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tonder-festival-toplogo.png"; sourceTree = "<group>"; };
 		1E573DEB1B1C6C5A00690BB7 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		1E63442D1B66823B0027F762 /* Coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coffee.png; path = ../../images/Madsteder/Coffee.png; sourceTree = "<group>"; };
+		1E63442F1B6685840027F762 /* Under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Under.png; path = ../../images/Under.png; sourceTree = "<group>"; };
 		1E7EBD371AF00E5500604071 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = ../../images/face.png; sourceTree = "<group>"; };
 		1E7EBD381AF00E5500604071 /* insta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = insta.png; path = ../../images/insta.png; sourceTree = "<group>"; };
 		1E7EBD391AF00E5500604071 /* twit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twit.png; path = ../../images/twit.png; sourceTree = "<group>"; };
@@ -356,6 +360,7 @@
 		1E1C43FC1B1DCF5B00BF1734 /* Madsteder */ = {
 			isa = PBXGroup;
 			children = (
+				1E63442D1B66823B0027F762 /* Coffee.png */,
 				1E4730C91B53F01300E09C2E /* Blues.png */,
 				1E4730CB1B53F38200E09C2E /* Hemmelige.png */,
 				1E4730B51B53E89500E09C2E /* Cafe.png */,
@@ -555,6 +560,7 @@
 				1E1C43F91B1DCEB100BF1734 /* Prototyping */,
 				1E573DEB1B1C6C5A00690BB7 /* Background.png */,
 				1E27DEFF1B4E9C4A0090F96C /* Vest.png */,
+				1E63442F1B6685840027F762 /* Under.png */,
 				1EC66F7D1B298DFB0053E62A /* festivalspladsmap.png */,
 				1EDAB4FF1B1F2D810016C76B /* test.png */,
 				1E1C43FC1B1DCF5B00BF1734 /* Madsteder */,
@@ -719,6 +725,7 @@
 				1E1C451A1B1DF2E200BF1734 /* dk.png in Resources */,
 				1E4730CC1B53F38200E09C2E /* Hemmelige.png in Resources */,
 				1E7EBD5B1AF0227200604071 /* korttext.png in Resources */,
+				1E63442E1B66823B0027F762 /* Coffee.png in Resources */,
 				1E7EBD611AF0227200604071 /* Spotifytext.png in Resources */,
 				1E184B501B25D0A4000F337C /* Ten Strings And A Goat Skin.png in Resources */,
 				1E1C451E1B1DF36A00BF1734 /* uk.png in Resources */,
@@ -738,6 +745,7 @@
 				1E7EBD5F1AF0227200604071 /* Programtext.png in Resources */,
 				1E2B6E531B1C8C2A001BFEF4 /* SpotifyLogo.png in Resources */,
 				1E4730D21B53F73100E09C2E /* Gris.png in Resources */,
+				1E6344301B6685840027F762 /* Under.png in Resources */,
 				1E826CE01B591E5500157B97 /* Billetter.png in Resources */,
 				1E184B5D1B25D0A4000F337C /* Usher's Island.png in Resources */,
 				1E184B4E1B25D0A4000F337C /* Spiro.png in Resources */,

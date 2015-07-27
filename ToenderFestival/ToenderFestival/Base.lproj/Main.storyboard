@@ -24,6 +24,9 @@
                                 <state key="normal" backgroundImage="tysk.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pe5-u1-Yla" kind="show" id="MyR-2t-rpc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJK-N6-eyr" userLabel="Dansk">
                                 <rect key="frame" x="421" y="491" width="163" height="69"/>
@@ -42,6 +45,9 @@
                                 <state key="normal" backgroundImage="uk.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pe5-u1-Yla" kind="show" id="Zhn-Ed-hud"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -688,6 +694,7 @@ Søndag - 12:00 - Telt 2</string>
                         <segue destination="7i4-vU-7kF" kind="show" identifier="Tabte" id="7i8-cq-kKD"/>
                         <segue destination="aqh-wt-sBi" kind="show" identifier="Kontakt" id="xFX-B0-Ysm"/>
                         <segue destination="txo-Qu-l3R" kind="showDetail" identifier="Sponsorer" id="QgN-hz-Z1X"/>
+                        <segue destination="FDS-8S-lvV" kind="show" identifier="Circle" id="hGX-Ym-IJe"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6A-gS-wph" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1463,13 +1470,13 @@ Lørdag - 22:00 -  Museet</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2P-cs-rpJ" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Med to violiner, to stemmer og rytmiske fodstamp bryder Maja &amp; David grænserne for både musikken og kærligheden. Maja Kjær Jacobsen er rundet af midtjyske sang- og folkemusiktraditioner, og David Boulanger fra Quebec har gennem sit arbejde med gruppen La Bottine Souriante været i spidsen for at sprede den fransk-canadiske musik til Nordamerika og videre ud i verden.
+                                <string key="text">Med to violiner, to stemmer og rytmiske fodstamp bryder Maja &amp; David grænserne for både musikken og kærligheden. Maja Kjær Jacobsen er rundet af midtjyske sang- og folkemusiktraditioner, og David Boulanger fra Quebec har gennem sit arbejde med gruppen La Bottine Souriante været i spidsen for at sprede den fransk-canadiske musik til Nordamerika og videre ud i verden.
 Forskellige spillestile, traditioner og kompositioner blandes til et nyt udtryk,
 hvor den tekniske dygtighed og tætte sammenspil giver styrke til indlevelsen og oplevelsen. Debutpladen ”Nord” udkom i 2013 og blev i The Living Tradition Magazine benævnt som det ”sprødeste og reneste spil i lang tid”. Efterfølgende har duoen turneret i Canada, USA og Europa, og i løbet af 2015 lander duoens andet album, ”CPH-Café-YUL”.
 
 Maja og David spiller:
 Fredag - 17:00 - P4-Scenen (FolkSpot)
-Lørdag - 11:00 - Visemøllen</mutableString>
+Lørdag - 11:00 - Visemøllen</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1518,9 +1525,11 @@ Lørdag - 11:00 - Visemøllen</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDh-R3-lLV" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="20" width="568" height="634"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Festivalens campingområde er udelukkende for festivalgæster med armbånd. Over- natninger på pladsen er kun mulig ved køb af campingarmbånd. Børn under 12 år har gratis adgang ifølge med en voksen.Der er særlig campingmulighed for handicappede. Reglerne er de samme som for ikke-handicappede, men området liggere tættere på festivalpladsen. Camping- armbånd til en eventuel hjælper medfølger uden beregning efter samme regler som festivalarmbåndet.
+                                <string key="text">Festivalens campingområde er udelukkende for festivalgæster med armbånd. Over- natninger på pladsen er kun mulig ved køb af campingarmbånd. Børn under 12 år har gratis adgang ifølge med en voksen.
+Der er særlig campingmulighed for handicappede. Reglerne er de samme som for ikke-handicappede, men området liggere tættere på festivalpladsen. Camping- armbånd til en eventuel hjælper medfølger uden beregning efter samme regler som festivalarmbåndet.
 
-PriserCamping pr. person
+Priser
+Camping pr. person
 kr. 300,-
 
 Campingvogn (søndag den 23. august – mandag den 31. august)
@@ -1528,7 +1537,8 @@ kr. 300,-
 
 Campingvogn (torsdag den 27. august – mandag 31. august)
 kr. 200,- 
-Telt (søndag den 23. august – mandag den 31. august)
+
+Telt (søndag den 23. august – mandag den 31. august)
 kr. 100,- 
 
 Telt (torsdag den 27. august – mandag 31. august)
@@ -1540,7 +1550,11 @@ kr. 1700,-
 Strøm (7A/1500W)
 kr. 400,- 
 
-Prisen er pr. enhed og for hele perioden og kan købes som tilkøb til din armbånds- bestilling. Der vil være et begrænset antal enheder til salg, så der tages forbehold for udsolgte enheder.Toilet- og badevogne er til rådighed, dog i begrænset omfang i starten af perioden.Campingområdet er åbent for adgang fra søndag 23. august kl. 8.00 og frem til mandag 31. august kl. 13.00.Ved ankomst skal I henvende jer til campinginformationen.Bemærk: Områder/enheder til festivalens interne brug er afmærket og må ikke fjernes.</mutableString>
+Prisen er pr. enhed og for hele perioden og kan købes som tilkøb til din armbånds- bestilling. Der vil være et begrænset antal enheder til salg, så der tages forbehold for udsolgte enheder.
+Toilet- og badevogne er til rådighed, dog i begrænset omfang i starten af perioden.
+Campingområdet er åbent for adgang fra søndag 23. august kl. 8.00 og frem til mandag 31. august kl. 13.00.
+Ved ankomst skal I henvende jer til campinginformationen.
+Bemærk: Områder/enheder til festivalens interne brug er afmærket og må ikke fjernes.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4558,15 +4572,27 @@ Du finder Furbar overfor Telt 2.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Hand Made logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="i6h-wr-v39">
-                                <rect key="frame" x="16" y="28" width="568" height="278"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" text="Du finder Coffee and Cookies foran La Gayola og Palais Des Glaces." translatesAutoresizingMaskIntoConstraints="NO" id="390-tC-7BH" userLabel="Beskrivelse">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="390-tC-7BH" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="314" width="568" height="278"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Kaffevognen: `Coffee and Cookies´
+En retro- amerikaner- airstream vogn, hvor der er indbygget en speciel Barista kaffemaskine.
+Det er her du kan få Tønder Festivals bedste kaffe( ifølge vores trofaste kunder), friskmalet og tilberedt efter bedste Barimanér.  
+Vi tilbyder alt hvad hjertet begærer: Espresso, Cappuccino, Café Latte, Creoler café, Café med Baileys, Iskaffe, Irish coffee, Chai, ´IzBlend ´( is med mocca eller vanilje smag og chokolade/karamelsovs og fløde til), velsorteret té og meget mere.
+ 
+Dertil sælger vi gerne særlige og virkelig gode kager, baserende på opskrifter fra Louisiana/New Orleans.
+ 
+Glade, dejlige, frivillige TF medarbejder sørger for, at ingen keder sig, når de handler ind hos os. 
+ 
+NOLA Kaffevogn `Coffee and Cookie´ står på NOLA området, lige ved siden af indgangen til vores egen lille NOLA torvet med spejltelte, bar og grill. 
+ 
+Se efter den sølvfarvede amerikaner kaffevogn og nyd en god kop kaffe, imens du lytter til dejlig New Orleans Louisiana inspireret musik.</mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Coffee.png" translatesAutoresizingMaskIntoConstraints="NO" id="i6h-wr-v39">
+                                <rect key="frame" x="16" y="28" width="568" height="278"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -6193,23 +6219,30 @@ Du finder én ølbar foran Telt 1, Telt 2 og Front Porch Stage samt 2 mere på h
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CD-Dk-ckU" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="20" width="568" height="768"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Festival armbånd 2015 - priser:
-Armbånd til alle dage:
+                                <string key="text">Festival armbånd 2015 - priser:
+
+Armbånd til alle dage:
 Voksen:
 kr. 1390,-
-Unge (12-16 år):
+
+Unge (12-16 år):
 kr. 700,-
 
-Børn under 12 år har gratis adgang ifølge med voksen/armbåndbærer.Studerende:
+Børn under 12 år har gratis adgang ifølge med voksen/armbåndbærer.
+Studerende:
 kr. 1190,-
-Armbåndet udleveres ved vores billetsalg mod forevisning af gyldigt studiekort eller opta- gelsesbrev. Såfremt dokumentation ikke kan forevises, skal prisdifferencen mellem et almindeligt og et studiearmbånd betales. Købte armbånd refunderes ikke.
+
+Armbåndet udleveres ved vores billetsalg mod forevisning af gyldigt studiekort eller opta- gelsesbrev. Såfremt dokumentation ikke kan forevises, skal prisdifferencen mellem et almindeligt og et studiearmbånd betales. Købte armbånd refunderes ikke.
 
 Gebyr på kr. 20,- ved køb online. Købte armbånd refunderes ikke.
-Hvis du som handicappet har behov for at have en hjælper med, kan du mod fremvisning af bevillingsskrivelse eller gyldigt ledsagerkort fra Danske Handicaporganisationer få et gratis armbånd til din hjælper. Det samme gælder for evt. campingarmbånd. Fremvis venligst dokumentationen ved henvendelsen til vores billetsalg.
 
-Armbånd til enkeltdage (begrænset antal sættes til salg fra 15. juni. Priserne er ved onlinekøb og print selv):Torsdag 27. august:
+Hvis du som handicappet har behov for at have en hjælper med, kan du mod fremvisning af bevillingsskrivelse eller gyldigt ledsagerkort fra Danske Handicaporganisationer få et gratis armbånd til din hjælper. Det samme gælder for evt. campingarmbånd. Fremvis venligst dokumentationen ved henvendelsen til vores billetsalg.
+
+Armbånd til enkeltdage (begrænset antal sættes til salg fra 15. juni. Priserne er ved onlinekøb og print selv):
+Torsdag 27. august:
 kr. 500,-
-Fredag 28. august:
+
+Fredag 28. august:
 kr. 700,-
 
 Lørdag 29. august:
@@ -6221,11 +6254,12 @@ kr. 500,-
 Gebyr på kr. 20,- ved køb online.
 
 Åbningstider:
-Billetsalg:22. august kl. 18-21 
+Billetsalg:
+22. august kl. 18-21 
 23.-26. august kl. 08-21 
 27.-29. august kl. 08-22 
 30. august kl. 08-19
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -6317,7 +6351,7 @@ Samaritterne vil kunne hjælpe ved mindre ulykker og skader, samt tilkalde ambul
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvf-b0-9IB" userLabel="Beskrivelse">
                                 <rect key="frame" x="16" y="20" width="568" height="513"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Parkering på eget ansvar.
+                                <string key="text">Parkering på eget ansvar.
 
 Almindelig Parkering:
 Ankommer man med campingvogn er det muligt at holde på campingpladsen. 
@@ -6328,7 +6362,7 @@ Handicapparkering:
 Handicapparkeringer forefindes ved godset på Jernbanegade/Papegøjevej tæt på indgang Vest. Se kortet
 
 Cykelparkering:
-Der er mulighed for cykelparkering ved godset på Jernbanegade/Papegøjevej tæt på indgang Vest. Se kortet. Tag venligst hensyn til at alle kan få sin cykel ud uden besvær.</mutableString>
+Der er mulighed for cykelparkering ved godset på Jernbanegade/Papegøjevej tæt på indgang Vest. Se kortet. Tag venligst hensyn til at alle kan få sin cykel ud uden besvær.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -6561,6 +6595,120 @@ info@tf.dk</string>
             </objects>
             <point key="canvasLocation" x="5829" y="6273"/>
         </scene>
+        <!--Will The Cirlce Be Unbroken-->
+        <scene sceneID="yQh-WT-xNG">
+            <objects>
+                <viewController title="Will The Cirlce Be Unbroken" modalTransitionStyle="flipHorizontal" id="FDS-8S-lvV" userLabel="Will The Cirlce Be Unbroken" customClass="KunstnerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rFJ-gi-ZLh"/>
+                        <viewControllerLayoutGuide type="bottom" id="nAw-uM-9GR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TRy-dY-6lK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Je-Ep0" userLabel="Beskrivelse">
+                                <rect key="frame" x="16" y="20" width="541" height="482"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">I was standing by my window
+On one cold and cloudy day 
+When I saw that hearse come rolling 
+for to carry my mother away
+Chorus:Will the circle be unbroken 
+Bye and bye, Lord, bye and bye 
+there’s a better home a-waiting 
+In the sky, Lord, in the sky.
+
+Lord, I told that undertaker, 
+“Undertaker, please drive slow 
+For this body you are hauling
+Lord, I hate to see her go”.
+Then I followed close behind her 
+Tried to hold up and be brave 
+But I could not hide my sorrow 
+When they laid her in the grave.
+Went back home, Lord, my home was lonely 
+Now my mother she has goneAll my brothers, sisters cryingWhat a home, so sad and lone.</mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l6c-Je-Ep0" firstAttribute="trailing" secondItem="TRy-dY-6lK" secondAttribute="trailingMargin" id="FJ0-RB-zVk"/>
+                            <constraint firstItem="nAw-uM-9GR" firstAttribute="top" secondItem="l6c-Je-Ep0" secondAttribute="bottom" constant="8" id="I23-6H-lKI"/>
+                            <constraint firstItem="l6c-Je-Ep0" firstAttribute="top" secondItem="rFJ-gi-ZLh" secondAttribute="bottom" id="cvb-oK-ehp"/>
+                            <constraint firstItem="l6c-Je-Ep0" firstAttribute="leading" secondItem="TRy-dY-6lK" secondAttribute="leadingMargin" id="p0t-Ol-YzS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Will The Cicle Be Unbroken" id="YDF-F2-anH">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="dbX-M3-2FB">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="74z-6Q-2v0" kind="showDetail" id="YWN-fK-ghA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="text" destination="l6c-Je-Ep0" id="oCn-Zr-78h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGo-bg-Jlk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7484" y="6273"/>
+        </scene>
+        <!--Under Construction-->
+        <scene sceneID="hKM-VR-tv5">
+            <objects>
+                <viewController title="Under Construction" modalTransitionStyle="flipHorizontal" id="pe5-u1-Yla" userLabel="Under Construction" customClass="KunstnerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u3z-Tf-4Gv"/>
+                        <viewControllerLayoutGuide type="bottom" id="dgz-Zq-9Xu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3TT-6D-7Rk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Under.png" translatesAutoresizingMaskIntoConstraints="NO" id="f3u-QH-tRd">
+                                <rect key="frame" x="16" y="-16" width="568" height="300"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" editable="NO" text="COMING SOON" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-kr-md4" userLabel="Beskrivelse">
+                                <rect key="frame" x="16" y="292" width="568" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f3u-QH-tRd" firstAttribute="leading" secondItem="3fU-kr-md4" secondAttribute="leading" id="5qf-Ho-CmJ"/>
+                            <constraint firstItem="3fU-kr-md4" firstAttribute="top" secondItem="f3u-QH-tRd" secondAttribute="bottom" constant="8" id="CtB-kD-3lc"/>
+                            <constraint firstItem="3fU-kr-md4" firstAttribute="height" secondItem="f3u-QH-tRd" secondAttribute="height" id="D9b-bS-MBv"/>
+                            <constraint firstItem="3fU-kr-md4" firstAttribute="leading" secondItem="3TT-6D-7Rk" secondAttribute="leadingMargin" id="RDC-tj-Phg"/>
+                            <constraint firstItem="dgz-Zq-9Xu" firstAttribute="top" secondItem="3fU-kr-md4" secondAttribute="bottom" constant="8" id="ac3-Oy-PkR"/>
+                            <constraint firstItem="3fU-kr-md4" firstAttribute="trailing" secondItem="3TT-6D-7Rk" secondAttribute="trailingMargin" id="af8-c0-y25"/>
+                            <constraint firstItem="f3u-QH-tRd" firstAttribute="top" secondItem="u3z-Tf-4Gv" secondAttribute="bottom" constant="8" id="g5B-Ab-cCE"/>
+                            <constraint firstItem="3fU-kr-md4" firstAttribute="width" secondItem="f3u-QH-tRd" secondAttribute="width" id="ma3-58-GpU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Comming Soon" id="1M4-kb-wuP">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="WVa-w9-kug">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="wlZ-bs-69y" kind="showDetail" id="YQb-Xh-KYE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="text" destination="3fU-kr-md4" id="Ri0-eH-ZdA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZS7-mS-BiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="1861"/>
+        </scene>
     </scenes>
     <resources>
         <image name="27.png" width="60" height="60"/>
@@ -6573,8 +6721,9 @@ info@tf.dk</string>
         <image name="Bellowhead.png" width="560" height="489"/>
         <image name="Billetter.png" width="305" height="191"/>
         <image name="Blues.png" width="800" height="450"/>
-        <image name="Cafe.png" width="3264" height="2448"/>
+        <image name="Cafe.png" width="816" height="612"/>
         <image name="Chris Smither.png" width="564" height="491"/>
+        <image name="Coffee.png" width="1024" height="683"/>
         <image name="Danú.png" width="562" height="467"/>
         <image name="Dreamers' Circus &amp; The Danish String Quartet.png" width="561" height="484"/>
         <image name="Eleanor Shanley.png" width="563" height="490"/>
@@ -6584,7 +6733,7 @@ info@tf.dk</string>
         <image name="FolkSpot.png" width="563" height="389"/>
         <image name="Folkeklubben.png" width="562" height="469"/>
         <image name="Fur.png" width="940" height="520"/>
-        <image name="Green.png" width="1936" height="1288"/>
+        <image name="Green.png" width="968" height="644"/>
         <image name="Greg Russell og Ciaran Algar.png" width="561" height="489"/>
         <image name="Gris.png" width="1000" height="667"/>
         <image name="Hand Made logo.png" width="1937" height="1827"/>
@@ -6599,7 +6748,7 @@ info@tf.dk</string>
         <image name="Kathryn Tickell &amp; The Side.png" width="561" height="491"/>
         <image name="Kepa Junkera.png" width="559" height="459"/>
         <image name="King James &amp; The Special Men.png" width="560" height="488"/>
-        <image name="Kuppen.png" width="5472" height="3648"/>
+        <image name="Kuppen.png" width="875" height="583"/>
         <image name="La Bottine Souriante.png" width="559" height="465"/>
         <image name="Lynn Miles.png" width="562" height="475"/>
         <image name="Maja &amp; David.png" width="560" height="465"/>
@@ -6608,18 +6757,18 @@ info@tf.dk</string>
         <image name="Mánran.png" width="561" height="490"/>
         <image name="Meschiya Lake &amp; The Little Big Horns.png" width="563" height="515"/>
         <image name="Mike Andersen.png" width="561" height="490"/>
-        <image name="Mormor.png" width="640" height="431"/>
+        <image name="Mormor.png" width="320" height="320"/>
         <image name="Niels Hausgaard med gæster.png" width="563" height="492"/>
         <image name="Poul Krebs &amp; venner.png" width="563" height="491"/>
         <image name="Programtext.png" width="200" height="200"/>
-        <image name="Pølse.png" width="5472" height="3648"/>
+        <image name="Pølse.png" width="803" height="535"/>
         <image name="ROD.png" width="562" height="466"/>
         <image name="Richard J. Dobson.png" width="563" height="418"/>
         <image name="Richard Thompson.png" width="558" height="488"/>
-        <image name="Rom.png" width="5472" height="3648"/>
+        <image name="Rom.png" width="803" height="535"/>
         <image name="Ron Kavana.png" width="557" height="488"/>
         <image name="Rura.png" width="560" height="466"/>
-        <image name="SOS.png" width="3648" height="5472"/>
+        <image name="SOS.png" width="553" height="831"/>
         <image name="Schackenborg.png" width="900" height="600"/>
         <image name="Sheesham, Lotus &amp; ´Son.png" width="561" height="465"/>
         <image name="Skerryvore.png" width="562" height="465"/>
@@ -6640,9 +6789,10 @@ info@tf.dk</string>
         <image name="The Wood Brothers.png" width="559" height="466"/>
         <image name="Three Tall Pines.png" width="559" height="491"/>
         <image name="Townes Van Zandt Tribute.png" width="559" height="517"/>
+        <image name="Under.png" width="600" height="600"/>
         <image name="Usher's Island.png" width="561" height="475"/>
-        <image name="Vadehavs.png" width="5472" height="3648"/>
-        <image name="Vaffelbod.png" width="3264" height="2448"/>
+        <image name="Vadehavs.png" width="820" height="547"/>
+        <image name="Vaffelbod.png" width="958" height="719"/>
         <image name="dk.png" width="604" height="498"/>
         <image name="festivalspladsmap.png" width="581" height="941"/>
         <image name="folkBALTICA Ensemble.png" width="559" height="487"/>
@@ -6655,14 +6805,16 @@ info@tf.dk</string>
         <image name="smiletext.png" width="200" height="200"/>
         <image name="tysk.png" width="606" height="365"/>
         <image name="uk.png" width="606" height="305"/>
-        <image name="vinotek.png" width="3888" height="2592"/>
-        <image name="wok.png" width="5472" height="3648"/>
-        <image name="Øl.png" width="5472" height="3648"/>
+        <image name="vinotek.png" width="816" height="543"/>
+        <image name="wok.png" width="803" height="535"/>
+        <image name="Øl.png" width="875" height="583"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fvx-Hq-8a9"/>
-        <segue reference="tVb-RG-ROb"/>
-        <segue reference="6Lh-b9-tDa"/>
-        <segue reference="AGO-97-SIv"/>
+        <segue reference="IKG-R8-hXE"/>
+        <segue reference="A3K-w7-aCJ"/>
+        <segue reference="YQb-Xh-KYE"/>
+        <segue reference="Zhn-Ed-hud"/>
+        <segue reference="hZh-bo-FbA"/>
+        <segue reference="YWN-fK-ghA"/>
     </inferredMetricsTieBreakers>
 </document>
