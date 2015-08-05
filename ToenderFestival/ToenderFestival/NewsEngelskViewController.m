@@ -1,14 +1,18 @@
 //
-//  APPDetailViewController.m
-//  RSSreader
+//  NewsEngelskViewController.m
+//  ToenderFestival
 //
-//  Created by Rafael Garcia Leiva on 08/04/13.
-//  Copyright (c) 2013 Appcoda. All rights reserved.
+//  Created by Henrik Schulz on 05/08/15.
+//  Copyright (c) 2015 Henrik Schulz. All rights reserved.
 //
 
-#import "APPDetailViewController.h"
+#import "NewsEngelskViewController.h"
 
-@implementation APPDetailViewController
+@interface NewsEngelskViewController ()
+
+@end
+
+@implementation NewsEngelskViewController
 
 #pragma mark - Managing the detail item
 
@@ -18,7 +22,7 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:116.0f/255.0f green:141.0f/255.0f blue:160.0f/255.0f alpha:1.0f];
     UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearance];
     [barButtonAppearance setTintColor:[UIColor whiteColor]];
-    NSURL *myURL = [NSURL URLWithString: @"http://tf.dk/nyheder/"];
+    NSURL *myURL = [NSURL URLWithString: @"http://tf.dk/en/nyheder/"];
     NSURLRequest *request = [NSURLRequest requestWithURL:myURL];
     [self.webView loadRequest:request];
 }

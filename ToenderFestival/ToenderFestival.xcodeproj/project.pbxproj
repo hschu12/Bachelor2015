@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0471261B72A024007DD6FC /* NewsTyskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0471251B72A024007DD6FC /* NewsTyskViewController.m */; };
+		1E0471291B72A0A7007DD6FC /* NewsEngelskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0471281B72A0A7007DD6FC /* NewsEngelskViewController.m */; };
 		1E184AEB1B258F90000F337C /* ThursdayProgramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E184AEA1B258F90000F337C /* ThursdayProgramTableViewController.m */; };
 		1E184B251B25D0A4000F337C /* Adam Holmes and The Embers.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E184AEC1B25D0A3000F337C /* Adam Holmes and The Embers.png */; };
 		1E184B261B25D0A4000F337C /* Allan Taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E184AED1B25D0A3000F337C /* Allan Taylor.png */; };
@@ -132,7 +134,6 @@
 		1EC66F891B2AD1700053E62A /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC66F881B2AD1700053E62A /* InfoTableViewController.m */; };
 		1EC66F8C1B2AD7590053E62A /* MadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */; };
 		1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */; };
-		1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */; };
 		1EDAB5001B1F2D810016C76B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDAB4FF1B1F2D810016C76B /* test.png */; };
 		1EEA25CF1B668C1F00AF3DB3 /* Marie.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA25CE1B668C1F00AF3DB3 /* Marie.png */; };
 		1EEE6D5E1B4D635C00DD9615 /* EventDKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */; };
@@ -149,6 +150,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0471241B72A024007DD6FC /* NewsTyskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTyskViewController.h; sourceTree = "<group>"; };
+		1E0471251B72A024007DD6FC /* NewsTyskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTyskViewController.m; sourceTree = "<group>"; };
+		1E0471271B72A0A7007DD6FC /* NewsEngelskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsEngelskViewController.h; sourceTree = "<group>"; };
+		1E0471281B72A0A7007DD6FC /* NewsEngelskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsEngelskViewController.m; sourceTree = "<group>"; };
 		1E184AE91B258F90000F337C /* ThursdayProgramTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThursdayProgramTableViewController.h; sourceTree = "<group>"; };
 		1E184AEA1B258F90000F337C /* ThursdayProgramTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThursdayProgramTableViewController.m; sourceTree = "<group>"; };
 		1E184AEC1B25D0A3000F337C /* Adam Holmes and The Embers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Adam Holmes and The Embers.png"; path = "../../images/Kunstnere/Adam Holmes and The Embers.png"; sourceTree = "<group>"; };
@@ -294,8 +299,6 @@
 		1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadTableViewController.m; sourceTree = "<group>"; };
 		1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
 		1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
-		1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMasterViewController.h; sourceTree = "<group>"; };
-		1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
 		1EDAB4FF1B1F2D810016C76B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../images/test.png; sourceTree = "<group>"; };
 		1EEA25CE1B668C1F00AF3DB3 /* Marie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marie.png; path = ../../images/Madsteder/Marie.png; sourceTree = "<group>"; };
 		1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDKTableViewController.h; sourceTree = "<group>"; };
@@ -485,41 +488,43 @@
 			children = (
 				1E2306E81ADED50D00D79524 /* AppDelegate.h */,
 				1E2306E91ADED50D00D79524 /* AppDelegate.m */,
-				1E23070A1ADED7CD00D79524 /* ChooseLanguageViewController.h */,
-				1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */,
-				1E2BFC211ADFE96A007F50A4 /* KortViewController.h */,
-				1E2BFC221ADFE96A007F50A4 /* KortViewController.m */,
-				1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */,
-				1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */,
-				1EBF76D11ADEF6D6006517BE /* MenuViewController.h */,
-				1EBF76D21ADEF6D6006517BE /* MenuViewController.m */,
-				1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */,
-				1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */,
-				1EC66F871B2AD1700053E62A /* InfoTableViewController.h */,
-				1EC66F881B2AD1700053E62A /* InfoTableViewController.m */,
-				1E826CE41B594D5500157B97 /* SponsorTableViewController.h */,
-				1E826CE51B594D5500157B97 /* SponsorTableViewController.m */,
-				1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */,
-				1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */,
-				1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */,
-				1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */,
 				1EDAB4F91B1F2D110016C76B /* APPDetailViewController.h */,
 				1EDAB4FA1B1F2D110016C76B /* APPDetailViewController.m */,
-				1EDAB4FB1B1F2D110016C76B /* APPMasterViewController.h */,
-				1EDAB4FC1B1F2D110016C76B /* APPMasterViewController.m */,
-				1E7EBD3D1AF010DD00604071 /* SpotifyViewController.h */,
-				1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */,
 				1E826CE11B591E9F00157B97 /* BilleterViewController.h */,
 				1E826CE21B591E9F00157B97 /* BilleterViewController.m */,
-				1E2306EE1ADED50D00D79524 /* Main.storyboard */,
-				1E184AE91B258F90000F337C /* ThursdayProgramTableViewController.h */,
-				1E184AEA1B258F90000F337C /* ThursdayProgramTableViewController.m */,
+				1E23070A1ADED7CD00D79524 /* ChooseLanguageViewController.h */,
+				1E23070B1ADED7CD00D79524 /* ChooseLanguageViewController.m */,
+				1EEE6D5C1B4D635C00DD9615 /* EventDKTableViewController.h */,
+				1EEE6D5D1B4D635C00DD9615 /* EventDKTableViewController.m */,
 				1E5157171B283EFC00763BDB /* FridayProgramTableViewController.h */,
 				1E5157181B283EFC00763BDB /* FridayProgramTableViewController.m */,
+				1EC66F871B2AD1700053E62A /* InfoTableViewController.h */,
+				1EC66F881B2AD1700053E62A /* InfoTableViewController.m */,
+				1E2BFC211ADFE96A007F50A4 /* KortViewController.h */,
+				1E2BFC221ADFE96A007F50A4 /* KortViewController.m */,
+				1E2BFC1E1ADFDB6B007F50A4 /* KunstnerTableViewController.h */,
+				1E2BFC1F1ADFDB6B007F50A4 /* KunstnerTableViewController.m */,
+				1EBF76D41ADEF84C006517BE /* KunstnerViewController.h */,
+				1EBF76D51ADEF84C006517BE /* KunstnerViewController.m */,
+				1EC66F8A1B2AD7590053E62A /* MadTableViewController.h */,
+				1EC66F8B1B2AD7590053E62A /* MadTableViewController.m */,
+				1EBF76D11ADEF6D6006517BE /* MenuViewController.h */,
+				1EBF76D21ADEF6D6006517BE /* MenuViewController.m */,
+				1E0471241B72A024007DD6FC /* NewsTyskViewController.h */,
+				1E0471251B72A024007DD6FC /* NewsTyskViewController.m */,
+				1E0471271B72A0A7007DD6FC /* NewsEngelskViewController.h */,
+				1E0471281B72A0A7007DD6FC /* NewsEngelskViewController.m */,
 				1E51571A1B285D3200763BDB /* SaturdayProgramTableViewController.h */,
 				1E51571B1B285D3200763BDB /* SaturdayProgramTableViewController.m */,
+				1E826CE41B594D5500157B97 /* SponsorTableViewController.h */,
+				1E826CE51B594D5500157B97 /* SponsorTableViewController.m */,
+				1E7EBD3D1AF010DD00604071 /* SpotifyViewController.h */,
+				1E7EBD3E1AF010DD00604071 /* SpotifyViewController.m */,
 				1E51571D1B285D4000763BDB /* SundayProgramTableViewController.h */,
 				1E51571E1B285D4000763BDB /* SundayProgramTableViewController.m */,
+				1E184AE91B258F90000F337C /* ThursdayProgramTableViewController.h */,
+				1E184AEA1B258F90000F337C /* ThursdayProgramTableViewController.m */,
+				1E2306EE1ADED50D00D79524 /* Main.storyboard */,
 				1E2306F11ADED50D00D79524 /* Images.xcassets */,
 				1E2306F31ADED50D00D79524 /* LaunchScreen.xib */,
 				1E2307131ADEDFE900D79524 /* images */,
@@ -791,14 +796,15 @@
 				1E23070C1ADED7CD00D79524 /* ChooseLanguageViewController.m in Sources */,
 				1E51571F1B285D4000763BDB /* SundayProgramTableViewController.m in Sources */,
 				1EEE6D5E1B4D635C00DD9615 /* EventDKTableViewController.m in Sources */,
-				1EDAB4FE1B1F2D110016C76B /* APPMasterViewController.m in Sources */,
 				1EBF76D31ADEF6D6006517BE /* MenuViewController.m in Sources */,
 				1EBF76D61ADEF84C006517BE /* KunstnerViewController.m in Sources */,
 				1E2BFC231ADFE96A007F50A4 /* KortViewController.m in Sources */,
 				1EC66F8C1B2AD7590053E62A /* MadTableViewController.m in Sources */,
 				1E7EBD3F1AF010DD00604071 /* SpotifyViewController.m in Sources */,
+				1E0471261B72A024007DD6FC /* NewsTyskViewController.m in Sources */,
 				1E51571C1B285D3200763BDB /* SaturdayProgramTableViewController.m in Sources */,
 				1EDAB4FD1B1F2D110016C76B /* APPDetailViewController.m in Sources */,
+				1E0471291B72A0A7007DD6FC /* NewsEngelskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
